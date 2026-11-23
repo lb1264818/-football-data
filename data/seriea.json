@@ -1,7 +1,7 @@
 {
  "league": "意甲",
  "season": "2026-2027",
- "ft": 119,
+ "ft": 120,
  "teams": {
   "Udinese": {
    "home_n": 6,
@@ -539,29 +539,20 @@
    ]
   },
   "Monza": {
-   "home_n": 5,
-   "home_gf": 1.8,
-   "home_ga": 1.8,
+   "home_n": 6,
+   "home_gf": 1.5,
+   "home_ga": 1.5,
    "away_n": 6,
    "away_gf": 1.33,
    "away_ga": 2.67,
-   "home_gf_x": 1.33,
-   "home_ga_x": 1.67,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.25,
    "away_gf_x": 1.4,
    "away_ga_x": 2.4,
-   "total_n": 11,
-   "form6": "LWLLLL",
-   "form6_pts": 3,
+   "total_n": 12,
+   "form6": "WLLLLD",
+   "form6_pts": 4,
    "recent": [
-    {
-     "d": "2026-08-29",
-     "r": "2",
-     "side": "H",
-     "opp": "Udinese",
-     "gf": 2,
-     "ga": 3,
-     "res": "L"
-    },
     {
      "d": "2026-09-06",
      "r": "3",
@@ -642,6 +633,15 @@
      "gf": 0,
      "ga": 1,
      "res": "L"
+    },
+    {
+     "d": "2026-11-23",
+     "r": "12",
+     "side": "H",
+     "opp": "Fiorentina",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
     }
    ]
   },
@@ -1826,26 +1826,17 @@
    "home_n": 6,
    "home_gf": 1.17,
    "home_ga": 2.17,
-   "away_n": 5,
-   "away_gf": 2.0,
-   "away_ga": 2.4,
+   "away_n": 6,
+   "away_gf": 1.67,
+   "away_ga": 2.0,
    "home_gf_x": 1.17,
    "home_ga_x": 2.17,
-   "away_gf_x": 1.0,
-   "away_ga_x": 2.0,
-   "total_n": 11,
-   "form6": "LLLDWD",
-   "form6_pts": 5,
+   "away_gf_x": 0.67,
+   "away_ga_x": 1.33,
+   "total_n": 12,
+   "form6": "LLDWDD",
+   "form6_pts": 6,
    "recent": [
-    {
-     "d": "2026-08-29",
-     "r": "2",
-     "side": "H",
-     "opp": "Frosinone",
-     "gf": 0,
-     "ga": 3,
-     "res": "L"
-    },
     {
      "d": "2026-09-05",
      "r": "3",
@@ -1925,6 +1916,15 @@
      "opp": "Juventus",
      "gf": 2,
      "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-23",
+     "r": "12",
+     "side": "A",
+     "opp": "Monza",
+     "gf": 0,
+     "ga": 0,
      "res": "D"
     }
    ]

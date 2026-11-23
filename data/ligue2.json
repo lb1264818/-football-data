@@ -1,7 +1,7 @@
 {
  "league": "法乙",
  "season": "2026-2027",
- "ft": 115,
+ "ft": 117,
  "teams": {
   "Montpellier": {
    "home_n": 6,
@@ -218,29 +218,20 @@
    ]
   },
   "Nantes": {
-   "home_n": 6,
-   "home_gf": 1.0,
-   "home_ga": 1.67,
+   "home_n": 7,
+   "home_gf": 0.86,
+   "home_ga": 1.43,
    "away_n": 6,
    "away_gf": 1.33,
    "away_ga": 1.33,
-   "home_gf_x": 0.8,
-   "home_ga_x": 1.0,
+   "home_gf_x": 0.67,
+   "home_ga_x": 0.83,
    "away_gf_x": 1.33,
    "away_ga_x": 1.33,
-   "total_n": 12,
-   "form6": "WDLLDW",
-   "form6_pts": 8,
+   "total_n": 13,
+   "form6": "DLLDWD",
+   "form6_pts": 6,
    "recent": [
-    {
-     "d": "2026-08-22",
-     "r": "3",
-     "side": "H",
-     "opp": "Rodez",
-     "gf": 2,
-     "ga": 5,
-     "res": "L"
-    },
     {
      "d": "2026-08-29",
      "r": "4",
@@ -321,6 +312,15 @@
      "gf": 2,
      "ga": 0,
      "res": "W"
+    },
+    {
+     "d": "2026-11-23",
+     "r": "13",
+     "side": "H",
+     "opp": "Grenoble",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
     }
    ]
   },
@@ -860,29 +860,20 @@
    ]
   },
   "Sochaux": {
-   "home_n": 5,
-   "home_gf": 0.8,
-   "home_ga": 1.4,
+   "home_n": 6,
+   "home_gf": 0.83,
+   "home_ga": 1.33,
    "away_n": 7,
    "away_gf": 0.57,
    "away_ga": 1.14,
-   "home_gf_x": 0.8,
-   "home_ga_x": 1.4,
+   "home_gf_x": 0.83,
+   "home_ga_x": 1.33,
    "away_gf_x": 0.57,
    "away_ga_x": 1.14,
-   "total_n": 12,
-   "form6": "DDLLLL",
+   "total_n": 13,
+   "form6": "DLLLLD",
    "form6_pts": 2,
    "recent": [
-    {
-     "d": "2026-08-21",
-     "r": "3",
-     "side": "H",
-     "opp": "Guingamp",
-     "gf": 1,
-     "ga": 0,
-     "res": "W"
-    },
     {
      "d": "2026-08-28",
      "r": "4",
@@ -963,6 +954,15 @@
      "gf": 0,
      "ga": 1,
      "res": "L"
+    },
+    {
+     "d": "2026-11-23",
+     "r": "13",
+     "side": "H",
+     "opp": "Dunkerque",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
     }
    ]
   },
@@ -1719,26 +1719,17 @@
    "home_n": 7,
    "home_gf": 1.57,
    "home_ga": 1.0,
-   "away_n": 5,
-   "away_gf": 1.2,
-   "away_ga": 2.0,
+   "away_n": 6,
+   "away_gf": 1.17,
+   "away_ga": 1.83,
    "home_gf_x": 1.17,
    "home_ga_x": 0.83,
-   "away_gf_x": 1.2,
-   "away_ga_x": 2.0,
-   "total_n": 12,
-   "form6": "LLWDLW",
-   "form6_pts": 7,
+   "away_gf_x": 1.17,
+   "away_ga_x": 1.83,
+   "total_n": 13,
+   "form6": "LWDLWD",
+   "form6_pts": 8,
    "recent": [
-    {
-     "d": "2026-08-21",
-     "r": "3",
-     "side": "H",
-     "opp": "Montpellier",
-     "gf": 0,
-     "ga": 1,
-     "res": "L"
-    },
     {
      "d": "2026-08-28",
      "r": "4",
@@ -1819,6 +1810,15 @@
      "gf": 3,
      "ga": 0,
      "res": "W"
+    },
+    {
+     "d": "2026-11-23",
+     "r": "13",
+     "side": "A",
+     "opp": "Sochaux",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
     }
    ]
   },
@@ -1826,26 +1826,17 @@
    "home_n": 6,
    "home_gf": 1.0,
    "home_ga": 1.67,
-   "away_n": 6,
-   "away_gf": 1.17,
-   "away_ga": 2.0,
+   "away_n": 7,
+   "away_gf": 1.0,
+   "away_ga": 1.71,
    "home_gf_x": 1.0,
    "home_ga_x": 1.67,
-   "away_gf_x": 1.25,
-   "away_ga_x": 1.0,
-   "total_n": 12,
-   "form6": "DLLLLW",
+   "away_gf_x": 1.0,
+   "away_ga_x": 0.8,
+   "total_n": 13,
+   "form6": "LLLLWD",
    "form6_pts": 4,
    "recent": [
-    {
-     "d": "2026-08-22",
-     "r": "3",
-     "side": "A",
-     "opp": "Saint-Étienne",
-     "gf": 0,
-     "ga": 4,
-     "res": "L"
-    },
     {
      "d": "2026-08-28",
      "r": "4",
@@ -1926,6 +1917,15 @@
      "gf": 3,
      "ga": 2,
      "res": "W"
+    },
+    {
+     "d": "2026-11-23",
+     "r": "13",
+     "side": "A",
+     "opp": "Nantes",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
     }
    ]
   }
