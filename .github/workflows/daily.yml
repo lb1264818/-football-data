@@ -14,6 +14,7 @@ jobs:
         env:
           SPORTSDB_KEY: ${{ secrets.SPORTSDB_KEY }}
       - run: python fetch_ou.py || true
+      - run: python bt_model.py || true
       - run: |
           git config user.name "sportsdb-bot"
           git config user.email "bot@users.noreply.github.com"
