@@ -651,14 +651,14 @@
    "home_ga": 1.5,
    "away_n": 15,
    "away_gf": 0.67,
-   "away_ga": 1.4,
+   "away_ga": 1.47,
    "home_gf_x": 1.25,
    "home_ga_x": 1.0,
    "away_gf_x": 0.67,
-   "away_ga_x": 1.4,
+   "away_ga_x": 1.47,
    "total_n": 29,
-   "form6": "WLLDWW",
-   "form6_pts": 10,
+   "form6": "WLLDWD",
+   "form6_pts": 8,
    "recent": [
     {
      "d": "2026-09-07",
@@ -747,8 +747,8 @@
      "side": "A",
      "opp": "Örgryte",
      "gf": 1,
-     "ga": 0,
-     "res": "W"
+     "ga": 1,
+     "res": "D"
     }
    ]
   },
@@ -861,18 +861,18 @@
   },
   "Örgryte": {
    "home_n": 15,
-   "home_gf": 1.47,
+   "home_gf": 1.53,
    "home_ga": 1.67,
    "away_n": 14,
    "away_gf": 0.79,
    "away_ga": 2.57,
-   "home_gf_x": 0.92,
+   "home_gf_x": 1.0,
    "home_ga_x": 1.33,
    "away_gf_x": 0.82,
    "away_ga_x": 1.82,
    "total_n": 29,
-   "form6": "WDLLDL",
-   "form6_pts": 5,
+   "form6": "WDLLDD",
+   "form6_pts": 6,
    "recent": [
     {
      "d": "2026-09-06",
@@ -960,9 +960,9 @@
      "r": "29",
      "side": "H",
      "opp": "Kalmar",
-     "gf": 0,
+     "gf": 1,
      "ga": 1,
-     "res": "L"
+     "res": "D"
     }
    ]
   },
