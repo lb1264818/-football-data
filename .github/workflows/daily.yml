@@ -1,7 +1,7 @@
 name: sportsdb-daily
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "0 1 * * *"        # 09:00 CST
   workflow_dispatch:
 jobs:
   run:
@@ -29,6 +29,15 @@ jobs:
         run: python clv_track.py || true
         env:
           ODDS_KEY: ${{ secrets.ODDS_KEY }}
+
+      # ext_odds 需要 numpy + scipy(拟合 Dixon-Coles / 匈牙利指派), 其余脚本都是纯 stdlib
+      - name: install deps for ext_odds
+        run: pip install --quiet numpy scipy
+
+      # 外部欧赔锚: betexplorer 服务端 JSON 接口(1x2 / ah / ou), 无需浏览器、无需 key
+      # 产出 data/ext_odds.json + data/ext_odds_log.txt; 失败不阻塞后面的步骤
+      - name: external odds anchor (欧赔/亚盘/大小球)
+        run: python ext_odds.py || true
 
       - name: league id check
         run: python verify_leagues.py || true
