@@ -409,16 +409,6 @@
   "away": "Cagliari",
   "start": "2026-12-07T19:45:00Z"
  },
- "ESP|2026-11-23T20:00:00Z|Levante": {
-  "pt": 1.5,
-  "T": 1.578,
-  "over": 2.07,
-  "under": 1.82,
-  "book": "pinnacle",
-  "home": "Levante",
-  "away": "Elche CF",
-  "start": "2026-11-23T20:00:00Z"
- },
  "ESP|2026-11-27T20:00:00Z|Levante": {
   "pt": 3.5,
   "T": 3.381,
@@ -431,9 +421,9 @@
  },
  "ESP|2026-11-28T13:00:00Z|Real Betis": {
   "pt": 3.5,
-  "T": 3.222,
-  "over": 2.45,
-  "under": 1.65,
+  "T": 3.242,
+  "over": 2.42,
+  "under": 1.66,
   "book": "onexbet",
   "home": "Real Betis",
   "away": "Rayo Vallecano",
