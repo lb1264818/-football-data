@@ -1,5 +1,5 @@
 # 大样本回测：赛前逐场累积 -> λ/μ -> 对照真实盘口（胜平负 / 亚盘 / 大小球2.5 / 总进球三档）
-# v2：联赛11个；mature=总出场>=6；分联赛指标；大小球/亚盘偏离分档
+# v3：在 v2 基础上增加"反向测试"（模型 EV 触发时买相反一边），用于验证 44.5% 那个发现
 import csv, io, json, math, pathlib, urllib.request, datetime, traceback
 
 LG = {
@@ -112,8 +112,8 @@ def run(code, rd):
             if not rs:
                 return 1.0
             pts = sum(3 if x == "W" else (1 if x == "D" else 0) for x in rs)
-            r = 0.85 + 0.30 * (pts / (3.0 * len(rs)))
-            return min(1.10, max(0.90, r))
+            r2 = 0.85 + 0.30 * (pts / (3.0 * len(rs)))
+            return min(1.10, max(0.90, r2))
 
         st = (form(th) + form(ta)) / 2
         lam = (K * lam + (1 - K) * bh) * st
@@ -158,9 +158,42 @@ def run(code, rd):
 
 
 def sides_of(r, key):
+    """返回 [(该边模型概率, 该边赔率), ...]，顺序 [0]=大/主 [1]=小/客"""
     if key == "ou":
         return [(r["o25"], r["oo"][0]), (1 - r["o25"], r["oo"][1])]
     return [(r["ahh_p"], r["ahh"]), (1 - r["ahh_p"], r["aha"])]
+
+
+def back_roi(rows, key, th, reverse=False):
+    """reverse=False：模型说哪边 EV 够就买哪边；reverse=True：模型说哪边够就买相反一边"""
+    bn = hit = 0
+    u = 0.0
+    for r in rows:
+        if key == "ou":
+            if "o25" not in r or "oo" not in r:
+                continue
+            over = r["ft"][0] + r["ft"][1] > 2.5
+        else:
+            if "ahh_p" not in r:
+                continue
+            mar = r["ft"][0] - r["ft"][1]
+            if mar == -r["ah"]:
+                continue
+        sides = sides_of(r, key)
+        for i, (p, od) in enumerate(sides):
+            if p * od - 1 < th:
+                continue
+            j = 1 - i if reverse else i
+            if key == "ou":
+                od2 = r["oo"][j]
+                won = (j == 0) == over
+            else:
+                od2 = r["ahh"] if j == 0 else r["aha"]
+                won = (j == 0) == (mar > -r["ah"])
+            bn += 1
+            hit += 1 if won else 0
+            u += (od2 - 1) if won else -1.0
+    return dict(bets=bn, hit=hit, units=round(u, 2), roi=round(u / bn, 4) if bn else None)
 
 
 def metrics(rows):
@@ -191,24 +224,14 @@ def metrics(rows):
         hit += 1 if ((r["o25"] > 0.5) == over) else 0
     if n:
         m["ou25"] = dict(n=int(n), hit=round(hit / n, 4))
-        roib = {}
+        roi = {}
+        rev = {}
         for th in THR:
-            bn = bh2 = 0
-            u = 0.0
-            for r in rows:
-                if "o25" not in r or "oo" not in r:
-                    continue
-                over = r["ft"][0] + r["ft"][1] > 2.5
-                for i, (p, od) in enumerate(sides_of(r, "ou")):
-                    if p * od - 1 < th:
-                        continue
-                    bn += 1
-                    won = (i == 0) == over
-                    bh2 += 1 if won else 0
-                    u += (od - 1) if won else -1.0
-            roib["ev" + str(int(th * 100))] = dict(bets=bn, hit=bh2, units=round(u, 2),
-                                                   roi=round(u / bn, 4) if bn else None)
-        m["ou25"]["roi"] = roib
+            k = "ev" + str(int(th * 100))
+            roi[k] = back_roi(rows, "ou", th, reverse=False)
+            rev[k] = back_roi(rows, "ou", th, reverse=True)
+        m["ou25"]["roi"] = roi
+        m["ou25"]["rev"] = rev
 
     n = hit = 0
     for r in rows:
@@ -222,26 +245,14 @@ def metrics(rows):
             hit += 1 if ((r["ahh_p"] > 0.5) == (mar > -r["ah"])) else 0
     if n:
         m["ah"] = dict(n=int(n), hit=round(hit / n, 4))
-        roib = {}
+        roi = {}
+        rev = {}
         for th in THR:
-            bn = bh2 = 0
-            u = 0.0
-            for r in rows:
-                if "ahh_p" not in r:
-                    continue
-                mar = r["ft"][0] - r["ft"][1]
-                for i, (p, od) in enumerate(sides_of(r, "ah")):
-                    if p * od - 1 < th:
-                        continue
-                    if mar == -r["ah"]:
-                        continue
-                    bn += 1
-                    won = (i == 0) == (mar > -r["ah"])
-                    bh2 += 1 if won else 0
-                    u += (od - 1) if won else -1.0
-            roib["ev" + str(int(th * 100))] = dict(bets=bn, hit=bh2, units=round(u, 2),
-                                                   roi=round(u / bn, 4) if bn else None)
-        m["ah"]["roi"] = roib
+            k = "ev" + str(int(th * 100))
+            roi[k] = back_roi(rows, "ah", th, reverse=False)
+            rev[k] = back_roi(rows, "ah", th, reverse=True)
+        m["ah"]["roi"] = roi
+        m["ah"]["rev"] = rev
 
     n = hit = 0
     for r in rows:
@@ -264,57 +275,47 @@ AH_B = [(0.0, 0.20), (0.20, 0.40), (0.40, 0.70), (0.70, 99.0)]
 def ou_dist(rows):
     out = []
     for lo, hi in OU_B:
-        n = hit = bn = bh = 0
-        u = 0.0
+        sub = []
+        hit = 0
         for r in rows:
             if "o25" not in r or "oo" not in r:
                 continue
             d = abs(r["lam"] + r["mu"] - 2.5)
             if not (lo <= d < hi):
                 continue
+            sub.append(r)
             over = r["ft"][0] + r["ft"][1] > 2.5
-            n += 1
             hit += 1 if ((r["o25"] > 0.5) == over) else 0
-            for i, (p, od) in enumerate(sides_of(r, "ou")):
-                if p * od - 1 < 0.05:
-                    continue
-                bn += 1
-                won = (i == 0) == over
-                bh += 1 if won else 0
-                u += (od - 1) if won else -1.0
-        if n:
-            out.append(dict(bucket=str(lo) + "-" + str(hi), n=n, hit=round(hit / n, 4),
-                            bets5=bn, hit5=bh, roi5=round(u / bn, 4) if bn else None))
+        if sub:
+            out.append(dict(bucket=str(lo) + "-" + str(hi), n=len(sub),
+                            hit=round(hit / len(sub), 4),
+                            roi5=back_roi(sub, "ou", 0.05, reverse=False),
+                            rev5=back_roi(sub, "ou", 0.05, reverse=True)))
     return out
 
 
 def ah_dist(rows):
     out = []
     for lo, hi in AH_B:
-        n = hit = bn = bh = 0
-        u = 0.0
+        sub = []
+        hit = 0.0
         for r in rows:
             if "ahh_p" not in r or "mah" not in r:
                 continue
             d = abs((r["lam"] - r["mu"]) - (-r["ah"]))
             if not (lo <= d < hi):
                 continue
+            sub.append(r)
             mar = r["ft"][0] - r["ft"][1]
-            n += 1
             if mar == -r["ah"]:
                 hit += 0.5
             else:
                 hit += 1 if ((r["ahh_p"] > 0.5) == (mar > -r["ah"])) else 0
-            for i, (p, od) in enumerate(sides_of(r, "ah")):
-                if p * od - 1 < 0.05 or mar == -r["ah"]:
-                    continue
-                bn += 1
-                won = (i == 0) == (mar > -r["ah"])
-                bh += 1 if won else 0
-                u += (od - 1) if won else -1.0
-        if n:
-            out.append(dict(bucket=str(lo) + "-" + str(hi), n=n, hit=round(hit / n, 4),
-                            bets5=bn, hit5=bh, roi5=round(u / bn, 4) if bn else None))
+        if sub:
+            out.append(dict(bucket=str(lo) + "-" + str(hi), n=len(sub),
+                            hit=round(hit / len(sub), 4),
+                            roi5=back_roi(sub, "ah", 0.05, reverse=False),
+                            rev5=back_roi(sub, "ah", 0.05, reverse=True)))
     return out
 
 
