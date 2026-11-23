@@ -1,71 +1,75 @@
-# 竞彩 总进球/大小球 赔率采集（独立脚本，只存真实返回，失败不报致命错误）
-import json, gzip, re, pathlib, urllib.request, datetime, os
+# 大小球 2.5 线真实赔率采集（football-data.co.uk，免费无 key，含 B365 / 市场均值）
+# 覆盖：英超 E0、意甲 I1、西甲 SP1、法乙 F2（瑞超/巴甲/美职该站不提供大小球，不采）
+import csv, io, json, pathlib, urllib.request, datetime
 
-SRC = [
- ("ttg_calc", "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=ttg&channel=c"),
- ("hhad_calc", "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=hhad&channel=c"),
- ("result", "https://webapi.sporttery.cn/gateway/jc/football/getMatchResultV1.qry?matchPage=1&isFix=0&pcOrWap=1"),
- ("ttg_wap", "https://webapi.sporttery.cn/gateway/jc/football/getMatchCalculatorV1.qry?poolCode=ttg&channel=wap"),
-]
-REOU = re.compile(r"ttg|jqs|total|goals|over|under|daxiao", re.I)
+FILES = {"英超": "E0", "意甲": "I1", "西甲": "SP1", "法乙": "F2"}
+SEASONS = ["2627", "2526"]
+BASE = "https://www.football-data.co.uk/mmz4281/{}/{}.csv"
+COLS = {"b365o": "B365>2.5", "b365u": "B365<2.5", "avgo": "Avg>2.5", "avgu": "Avg<2.5",
+        "cb365o": "B365C>2.5", "cb365u": "B365C<2.5", "cavgo": "AvgC>2.5", "cavgu": "AvgC<2.5"}
 
-def jget(u):
-    req = urllib.request.Request(u, headers={
-        "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X) AppleWebKit/605.1.15",
-        "Referer": "https://www.sporttery.cn/", "Accept": "application/json,*/*"})
-    b = urllib.request.urlopen(req, timeout=45).read()
-    if b[:2] == b"\x1f\x8b":
-        b = gzip.decompress(b)
-    return json.loads(b.decode("utf-8", "ignore"))
+def dl(u):
+    req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+    return urllib.request.urlopen(req, timeout=60).read().decode("utf-8-sig", "ignore")
 
-def walk(o, hits):
-    if isinstance(o, dict):
-        if "matchNumStr" in o or "matchNum" in o:
-            hits.append(o)
-        for v in o.values():
-            walk(v, hits)
-    elif isinstance(o, list):
-        for v in o:
-            walk(v, hits)
+def fnum(x):
+    try:
+        v = float(x)
+        return round(v, 3) if v > 0 else None
+    except Exception:
+        return None
 
-def rec(m, src):
-    r = {"src": src}
-    for k, v in m.items():
-        if isinstance(v, bool) or v is None:
-            continue
-        if isinstance(v, (str, int, float)):
-            r[k] = v
-        elif isinstance(v, (dict, list)) and REOU.search(k):
-            r[k] = v
-    return r
+def iso(d):
+    try:
+        return datetime.datetime.strptime(d.strip(), "%d/%m/%Y").strftime("%Y-%m-%d")
+    except Exception:
+        return d.strip()
 
 def main():
     out = {"fetched": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
-           "sources": {}, "errors": [], "matches": []}
-    for nm, u in SRC:
-        try:
-            j = jget(u)
-        except Exception as ex:
-            out["errors"].append(nm + ": " + str(ex)[:140])
-            print("OU-ERR", nm, str(ex)[:140])
-            continue
-        hits = []
-        walk(j, hits)
-        out["sources"][nm] = {"url": u, "n": len(hits),
-                              "keys": sorted(hits[0].keys()) if hits else []}
-        for m in hits:
-            out["matches"].append(rec(m, nm))
-        print("OU-OK", nm, "matches:", len(hits))
-    seen = {}
-    for r in out["matches"]:
-        k = (str(r.get("matchNumStr") or r.get("matchNum")),
-             str(r.get("homeTeamAbbName") or r.get("homeTeamName") or ""))
-        if k not in seen or r["src"] == "ttg_calc":
-            seen[k] = r
-    out["matches"] = list(seen.values())
+           "season": None, "sources": {}, "errors": [], "rows": []}
+    for season in SEASONS:
+        got = 0
+        for lg, code in FILES.items():
+            u = BASE.format(season, code)
+            try:
+                txt = dl(u)
+            except Exception as ex:
+                out["errors"].append(f"{lg} {season}: " + str(ex)[:120])
+                print("OU-ERR", lg, season, str(ex)[:120])
+                continue
+            rd = list(csv.DictReader(io.StringIO(txt)))
+            if not rd or not any(c in rd[0] for c in ("B365>2.5", "Avg>2.5")):
+                out["errors"].append(f"{lg} {season}: 无大小球列")
+                print("OU-SKIP", lg, season, "无大小球列")
+                continue
+            n = 0
+            for r in rd:
+                if not r.get("HomeTeam") or not r.get("B365>2.5"):
+                    continue
+                rec = {"lg": lg, "season": season, "date": iso(r.get("Date", "")),
+                       "home": r.get("HomeTeam"), "away": r.get("AwayTeam"),
+                       "ft": [r.get("FTHG"), r.get("FTAG")], "line": 2.5, "src": "football-data"}
+                for k, c in COLS.items():
+                    rec[k] = fnum(r.get(c))
+                out["rows"].append(rec)
+                n += 1
+            out["sources"][f"{lg}_{season}"] = {"url": u, "n": n}
+            got += n
+            print("OU-OK", lg, season, "rows:", n)
+        if got:
+            out["season"] = season
+            break
     pathlib.Path("data").mkdir(exist_ok=True)
     pathlib.Path("data/ou.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
-    print("OU saved:", len(out["matches"]), "errs:", len(out["errors"]))
+    mxd = max([r["date"] for r in out["rows"] if r.get("date")] or ["0"])
+    try:
+        cut = (datetime.datetime.strptime(mxd, "%Y-%m-%d") - datetime.timedelta(days=21)).strftime("%Y-%m-%d")
+    except Exception:
+        cut = "0"
+    tail = dict(out, rows=[r for r in out["rows"] if r.get("date", "") >= cut])
+    pathlib.Path("data/ou_tail.json").write_text(json.dumps(tail, ensure_ascii=False, indent=1))
+    print("OU saved:", len(out["rows"]), "tail:", len(tail["rows"]), "errs:", len(out["errors"]))
 
 if __name__ == "__main__":
     try:
@@ -75,4 +79,4 @@ if __name__ == "__main__":
         pathlib.Path("data").mkdir(exist_ok=True)
         pathlib.Path("data/ou.json").write_text(json.dumps(
             {"fetched": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
-             "errors": ["topfail: " + str(ex)[:200]], "matches": []}, ensure_ascii=False))
+             "errors": ["topfail: " + str(ex)[:200]], "rows": []}, ensure_ascii=False))
