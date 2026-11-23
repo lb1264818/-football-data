@@ -1,5 +1,5 @@
 # 大样本回测：赛前逐场累积 -> λ/μ -> 对照真实盘口（胜平负 / 亚盘 / 大小球2.5 / 总进球三档）
-# v2 改动：联赛扩到11个；mature口径改为"总出场>=6"；新增分联赛指标 + 大小球偏离分档 + 亚盘分档
+# v2：联赛11个；mature=总出场>=6；分联赛指标；大小球/亚盘偏离分档
 import csv, io, json, math, pathlib, urllib.request, datetime, traceback
 
 LG = {
@@ -112,7 +112,8 @@ def run(code, rd):
             if not rs:
                 return 1.0
             pts = sum(3 if x == "W" else (1 if x == "D" else 0) for x in rs)
-            return min(1.10, max(0.90, 0.85 + 0.30 * (pts / (3 * len(rs))))
+            r = 0.85 + 0.30 * (pts / (3.0 * len(rs)))
+            return min(1.10, max(0.90, r))
 
         st = (form(th) + form(ta)) / 2
         lam = (K * lam + (1 - K) * bh) * st
@@ -123,7 +124,6 @@ def run(code, rd):
         oo = [fl(r.get("B365>2.5")), fl(r.get("B365<2.5"))]
         ah, ahh, aha = fs(r.get("AHh")), fl(r.get("B365AHH")), fl(r.get("B365AHA"))
 
-        # 关键修复：nh/na 用"总出场"（主+客），不再只数主场
         row = dict(lg=code, d=r.get("Date"), h=H, a=A, ft=[hs, as_],
                    lam=round(lam, 3), mu=round(mu, 3),
                    nh=len(th["H"]) + len(th["A"]), na=len(ta["H"]) + len(ta["A"]),
@@ -157,6 +157,12 @@ def run(code, rd):
     return res
 
 
+def sides_of(r, key):
+    if key == "ou":
+        return [(r["o25"], r["oo"][0]), (1 - r["o25"], r["oo"][1])]
+    return [(r["ahh_p"], r["ahh"]), (1 - r["ahh_p"], r["aha"])]
+
+
 def metrics(rows):
     m = {}
     n12 = brier_m = brier_k = acc_m = acc_k = 0.0
@@ -171,8 +177,10 @@ def metrics(rows):
         brier_m += sum((ps[i] - (1 if i == act else 0)) ** 2 for i in range(3))
         brier_k += sum((r["m1"][i] - (1 if i == act else 0)) ** 2 for i in range(3))
     if n12:
-        m["1x2"] = dict(n=int(n12), acc_model=round(acc_m / n12, 4), acc_mkt=round(acc_k / n12, 4),
-                        brier_model=round(brier_m / n12, 4), brier_mkt=round(brier_k / n12, 4))
+        m["1x2"] = dict(n=int(n12), acc_model=round(acc_m / n12, 4),
+                        acc_mkt=round(acc_k / n12, 4),
+                        brier_model=round(brier_m / n12, 4),
+                        brier_mkt=round(brier_k / n12, 4))
 
     n = hit = 0
     for r in rows:
@@ -191,7 +199,7 @@ def metrics(rows):
                 if "o25" not in r or "oo" not in r:
                     continue
                 over = r["ft"][0] + r["ft"][1] > 2.5
-                for i, (p, od) in enumerate(((r["o25"], r["oo"][0]), (1 - r["o25"], r["oo"][1]))):
+                for i, (p, od) in enumerate(sides_of(r, "ou")):
                     if p * od - 1 < th:
                         continue
                     bn += 1
@@ -199,7 +207,7 @@ def metrics(rows):
                     bh2 += 1 if won else 0
                     u += (od - 1) if won else -1.0
             roib["ev" + str(int(th * 100))] = dict(bets=bn, hit=bh2, units=round(u, 2),
-                                                  roi=round(u / bn, 4) if bn else None)
+                                                   roi=round(u / bn, 4) if bn else None)
         m["ou25"]["roi"] = roib
 
     n = hit = 0
@@ -222,7 +230,7 @@ def metrics(rows):
                 if "ahh_p" not in r:
                     continue
                 mar = r["ft"][0] - r["ft"][1]
-                for i, (p, od) in enumerate(((r["ahh_p"], r["ahh"]), (1 - r["ahh_p"], r["aha"]))):
+                for i, (p, od) in enumerate(sides_of(r, "ah")):
                     if p * od - 1 < th:
                         continue
                     if mar == -r["ah"]:
@@ -232,7 +240,7 @@ def metrics(rows):
                     bh2 += 1 if won else 0
                     u += (od - 1) if won else -1.0
             roib["ev" + str(int(th * 100))] = dict(bets=bn, hit=bh2, units=round(u, 2),
-                                                  roi=round(u / bn, 4) if bn else None)
+                                                   roi=round(u / bn, 4) if bn else None)
         m["ah"]["roi"] = roib
 
     n = hit = 0
@@ -249,11 +257,13 @@ def metrics(rows):
     return m
 
 
+OU_B = [(0.0, 0.15), (0.15, 0.25), (0.25, 0.40), (0.40, 0.60), (0.60, 99.0)]
+AH_B = [(0.0, 0.20), (0.20, 0.40), (0.40, 0.70), (0.70, 99.0)]
+
+
 def ou_dist(rows):
-    """按 |λ+μ-2.5| 分档，检验"偏离越大越准"这个假设，并给每档 EV5% 的 ROI"""
-    B = [(0.0, 0.15), (0.15, 0.25), (0.25, 0.40), (0.40, 0.60), (0.60, 99.0)]
     out = []
-    for lo, hi in B:
+    for lo, hi in OU_B:
         n = hit = bn = bh = 0
         u = 0.0
         for r in rows:
@@ -265,7 +275,7 @@ def ou_dist(rows):
             over = r["ft"][0] + r["ft"][1] > 2.5
             n += 1
             hit += 1 if ((r["o25"] > 0.5) == over) else 0
-            for i, (p, od) in enumerate(((r["o25"], r["oo"][0]), (1 - r["o25"], r["oo"][1]))):
+            for i, (p, od) in enumerate(sides_of(r, "ou")):
                 if p * od - 1 < 0.05:
                     continue
                 bn += 1
@@ -278,11 +288,9 @@ def ou_dist(rows):
     return out
 
 
-def asi_dist(rows):
-    """按 |λ-μ| 与盘口的关系分档，看亚盘在哪些档位能站住"""
-    B = [(0.0, 0.20), (0.20, 0.40), (0.40, 0.70), (0.70, 99.0)]
+def ah_dist(rows):
     out = []
-    for lo, hi in B:
+    for lo, hi in AH_B:
         n = hit = bn = bh = 0
         u = 0.0
         for r in rows:
@@ -297,7 +305,7 @@ def asi_dist(rows):
                 hit += 0.5
             else:
                 hit += 1 if ((r["ahh_p"] > 0.5) == (mar > -r["ah"])) else 0
-            for i, (p, od) in enumerate(((r["ahh_p"], r["ahh"]), (1 - r["ahh_p"], r["aha"]))):
+            for i, (p, od) in enumerate(sides_of(r, "ah")):
                 if p * od - 1 < 0.05 or mar == -r["ah"]:
                     continue
                 bn += 1
@@ -329,12 +337,11 @@ def main():
     out["n_rows"] = len(allrows)
     out["metrics"] = metrics(allrows)
     out["per_league"] = per
-
     mature = [r for r in allrows if r.get("nh", 0) >= MAT and r.get("na", 0) >= MAT]
     out["n_mature"] = len(mature)
     out["metrics_mature"] = metrics(mature)
     out["ou25_dist"] = ou_dist(allrows)
-    out["ah_dist"] = asi_dist(allrows)
+    out["ah_dist"] = ah_dist(allrows)
     out["sample"] = allrows[:2]
 
     pathlib.Path("data").mkdir(exist_ok=True)
