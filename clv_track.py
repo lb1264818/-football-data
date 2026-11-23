@@ -1,31 +1,38 @@
-# v5 跟踪器：只做一件事——扫「线动 ΔT >= 0.06 球」的信号，记成跟踪账本，滚动算 CLV/ROI
-# 1) 历史回填（football-data 有开盘/收盘价的已完赛比赛）→ phase=hist
-# 2) 上线后新出现的比赛 → phase=live（真实跟踪，不回溯改写）
-# 3) 若仓库 Secrets 里有 ODDS_KEY（The Odds API 免费 500 次/月），再输出当日实时盘口信号
-import csv, io, json, math, os, pathlib, urllib.request, datetime, traceback
+# v5 tracker: scan line-move signals (dT >= 0.06 goals), log them, roll up CLV/ROI
+# 1) history backfill (finished matches with open/close odds) -> phase=hist
+# 2) matches appearing after go-live -> phase=live (true forward tracking, never rewritten)
+# 3) if ODDS_KEY exists (The Odds API free 500/month), also emit same-day live signals
+import csv, io, json, math, os, pathlib, time, urllib.request, datetime, traceback
 
 LG = {
-    "英超": "E0", "意甲": "I1", "西甲": "SP1", "法甲": "F1", "法乙": "F2",
-    "德甲": "D1", "德乙": "D2", "荷甲": "N1", "英冠": "E1", "葡超": "P1", "苏超": "SC0",
+    "EPL": "E0", "ITA": "I1", "ESP": "SP1", "FRA1": "F1", "FRA2": "F2",
+    "GER1": "D1", "GER2": "D2", "NED": "N1", "ENG2": "E1", "POR": "P1", "SCO": "SC0",
 }
 SEASON = "2627"
 URL = "https://www.football-data.co.uk/mmz4281/{}/{}.csv"
-SIG = 0.06                      # 观察下限（先记账，不下注）
-TRADE = 0.15                    # 实战门槛：|ΔT| >= 0.15 球才跟（实测 CLV 由负转正的位置）
+SIG = 0.06                      # watch floor (log only, no bet)
+TRADE = 0.15                    # trade threshold: |dT| >= 0.15 goals (CLV turns positive here)
 BANDS = [(0.06, 0.10), (0.10, 0.15), (0.15, 99.0)]
 LEDGER = pathlib.Path("data/clv_ledger.json")
 SPORT_KEYS = {
-    "英超": "soccer_epl", "意甲": "soccer_italy_serie_a", "西甲": "soccer_spain_la_liga",
-    "法甲": "soccer_france_ligue_one", "德甲": "soccer_germany_bundesliga",
-    "德乙": "soccer_germany_bundesliga2", "荷甲": "soccer_netherlands_eredivisie",
-    "英冠": "soccer_efl_champ", "葡超": "soccer_portugal_primeira_liga",
-    "苏超": "soccer_spl", "法乙": "soccer_france_ligue_two",
+    "EPL": "soccer_epl", "ITA": "soccer_italy_serie_a", "ESP": "soccer_spain_la_liga",
+    "FRA1": "soccer_france_ligue_one", "GER1": "soccer_germany_bundesliga",
+    "GER2": "soccer_germany_bundesliga2", "NED": "soccer_netherlands_eredivisie",
+    "ENG2": "soccer_efl_champ", "POR": "soccer_portugal_primeira_liga",
+    "SCO": "soccer_spl", "FRA2": "soccer_france_ligue_two",
 }
 
 
-def dl(u, timeout=45):
-    req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
-    return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8-sig", "ignore")
+def dl(u, timeout=45, tries=3):
+    last = None
+    for _ in range(tries):
+        try:
+            req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+            return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8-sig", "ignore")
+        except Exception as e:
+            last = e
+            time.sleep(3)
+    raise last
 
 
 def fl(x):
@@ -76,7 +83,7 @@ def d_to_iso(s):
 
 
 def scan_history():
-    """返回 [(key, lg, date, home, away, dT, T_o, T_c, over_odds_open, under_odds_open, fair_over_close)]"""
+    """returns list of dicts: key, lg, d, h, a, dT, T_o, T_c, open odds, fair over prob at close"""
     out, last = [], None
     for lg, code in LG.items():
         try:
@@ -110,7 +117,7 @@ def scan_history():
 def settle(e, ft):
     tot = ft[0] + ft[1]
     over_won = tot > 2.5
-    pick_over = e["pick"] == "大"
+    pick_over = e["pick"] == "OVER"
     e["ft"] = ft
     e["tot"] = tot
     won = pick_over == over_won
@@ -140,68 +147,93 @@ def agg(entries):
                 z_clv=z_clv)
 
 
-# ---------- 可选：当日实时盘口（需要 ODDS_KEY，未配则跳过） ----------
+# ---------- optional: same-day live odds (needs ODDS_KEY, skipped otherwise) ----------
+PREF = ["pinnacle", "onexbet", "unibet_eu", "betfair", "williamhill", "marathonbet"]
+
+
+def _get_json(u):
+    req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0"})
+    resp = urllib.request.urlopen(req, timeout=30)
+    body = json.loads(resp.read().decode("utf-8"))
+    hdr = dict(remaining=resp.headers.get("x-requests-remaining"),
+               used=resp.headers.get("x-requests-used"))
+    return body, hdr
+
+
+def pick_totals(game):
+    """one bookmaker only: prefer sharps, then take the first usable O/U pair on a main line"""
+    books = game.get("bookmakers") or []
+    books = sorted(books, key=lambda b: PREF.index(b["key"]) if b.get("key") in PREF else 99)
+    for bk in books:
+        for mk in bk.get("markets") or []:
+            if mk.get("key") != "totals":
+                continue
+            pts = {}
+            for o in mk.get("outcomes", []):
+                pts.setdefault(o.get("point"), {})[o.get("name")] = o.get("price")
+            for pt in (2.5, 3.5, 2.25, 2.75, 1.5, 4.5):
+                d = pts.get(pt)
+                if d and d.get("Over") and d.get("Under"):
+                    return dict(pt=pt, over=d["Over"], under=d["Under"], book=bk["key"])
+    return None
+
+
 def live_signals(today):
     key = os.environ.get("ODDS_KEY", "").strip()
     if not key:
-        return dict(status="skip-no-key", note="未配置 ODDS_KEY，实时盘口信号未启用")
+        return dict(status="skip-no-key", note="ODDS_KEY not set, live signals disabled")
+    only = [x.strip() for x in os.environ.get("LIVE_LEAGUES", "").split(",") if x.strip()]
     snap_p = pathlib.Path("data/odds_snap.json")
     prev = json.loads(snap_p.read_text()) if snap_p.exists() else {}
-    cur, sigs, used = {}, [], 0
+    cur, sigs, used, rem = {}, [], 0, None
     for lg, sk in SPORT_KEYS.items():
+        if only and lg not in only:
+            continue
         try:
-            u = ("https://api.the-odds-api.com/v4/sports/%s/odds/?apiKey=%s"
-                 "&regions=eu&markets=totals&oddsFormat=decimal" % (sk, key))
-            data = json.loads(dl(u, 30))
+            data, hdr = _get_json("https://api.the-odds-api.com/v4/sports/%s/odds/?apiKey=%s"
+                                  "&regions=eu&markets=totals&oddsFormat=decimal" % (sk, key))
             used += 1
+            if hdr.get("remaining") is not None:
+                rem = hdr["remaining"]
         except Exception:
             continue
         for g in data if isinstance(data, list) else []:
             mt = "%s|%s|%s" % (lg, g.get("commence_time"), g.get("home_team"))
-            tots = []
-            for bk in g.get("bookmakers", []):
-                for mk in bk.get("markets", []):
-                    if mk.get("key") != "totals":
-                        continue
-                    for oc in mk.get("outcomes", []):
-                        tots.append((oc.get("name"), oc.get("point"), oc.get("price")))
-            # 取 2.5 线的 over/under 一对价
-            pair = {}
-            for nm, pt, pr in tots:
-                if pt in (2.5, 3.5) and nm in ("Over", "Under"):
-                    pair.setdefault(pt, {})[nm] = pr
-            if not pair:
+            tk = pick_totals(g)
+            if not tk:
                 continue
-            for pt, d in pair.items():
-                if not ("Over" in d and "Under" in d):
-                    continue
-                z = dv(d["Over"], d["Under"])
-                if not z:
-                    continue
-                T = solve_T(z[0])
-                cur[mt] = dict(pt=pt, T=round(T, 3), over=d["Over"], under=d["Under"],
-                               home=g.get("home_team"), away=g.get("away_team"),
-                               start=g.get("commence_time"))
-                first = prev.get(mt)
-                if first and first.get("T") is not None:
-                    dT = T - first["T"]
-                    if abs(dT) < SIG:
-                        continue
-                    # 只在开赛前 36 小时内给信号
-                    try:
-                        st = datetime.datetime.fromisoformat(g["commence_time"].replace("Z", "+00:00"))
-                        hrs = (st - datetime.datetime.now(datetime.timezone.utc)).total_seconds() / 3600
-                    except Exception:
-                        hrs = 999
-                    if 0 < hrs <= 36:
-                        sigs.append(dict(lg=lg, home=g.get("home_team"), away=g.get("away_team"),
-                                         start=g.get("commence_time"), dT=round(dT, 4),
-                                         pick="大" if dT > 0 else "小",
-                                         line=pt, odds=d["Over"] if dT > 0 else d["Under"],
-                                         hours_to_ko=round(hrs, 1)))
+            z = dv(tk["over"], tk["under"])
+            if not z:
+                continue
+            T = solve_T(z[0])
+            cur[mt] = dict(pt=tk["pt"], T=round(T, 3), over=tk["over"], under=tk["under"],
+                           book=tk["book"], home=g.get("home_team"), away=g.get("away_team"),
+                           start=g.get("commence_time"))
+            first = prev.get(mt)
+            if not first or first.get("T") is None or first.get("book") != tk["book"]:
+                continue
+            dT = T - first["T"]
+            if abs(dT) < TRADE:
+                continue
+            try:
+                st = datetime.datetime.fromisoformat(g["commence_time"].replace("Z", "+00:00"))
+                hrs = (st - datetime.datetime.now(datetime.timezone.utc)).total_seconds() / 3600
+            except Exception:
+                hrs = 999
+            if not (0 < hrs <= 36):
+                continue
+            sigs.append(dict(lg=lg, h=g.get("home_team"), a=g.get("away_team"),
+                             start=g.get("commence_time"), dT=round(dT, 4),
+                             pick="OVER" if dT > 0 else "UNDER", line=tk["pt"],
+                             odds=tk["over"] if dT > 0 else tk["under"], book=tk["book"],
+                             hours_to_ko=round(hrs, 1)))
+    if used == 0:
+        return dict(status="auth-or-network-fail", requests=0, remaining=None,
+                    note="every odds request failed: check ODDS_KEY value and sport keys")
     snap_p.write_text(json.dumps(cur, indent=1))
-    return dict(status="ok", requests=used, n_sig=len(sigs), signals=sigs,
-                note="首次运行只建快照，第二次起才有 ΔT")
+    return dict(status="ok", requests=used, remaining=rem, n_sig=len(sigs), signals=sigs,
+                snap_n=len(cur),
+                note="first run only builds snapshot, dT available from second run")
 
 
 def main():
@@ -213,7 +245,7 @@ def main():
     since = led.get("since") or today
     ents = led.get("entries", {})
 
-    # 1) 历史回填 / 新信号登记（登记后不再改写下注方向与赔率）
+    # 1) history backfill / new signal logging (pick and odds are frozen once logged)
     for r in hist:
         k = r["key"]
         if k in ents:
@@ -223,7 +255,7 @@ def main():
         if abs(r["dT"]) < SIG or r["ft"] is None:
             continue
         ents[k] = dict(lg=r["lg"], d=r["d"], h=r["h"], a=r["a"],
-                       dT=r["dT"], pick="大" if r["dT"] > 0 else "小",
+                       dT=r["dT"], pick="OVER" if r["dT"] > 0 else "UNDER",
                        odds=r["od_over"] if r["dT"] > 0 else r["od_under"],
                        fair_close=r["fair_over_close"], closing_line=r["T_c"],
                        tier=("trade" if abs(r["dT"]) >= TRADE else "watch"),
@@ -245,7 +277,7 @@ def main():
         if a.get("n"):
             by_lg[lg] = a
 
-    # 今日/近期信号（历史数据滞后，通常为空）
+    # recent / pending signals (data lags, usually empty)
     trade = [e for e in big if e.get("tier") == "trade"]
     watch = [e for e in big if e.get("tier") == "watch"]
     pending = [e for e in ents.values() if "won" not in e]
@@ -255,12 +287,12 @@ def main():
 
     out = dict(fetched=now.strftime("%Y-%m-%d %H:%M UTC"), since=since, today=today,
                data_last_date=last, rule=dict(market="ou2.5", sig=SIG,
-                                              desc="总球期望 T 从开盘到收盘上调/下调 >=0.06 球才下单，跟线动方向"),
+                                              desc="bet only when total-goals T moves >=0.06 toward one side, follow the move"),
                all=agg(big), live=agg(live), hist=agg(hst),
                trade=agg(trade), watch=agg(watch), thresholds=dict(watch_min=SIG, trade_min=TRADE),
                by_band=band_rows, by_league=by_lg,
                today_signals=recent, pending_n=len(pending), live_odds=lv,
-               note="hist 为回填验证，live 为上线后真实跟踪；两者分开统计，不混算")
+               note="hist = backfill validation, live = forward tracking after go-live; never mixed")
     LEDGER.parent.mkdir(exist_ok=True)
     LEDGER.write_text(json.dumps(dict(since=since, updated=out["fetched"], entries=ents), ensure_ascii=False, indent=1))
     pathlib.Path("data/clv_track.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
