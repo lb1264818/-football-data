@@ -1,0 +1,1622 @@
+{
+ "EPL|2026-11-23T20:00:00Z|Brentford": {
+  "pt": 3.5,
+  "T": 3.018,
+  "over": 1.61,
+  "under": 2.23,
+  "book": "unibet_se",
+  "home": "Brentford",
+  "away": "Everton",
+  "start": "2026-11-23T20:00:00Z"
+ },
+ "EPL|2026-11-27T20:00:00Z|Nottingham Forest": {
+  "pt": 2.75,
+  "T": 2.638,
+  "over": 1.98,
+  "under": 1.91,
+  "book": "pinnacle",
+  "home": "Nottingham Forest",
+  "away": "Chelsea",
+  "start": "2026-11-27T20:00:00Z"
+ },
+ "EPL|2026-11-28T15:00:00Z|Manchester United": {
+  "pt": 3.5,
+  "T": 2.294,
+  "over": 2.45,
+  "under": 1.65,
+  "book": "onexbet",
+  "home": "Manchester United",
+  "away": "Brentford",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "EPL|2026-11-28T15:00:00Z|Leeds United": {
+  "pt": 2.75,
+  "T": 2.685,
+  "over": 1.93,
+  "under": 1.95,
+  "book": "pinnacle",
+  "home": "Leeds United",
+  "away": "Coventry City",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "EPL|2026-11-28T17:30:00Z|Ipswich Town": {
+  "pt": 3.5,
+  "T": 2.294,
+  "over": 2.45,
+  "under": 1.65,
+  "book": "onexbet",
+  "home": "Ipswich Town",
+  "away": "Aston Villa",
+  "start": "2026-11-28T17:30:00Z"
+ },
+ "EPL|2026-11-29T12:00:00Z|Everton": {
+  "pt": 2.75,
+  "T": 2.711,
+  "over": 1.91,
+  "under": 1.98,
+  "book": "pinnacle",
+  "home": "Everton",
+  "away": "Liverpool",
+  "start": "2026-11-29T12:00:00Z"
+ },
+ "EPL|2026-11-29T14:05:00Z|Fulham": {
+  "pt": 2.75,
+  "T": 2.664,
+  "over": 1.95,
+  "under": 1.93,
+  "book": "pinnacle",
+  "home": "Fulham",
+  "away": "Bournemouth",
+  "start": "2026-11-29T14:05:00Z"
+ },
+ "EPL|2026-11-29T14:05:00Z|Brighton and Hove Albion": {
+  "pt": 3.5,
+  "T": 2.324,
+  "over": 2.4,
+  "under": 1.67,
+  "book": "onexbet",
+  "home": "Brighton and Hove Albion",
+  "away": "Newcastle United",
+  "start": "2026-11-29T14:05:00Z"
+ },
+ "EPL|2026-11-29T14:05:00Z|Crystal Palace": {
+  "pt": 2.75,
+  "T": 2.617,
+  "over": 2.0,
+  "under": 1.89,
+  "book": "pinnacle",
+  "home": "Crystal Palace",
+  "away": "Hull City",
+  "start": "2026-11-29T14:05:00Z"
+ },
+ "EPL|2026-11-29T14:05:00Z|Sunderland": {
+  "pt": 2.5,
+  "T": 2.576,
+  "over": 2.04,
+  "under": 1.85,
+  "book": "pinnacle",
+  "home": "Sunderland",
+  "away": "Tottenham Hotspur",
+  "start": "2026-11-29T14:05:00Z"
+ },
+ "EPL|2026-11-29T16:30:00Z|Arsenal": {
+  "pt": 2.75,
+  "T": 2.648,
+  "over": 1.97,
+  "under": 1.92,
+  "book": "pinnacle",
+  "home": "Arsenal",
+  "away": "Manchester City",
+  "start": "2026-11-29T16:30:00Z"
+ },
+ "EPL|2026-12-01T20:00:00Z|Coventry City": {
+  "pt": 2.75,
+  "T": 2.744,
+  "over": 1.85,
+  "under": 1.98,
+  "book": "pinnacle",
+  "home": "Coventry City",
+  "away": "Ipswich Town",
+  "start": "2026-12-01T20:00:00Z"
+ },
+ "EPL|2026-12-02T19:30:00Z|Chelsea": {
+  "pt": 3.5,
+  "T": 2.35,
+  "over": 2.36,
+  "under": 1.69,
+  "book": "onexbet",
+  "home": "Chelsea",
+  "away": "Crystal Palace",
+  "start": "2026-12-02T19:30:00Z"
+ },
+ "EPL|2026-12-02T19:30:00Z|Hull City": {
+  "pt": 2.5,
+  "T": 2.685,
+  "over": 1.91,
+  "under": 1.93,
+  "book": "pinnacle",
+  "home": "Hull City",
+  "away": "Nottingham Forest",
+  "start": "2026-12-02T19:30:00Z"
+ },
+ "EPL|2026-12-02T19:30:00Z|Manchester City": {
+  "pt": 2.5,
+  "T": 3.058,
+  "over": 1.67,
+  "under": 2.4,
+  "book": "onexbet",
+  "home": "Manchester City",
+  "away": "Leeds United",
+  "start": "2026-12-02T19:30:00Z"
+ },
+ "EPL|2026-12-02T19:30:00Z|Liverpool": {
+  "pt": 2.75,
+  "T": 2.824,
+  "over": 1.79,
+  "under": 2.07,
+  "book": "pinnacle",
+  "home": "Liverpool",
+  "away": "Sunderland",
+  "start": "2026-12-02T19:30:00Z"
+ },
+ "EPL|2026-12-02T20:15:00Z|Brentford": {
+  "pt": 2.75,
+  "T": 2.565,
+  "over": 2.03,
+  "under": 1.82,
+  "book": "pinnacle",
+  "home": "Brentford",
+  "away": "Arsenal",
+  "start": "2026-12-02T20:15:00Z"
+ },
+ "EPL|2026-12-02T20:15:00Z|Aston Villa": {
+  "pt": 2.75,
+  "T": 2.674,
+  "over": 1.92,
+  "under": 1.92,
+  "book": "pinnacle",
+  "home": "Aston Villa",
+  "away": "Everton",
+  "start": "2026-12-02T20:15:00Z"
+ },
+ "EPL|2026-12-02T20:15:00Z|Bournemouth": {
+  "pt": 2.75,
+  "T": 2.711,
+  "over": 1.88,
+  "under": 1.95,
+  "book": "pinnacle",
+  "home": "Bournemouth",
+  "away": "Brighton and Hove Albion",
+  "start": "2026-12-02T20:15:00Z"
+ },
+ "EPL|2026-12-02T20:15:00Z|Newcastle United": {
+  "pt": 3.5,
+  "T": 2.442,
+  "over": 2.23,
+  "under": 1.76,
+  "book": "onexbet",
+  "home": "Newcastle United",
+  "away": "Manchester United",
+  "start": "2026-12-02T20:15:00Z"
+ },
+ "EPL|2026-12-03T20:00:00Z|Tottenham Hotspur": {
+  "pt": 2.75,
+  "T": 2.601,
+  "over": 1.99,
+  "under": 1.85,
+  "book": "pinnacle",
+  "home": "Tottenham Hotspur",
+  "away": "Fulham",
+  "start": "2026-12-03T20:00:00Z"
+ },
+ "ITA|2026-11-23T19:45:00Z|Monza": {
+  "pt": 2.5,
+  "T": 2.769,
+  "over": 1.85,
+  "under": 2.03,
+  "book": "pinnacle",
+  "home": "Monza",
+  "away": "Fiorentina",
+  "start": "2026-11-23T19:45:00Z"
+ },
+ "ITA|2026-11-27T19:45:00Z|Venezia": {
+  "pt": 2.5,
+  "T": 2.561,
+  "over": 2.06,
+  "under": 1.84,
+  "book": "pinnacle",
+  "home": "Venezia",
+  "away": "Bologna",
+  "start": "2026-11-27T19:45:00Z"
+ },
+ "ITA|2026-11-28T14:00:00Z|Frosinone": {
+  "pt": 3.5,
+  "T": 2.533,
+  "over": 2.12,
+  "under": 1.84,
+  "book": "onexbet",
+  "home": "Frosinone",
+  "away": "Parma",
+  "start": "2026-11-28T14:00:00Z"
+ },
+ "ITA|2026-11-28T17:00:00Z|Torino": {
+  "pt": 2.5,
+  "T": 2.732,
+  "over": 1.89,
+  "under": 2.0,
+  "book": "pinnacle",
+  "home": "Torino",
+  "away": "Lazio",
+  "start": "2026-11-28T17:00:00Z"
+ },
+ "ITA|2026-11-28T19:45:00Z|Inter Milan": {
+  "pt": 2.5,
+  "T": 3.074,
+  "over": 1.66,
+  "under": 2.42,
+  "book": "onexbet",
+  "home": "Inter Milan",
+  "away": "Genoa",
+  "start": "2026-11-28T19:45:00Z"
+ },
+ "ITA|2026-11-29T11:30:00Z|Udinese": {
+  "pt": 2.75,
+  "T": 2.685,
+  "over": 1.93,
+  "under": 1.95,
+  "book": "pinnacle",
+  "home": "Udinese",
+  "away": "Fiorentina",
+  "start": "2026-11-29T11:30:00Z"
+ },
+ "ITA|2026-11-29T14:00:00Z|Sassuolo": {
+  "pt": 3.5,
+  "T": 2.307,
+  "over": 2.43,
+  "under": 1.66,
+  "book": "onexbet",
+  "home": "Sassuolo",
+  "away": "Napoli",
+  "start": "2026-11-29T14:00:00Z"
+ },
+ "ITA|2026-11-29T17:00:00Z|AS Roma": {
+  "pt": 3.5,
+  "T": 2.722,
+  "over": 1.89,
+  "under": 1.98,
+  "book": "pinnacle",
+  "home": "AS Roma",
+  "away": "Monza",
+  "start": "2026-11-29T17:00:00Z"
+ },
+ "ITA|2026-11-29T19:45:00Z|Como": {
+  "pt": 2.5,
+  "T": 2.764,
+  "over": 1.86,
+  "under": 2.03,
+  "book": "pinnacle",
+  "home": "Como",
+  "away": "Juventus",
+  "start": "2026-11-29T19:45:00Z"
+ },
+ "ITA|2026-11-30T17:30:00Z|Lecce": {
+  "pt": 2.5,
+  "T": 3.047,
+  "over": 1.68,
+  "under": 2.39,
+  "book": "onexbet",
+  "home": "Lecce",
+  "away": "Atalanta BC",
+  "start": "2026-11-30T17:30:00Z"
+ },
+ "ITA|2026-11-30T19:45:00Z|Cagliari": {
+  "pt": 2.5,
+  "T": 2.732,
+  "over": 1.88,
+  "under": 1.99,
+  "book": "pinnacle",
+  "home": "Cagliari",
+  "away": "AC Milan",
+  "start": "2026-11-30T19:45:00Z"
+ },
+ "ITA|2026-12-04T19:45:00Z|Bologna": {
+  "pt": 2.5,
+  "T": 2.857,
+  "over": 1.76,
+  "under": 2.1,
+  "book": "pinnacle",
+  "home": "Bologna",
+  "away": "AS Roma",
+  "start": "2026-12-04T19:45:00Z"
+ },
+ "ITA|2026-12-05T14:00:00Z|Monza": {
+  "pt": 3.5,
+  "T": 2.347,
+  "over": 2.37,
+  "under": 1.69,
+  "book": "onexbet",
+  "home": "Monza",
+  "away": "Como",
+  "start": "2026-12-05T14:00:00Z"
+ },
+ "ITA|2026-12-05T17:00:00Z|Frosinone": {
+  "pt": 3.5,
+  "T": 3.031,
+  "over": 1.69,
+  "under": 2.37,
+  "book": "onexbet",
+  "home": "Frosinone",
+  "away": "Inter Milan",
+  "start": "2026-12-05T17:00:00Z"
+ },
+ "ITA|2026-12-05T19:45:00Z|Napoli": {
+  "pt": 2.75,
+  "T": 2.846,
+  "over": 1.77,
+  "under": 2.09,
+  "book": "pinnacle",
+  "home": "Napoli",
+  "away": "Lecce",
+  "start": "2026-12-05T19:45:00Z"
+ },
+ "ITA|2026-12-06T11:30:00Z|Genoa": {
+  "pt": 2.25,
+  "T": 2.648,
+  "over": 1.94,
+  "under": 1.89,
+  "book": "pinnacle",
+  "home": "Genoa",
+  "away": "Torino",
+  "start": "2026-12-06T11:30:00Z"
+ },
+ "ITA|2026-12-06T14:00:00Z|Lazio": {
+  "pt": 3.5,
+  "T": 2.285,
+  "over": 2.46,
+  "under": 1.64,
+  "book": "onexbet",
+  "home": "Lazio",
+  "away": "Atalanta BC",
+  "start": "2026-12-06T14:00:00Z"
+ },
+ "ITA|2026-12-06T17:00:00Z|Juventus": {
+  "pt": 2.75,
+  "T": 2.711,
+  "over": 1.88,
+  "under": 1.95,
+  "book": "pinnacle",
+  "home": "Juventus",
+  "away": "Udinese",
+  "start": "2026-12-06T17:00:00Z"
+ },
+ "ITA|2026-12-06T19:45:00Z|AC Milan": {
+  "pt": 2.75,
+  "T": 2.776,
+  "over": 1.82,
+  "under": 2.01,
+  "book": "pinnacle",
+  "home": "AC Milan",
+  "away": "Parma",
+  "start": "2026-12-06T19:45:00Z"
+ },
+ "ITA|2026-12-07T17:30:00Z|Venezia": {
+  "pt": 2.5,
+  "T": 2.926,
+  "over": 1.76,
+  "under": 2.24,
+  "book": "onexbet",
+  "home": "Venezia",
+  "away": "Sassuolo",
+  "start": "2026-12-07T17:30:00Z"
+ },
+ "ITA|2026-12-07T19:45:00Z|Fiorentina": {
+  "pt": 2.75,
+  "T": 2.711,
+  "over": 1.88,
+  "under": 1.95,
+  "book": "pinnacle",
+  "home": "Fiorentina",
+  "away": "Cagliari",
+  "start": "2026-12-07T19:45:00Z"
+ },
+ "ESP|2026-11-23T20:00:00Z|Levante": {
+  "pt": 1.5,
+  "T": 2.626,
+  "over": 1.94,
+  "under": 1.85,
+  "book": "marathonbet",
+  "home": "Levante",
+  "away": "Elche CF",
+  "start": "2026-11-23T20:00:00Z"
+ },
+ "ESP|2026-11-27T20:00:00Z|Levante": {
+  "pt": 3.5,
+  "T": 2.428,
+  "over": 2.25,
+  "under": 1.75,
+  "book": "onexbet",
+  "home": "Levante",
+  "away": "Real Racing Club de Santander",
+  "start": "2026-11-27T20:00:00Z"
+ },
+ "ESP|2026-11-28T13:00:00Z|Real Betis": {
+  "pt": 3.5,
+  "T": 2.294,
+  "over": 2.45,
+  "under": 1.65,
+  "book": "onexbet",
+  "home": "Real Betis",
+  "away": "Rayo Vallecano",
+  "start": "2026-11-28T13:00:00Z"
+ },
+ "ESP|2026-11-28T15:15:00Z|M\u00e1laga": {
+  "pt": 2.5,
+  "T": 2.674,
+  "over": 1.94,
+  "under": 1.94,
+  "book": "pinnacle",
+  "home": "M\u00e1laga",
+  "away": "Athletic Bilbao",
+  "start": "2026-11-28T15:15:00Z"
+ },
+ "ESP|2026-11-28T17:30:00Z|Elche CF": {
+  "pt": 2.5,
+  "T": 3.126,
+  "over": 1.63,
+  "under": 2.49,
+  "book": "onexbet",
+  "home": "Elche CF",
+  "away": "Atl\u00e9tico Madrid",
+  "start": "2026-11-28T17:30:00Z"
+ },
+ "ESP|2026-11-28T20:00:00Z|Real Madrid": {
+  "pt": 3.5,
+  "T": 2.732,
+  "over": 1.88,
+  "under": 1.99,
+  "book": "pinnacle",
+  "home": "Real Madrid",
+  "away": "Alav\u00e9s",
+  "start": "2026-11-28T20:00:00Z"
+ },
+ "ESP|2026-11-29T13:00:00Z|Valencia": {
+  "pt": 2.25,
+  "T": 2.648,
+  "over": 1.97,
+  "under": 1.92,
+  "book": "pinnacle",
+  "home": "Valencia",
+  "away": "CA Osasuna",
+  "start": "2026-11-29T13:00:00Z"
+ },
+ "ESP|2026-11-29T15:15:00Z|Deportivo La Coru\u00f1a": {
+  "pt": 3.5,
+  "T": 2.921,
+  "over": 1.76,
+  "under": 2.23,
+  "book": "onexbet",
+  "home": "Deportivo La Coru\u00f1a",
+  "away": "Barcelona",
+  "start": "2026-11-29T15:15:00Z"
+ },
+ "ESP|2026-11-29T17:30:00Z|Celta Vigo": {
+  "pt": 2.5,
+  "T": 2.838,
+  "over": 1.8,
+  "under": 2.11,
+  "book": "pinnacle",
+  "home": "Celta Vigo",
+  "away": "Villarreal",
+  "start": "2026-11-29T17:30:00Z"
+ },
+ "ESP|2026-11-29T20:00:00Z|Real Sociedad": {
+  "pt": 2.5,
+  "T": 2.806,
+  "over": 1.83,
+  "under": 2.08,
+  "book": "pinnacle",
+  "home": "Real Sociedad",
+  "away": "Sevilla",
+  "start": "2026-11-29T20:00:00Z"
+ },
+ "ESP|2026-11-30T20:00:00Z|Espanyol": {
+  "pt": 2.5,
+  "T": 2.224,
+  "over": 2.57,
+  "under": 1.6,
+  "book": "onexbet",
+  "home": "Espanyol",
+  "away": "Getafe",
+  "start": "2026-11-30T20:00:00Z"
+ },
+ "ESP|2026-12-02T18:00:00Z|Real Sociedad": {
+  "pt": 3.5,
+  "T": 2.783,
+  "over": 1.87,
+  "under": 2.08,
+  "book": "onexbet",
+  "home": "Real Sociedad",
+  "away": "Real Madrid",
+  "start": "2026-12-02T18:00:00Z"
+ },
+ "ESP|2026-12-02T20:30:00Z|Barcelona": {
+  "pt": 3.5,
+  "T": 2.851,
+  "over": 1.77,
+  "under": 2.1,
+  "book": "pinnacle",
+  "home": "Barcelona",
+  "away": "Atl\u00e9tico Madrid",
+  "start": "2026-12-02T20:30:00Z"
+ },
+ "ESP|2026-12-04T20:00:00Z|Alav\u00e9s": {
+  "pt": 2.25,
+  "T": 2.792,
+  "over": 1.81,
+  "under": 2.03,
+  "book": "pinnacle",
+  "home": "Alav\u00e9s",
+  "away": "Espanyol",
+  "start": "2026-12-04T20:00:00Z"
+ },
+ "ESP|2026-12-05T13:00:00Z|Real Racing Club de Santander": {
+  "pt": 2.75,
+  "T": 2.824,
+  "over": 1.79,
+  "under": 2.07,
+  "book": "pinnacle",
+  "home": "Real Racing Club de Santander",
+  "away": "Deportivo La Coru\u00f1a",
+  "start": "2026-12-05T13:00:00Z"
+ },
+ "ESP|2026-12-05T15:15:00Z|Rayo Vallecano": {
+  "pt": 2.75,
+  "T": 2.664,
+  "over": 1.93,
+  "under": 1.91,
+  "book": "pinnacle",
+  "home": "Rayo Vallecano",
+  "away": "Levante",
+  "start": "2026-12-05T15:15:00Z"
+ },
+ "ESP|2026-12-05T17:30:00Z|Villarreal": {
+  "pt": 3.5,
+  "T": 2.558,
+  "over": 2.09,
+  "under": 1.86,
+  "book": "onexbet",
+  "home": "Villarreal",
+  "away": "Real Sociedad",
+  "start": "2026-12-05T17:30:00Z"
+ },
+ "ESP|2026-12-05T20:00:00Z|Barcelona": {
+  "pt": 4.5,
+  "T": 2.404,
+  "over": 2.28,
+  "under": 1.73,
+  "book": "onexbet",
+  "home": "Barcelona",
+  "away": "Celta Vigo",
+  "start": "2026-12-05T20:00:00Z"
+ },
+ "ESP|2026-12-06T13:00:00Z|CA Osasuna": {
+  "pt": 2.5,
+  "T": 2.658,
+  "over": 1.93,
+  "under": 1.9,
+  "book": "pinnacle",
+  "home": "CA Osasuna",
+  "away": "Elche CF",
+  "start": "2026-12-06T13:00:00Z"
+ },
+ "ESP|2026-12-06T15:15:00Z|Athletic Bilbao": {
+  "pt": 3.5,
+  "T": 2.307,
+  "over": 2.43,
+  "under": 1.66,
+  "book": "onexbet",
+  "home": "Athletic Bilbao",
+  "away": "Real Madrid",
+  "start": "2026-12-06T15:15:00Z"
+ },
+ "ESP|2026-12-06T17:30:00Z|Getafe": {
+  "pt": 1.5,
+  "T": 3.193,
+  "over": 1.59,
+  "under": 2.58,
+  "book": "onexbet",
+  "home": "Getafe",
+  "away": "Valencia",
+  "start": "2026-12-06T17:30:00Z"
+ },
+ "ESP|2026-12-06T20:00:00Z|Atl\u00e9tico Madrid": {
+  "pt": 3.5,
+  "T": 2.337,
+  "over": 2.38,
+  "under": 1.68,
+  "book": "onexbet",
+  "home": "Atl\u00e9tico Madrid",
+  "away": "Real Betis",
+  "start": "2026-12-06T20:00:00Z"
+ },
+ "ESP|2026-12-07T20:00:00Z|Sevilla": {
+  "pt": 2.5,
+  "T": 2.824,
+  "over": 1.79,
+  "under": 2.07,
+  "book": "pinnacle",
+  "home": "Sevilla",
+  "away": "M\u00e1laga",
+  "start": "2026-12-07T20:00:00Z"
+ },
+ "FRA1|2026-11-27T19:45:00Z|Brest": {
+  "pt": 2.75,
+  "T": 2.502,
+  "over": 2.13,
+  "under": 1.79,
+  "book": "pinnacle",
+  "home": "Brest",
+  "away": "Paris FC",
+  "start": "2026-11-27T19:45:00Z"
+ },
+ "FRA1|2026-11-28T16:15:00Z|Angers": {
+  "pt": 2.75,
+  "T": 2.779,
+  "over": 1.85,
+  "under": 2.05,
+  "book": "pinnacle",
+  "home": "Angers",
+  "away": "RC Lens",
+  "start": "2026-11-28T16:15:00Z"
+ },
+ "FRA1|2026-11-28T19:45:00Z|Le Havre": {
+  "pt": 2.5,
+  "T": 3.042,
+  "over": 1.68,
+  "under": 2.38,
+  "book": "onexbet",
+  "home": "Le Havre",
+  "away": "Strasbourg",
+  "start": "2026-11-28T19:45:00Z"
+ },
+ "FRA1|2026-11-28T19:45:00Z|Le Mans FC": {
+  "pt": 2.5,
+  "T": 2.512,
+  "over": 2.12,
+  "under": 1.8,
+  "book": "pinnacle",
+  "home": "Le Mans FC",
+  "away": "Lille",
+  "start": "2026-11-28T19:45:00Z"
+ },
+ "FRA1|2026-11-28T19:45:00Z|Paris Saint Germain": {
+  "pt": 3.5,
+  "T": 2.451,
+  "over": 2.22,
+  "under": 1.77,
+  "book": "onexbet",
+  "home": "Paris Saint Germain",
+  "away": "Lorient",
+  "start": "2026-11-28T19:45:00Z"
+ },
+ "FRA1|2026-11-28T19:45:00Z|Nice": {
+  "pt": 2.75,
+  "T": 2.796,
+  "over": 1.83,
+  "under": 2.06,
+  "book": "pinnacle",
+  "home": "Nice",
+  "away": "Troyes",
+  "start": "2026-11-28T19:45:00Z"
+ },
+ "FRA1|2026-11-29T14:00:00Z|Auxerre": {
+  "pt": 2.5,
+  "T": 3.11,
+  "over": 1.64,
+  "under": 2.47,
+  "book": "onexbet",
+  "home": "Auxerre",
+  "away": "Marseille",
+  "start": "2026-11-29T14:00:00Z"
+ },
+ "FRA1|2026-11-29T16:15:00Z|Toulouse": {
+  "pt": 2.5,
+  "T": 3.11,
+  "over": 1.64,
+  "under": 2.47,
+  "book": "onexbet",
+  "home": "Toulouse",
+  "away": "Rennes",
+  "start": "2026-11-29T16:15:00Z"
+ },
+ "FRA1|2026-11-29T19:45:00Z|Lyon": {
+  "pt": 2.5,
+  "T": 2.664,
+  "over": 1.95,
+  "under": 1.93,
+  "book": "pinnacle",
+  "home": "Lyon",
+  "away": "AS Monaco",
+  "start": "2026-11-29T19:45:00Z"
+ },
+ "FRA1|2026-12-04T19:45:00Z|Toulouse": {
+  "pt": 3.5,
+  "T": 2.494,
+  "over": 2.17,
+  "under": 1.81,
+  "book": "onexbet",
+  "home": "Toulouse",
+  "away": "Paris Saint Germain",
+  "start": "2026-12-04T19:45:00Z"
+ },
+ "FRA1|2026-12-05T16:15:00Z|Lille": {
+  "pt": 2.75,
+  "T": 2.534,
+  "over": 2.06,
+  "under": 1.79,
+  "book": "pinnacle",
+  "home": "Lille",
+  "away": "Auxerre",
+  "start": "2026-12-05T16:15:00Z"
+ },
+ "FRA1|2026-12-05T19:45:00Z|AS Monaco": {
+  "pt": 3.5,
+  "T": 2.35,
+  "over": 2.36,
+  "under": 1.69,
+  "book": "onexbet",
+  "home": "AS Monaco",
+  "away": "Angers",
+  "start": "2026-12-05T19:45:00Z"
+ },
+ "FRA1|2026-12-05T19:45:00Z|RC Lens": {
+  "pt": 3.5,
+  "T": 2.294,
+  "over": 2.45,
+  "under": 1.65,
+  "book": "onexbet",
+  "home": "RC Lens",
+  "away": "Le Havre",
+  "start": "2026-12-05T19:45:00Z"
+ },
+ "FRA1|2026-12-05T19:45:00Z|Paris FC": {
+  "pt": 2.5,
+  "T": 3.058,
+  "over": 1.67,
+  "under": 2.4,
+  "book": "onexbet",
+  "home": "Paris FC",
+  "away": "Le Mans FC",
+  "start": "2026-12-05T19:45:00Z"
+ },
+ "FRA1|2026-12-05T19:45:00Z|Strasbourg": {
+  "pt": 2.5,
+  "T": 2.575,
+  "over": 2.02,
+  "under": 1.83,
+  "book": "pinnacle",
+  "home": "Strasbourg",
+  "away": "Lorient",
+  "start": "2026-12-05T19:45:00Z"
+ },
+ "FRA1|2026-12-06T14:00:00Z|Troyes": {
+  "pt": 2.75,
+  "T": 2.529,
+  "over": 2.07,
+  "under": 1.79,
+  "book": "pinnacle",
+  "home": "Troyes",
+  "away": "Lyon",
+  "start": "2026-12-06T14:00:00Z"
+ },
+ "FRA1|2026-12-06T16:15:00Z|Rennes": {
+  "pt": 2.75,
+  "T": 2.824,
+  "over": 1.79,
+  "under": 2.07,
+  "book": "pinnacle",
+  "home": "Rennes",
+  "away": "Brest",
+  "start": "2026-12-06T16:15:00Z"
+ },
+ "FRA1|2026-12-06T19:45:00Z|Marseille": {
+  "pt": 2.5,
+  "T": 3.126,
+  "over": 1.63,
+  "under": 2.49,
+  "book": "onexbet",
+  "home": "Marseille",
+  "away": "Nice",
+  "start": "2026-12-06T19:45:00Z"
+ },
+ "GER1|2026-11-27T19:30:00Z|Werder Bremen": {
+  "pt": 3.5,
+  "T": 2.404,
+  "over": 2.28,
+  "under": 1.73,
+  "book": "onexbet",
+  "home": "Werder Bremen",
+  "away": "Borussia Monchengladbach",
+  "start": "2026-11-27T19:30:00Z"
+ },
+ "GER1|2026-11-28T14:30:00Z|1. FC K\u00f6ln": {
+  "pt": 3.5,
+  "T": 2.294,
+  "over": 2.45,
+  "under": 1.65,
+  "book": "onexbet",
+  "home": "1. FC K\u00f6ln",
+  "away": "Elversberg",
+  "start": "2026-11-28T14:30:00Z"
+ },
+ "GER1|2026-11-28T14:30:00Z|Hamburger SV": {
+  "pt": 3.5,
+  "T": 2.937,
+  "over": 1.75,
+  "under": 2.25,
+  "book": "onexbet",
+  "home": "Hamburger SV",
+  "away": "Bayern Munich",
+  "start": "2026-11-28T14:30:00Z"
+ },
+ "GER1|2026-11-28T14:30:00Z|SC Paderborn": {
+  "pt": 2.75,
+  "T": 2.586,
+  "over": 2.03,
+  "under": 1.86,
+  "book": "pinnacle",
+  "home": "SC Paderborn",
+  "away": "FC Schalke 04",
+  "start": "2026-11-28T14:30:00Z"
+ },
+ "GER1|2026-11-28T14:30:00Z|FSV Mainz 05": {
+  "pt": 3.5,
+  "T": 2.311,
+  "over": 2.42,
+  "under": 1.66,
+  "book": "onexbet",
+  "home": "FSV Mainz 05",
+  "away": "Union Berlin",
+  "start": "2026-11-28T14:30:00Z"
+ },
+ "GER1|2026-11-28T17:30:00Z|VfB Stuttgart": {
+  "pt": 3.5,
+  "T": 2.91,
+  "over": 1.77,
+  "under": 2.22,
+  "book": "onexbet",
+  "home": "VfB Stuttgart",
+  "away": "Eintracht Frankfurt",
+  "start": "2026-11-28T17:30:00Z"
+ },
+ "GER1|2026-11-29T14:30:00Z|SC Freiburg": {
+  "pt": 3.5,
+  "T": 2.451,
+  "over": 2.22,
+  "under": 1.77,
+  "book": "onexbet",
+  "home": "SC Freiburg",
+  "away": "RB Leipzig",
+  "start": "2026-11-29T14:30:00Z"
+ },
+ "GER1|2026-11-29T16:30:00Z|TSG Hoffenheim": {
+  "pt": 3.5,
+  "T": 2.815,
+  "over": 1.84,
+  "under": 2.11,
+  "book": "onexbet",
+  "home": "TSG Hoffenheim",
+  "away": "Augsburg",
+  "start": "2026-11-29T16:30:00Z"
+ },
+ "GER1|2026-11-29T18:30:00Z|Borussia Dortmund": {
+  "pt": 3.5,
+  "T": 2.428,
+  "over": 2.25,
+  "under": 1.75,
+  "book": "onexbet",
+  "home": "Borussia Dortmund",
+  "away": "Bayer Leverkusen",
+  "start": "2026-11-29T18:30:00Z"
+ },
+ "GER1|2026-12-04T19:30:00Z|Bayern Munich": {
+  "pt": 4.5,
+  "T": 2.728,
+  "over": 1.85,
+  "under": 1.95,
+  "book": "pinnacle",
+  "home": "Bayern Munich",
+  "away": "SC Paderborn",
+  "start": "2026-12-04T19:30:00Z"
+ },
+ "GER1|2026-12-05T14:30:00Z|Augsburg": {
+  "pt": 3.5,
+  "T": 2.494,
+  "over": 2.17,
+  "under": 1.81,
+  "book": "onexbet",
+  "home": "Augsburg",
+  "away": "1. FC K\u00f6ln",
+  "start": "2026-12-05T14:30:00Z"
+ },
+ "GER1|2026-12-05T14:30:00Z|Bayer Leverkusen": {
+  "pt": 3.5,
+  "T": 2.831,
+  "over": 1.83,
+  "under": 2.13,
+  "book": "onexbet",
+  "home": "Bayer Leverkusen",
+  "away": "Borussia Monchengladbach",
+  "start": "2026-12-05T14:30:00Z"
+ },
+ "GER1|2026-12-05T14:30:00Z|RB Leipzig": {
+  "pt": 3.5,
+  "T": 2.727,
+  "over": 1.87,
+  "under": 1.97,
+  "book": "pinnacle",
+  "home": "RB Leipzig",
+  "away": "FSV Mainz 05",
+  "start": "2026-12-05T14:30:00Z"
+ },
+ "GER1|2026-12-05T14:30:00Z|Union Berlin": {
+  "pt": 2.75,
+  "T": 2.717,
+  "over": 1.88,
+  "under": 1.96,
+  "book": "pinnacle",
+  "home": "Union Berlin",
+  "away": "Hamburger SV",
+  "start": "2026-12-05T14:30:00Z"
+ },
+ "GER1|2026-12-05T14:30:00Z|SC Freiburg": {
+  "pt": 3.5,
+  "T": 2.373,
+  "over": 2.33,
+  "under": 1.71,
+  "book": "onexbet",
+  "home": "SC Freiburg",
+  "away": "TSG Hoffenheim",
+  "start": "2026-12-05T14:30:00Z"
+ },
+ "GER1|2026-12-05T17:30:00Z|Eintracht Frankfurt": {
+  "pt": 3.5,
+  "T": 2.558,
+  "over": 2.09,
+  "under": 1.86,
+  "book": "onexbet",
+  "home": "Eintracht Frankfurt",
+  "away": "Werder Bremen",
+  "start": "2026-12-05T17:30:00Z"
+ },
+ "GER1|2026-12-06T14:30:00Z|FC Schalke 04": {
+  "pt": 3.5,
+  "T": 2.272,
+  "over": 2.48,
+  "under": 1.63,
+  "book": "onexbet",
+  "home": "FC Schalke 04",
+  "away": "Borussia Dortmund",
+  "start": "2026-12-06T14:30:00Z"
+ },
+ "GER1|2026-12-06T16:30:00Z|Elversberg": {
+  "pt": 3.5,
+  "T": 2.69,
+  "over": 1.9,
+  "under": 1.93,
+  "book": "pinnacle",
+  "home": "Elversberg",
+  "away": "VfB Stuttgart",
+  "start": "2026-12-06T16:30:00Z"
+ },
+ "GER2|2026-11-27T17:30:00Z|1. FC Heidenheim": {
+  "pt": 3.5,
+  "T": 2.648,
+  "over": 1.94,
+  "under": 1.89,
+  "book": "pinnacle",
+  "home": "1. FC Heidenheim",
+  "away": "1. FC N\u00fcrnberg",
+  "start": "2026-11-27T17:30:00Z"
+ },
+ "GER2|2026-11-27T17:30:00Z|VfL Bochum": {
+  "pt": 2.5,
+  "T": 3.101,
+  "over": 1.56,
+  "under": 2.33,
+  "book": "onexbet",
+  "home": "VfL Bochum",
+  "away": "SV Darmstadt 98",
+  "start": "2026-11-27T17:30:00Z"
+ },
+ "GER2|2026-11-28T12:00:00Z|Holstein Kiel": {
+  "pt": 2.75,
+  "T": 2.69,
+  "over": 1.9,
+  "under": 1.93,
+  "book": "pinnacle",
+  "home": "Holstein Kiel",
+  "away": "1. FC Kaiserslautern",
+  "start": "2026-11-28T12:00:00Z"
+ },
+ "GER2|2026-11-28T12:00:00Z|Dynamo Dresden": {
+  "pt": 2.75,
+  "T": 2.701,
+  "over": 1.89,
+  "under": 1.94,
+  "book": "pinnacle",
+  "home": "Dynamo Dresden",
+  "away": "FC St. Pauli",
+  "start": "2026-11-28T12:00:00Z"
+ },
+ "GER2|2026-11-28T12:00:00Z|Hertha Berlin": {
+  "pt": 3.5,
+  "T": 2.674,
+  "over": 1.92,
+  "under": 1.92,
+  "book": "pinnacle",
+  "home": "Hertha Berlin",
+  "away": "Karlsruher SC",
+  "start": "2026-11-28T12:00:00Z"
+ },
+ "GER2|2026-11-28T19:30:00Z|VfL Osnabr\u00fcck": {
+  "pt": 3.5,
+  "T": 2.273,
+  "over": 2.28,
+  "under": 1.5,
+  "book": "onexbet",
+  "home": "VfL Osnabr\u00fcck",
+  "away": "Hannover 96",
+  "start": "2026-11-28T19:30:00Z"
+ },
+ "GER2|2026-11-29T12:30:00Z|1. FC Magdeburg": {
+  "pt": 3.5,
+  "T": 2.648,
+  "over": 1.94,
+  "under": 1.89,
+  "book": "pinnacle",
+  "home": "1. FC Magdeburg",
+  "away": "FC Energie Cottbus",
+  "start": "2026-11-29T12:30:00Z"
+ },
+ "GER2|2026-11-29T12:30:00Z|Greuther F\u00fcrth": {
+  "pt": 2.75,
+  "T": 2.727,
+  "over": 1.87,
+  "under": 1.97,
+  "book": "pinnacle",
+  "home": "Greuther F\u00fcrth",
+  "away": "Arminia Bielefeld",
+  "start": "2026-11-29T12:30:00Z"
+ },
+ "GER2|2026-11-29T12:30:00Z|Eintracht Braunschweig": {
+  "pt": 3.5,
+  "T": 2.552,
+  "over": 1.99,
+  "under": 1.76,
+  "book": "onexbet",
+  "home": "Eintracht Braunschweig",
+  "away": "VfL Wolfsburg",
+  "start": "2026-11-29T12:30:00Z"
+ },
+ "NED|2026-11-27T19:00:00Z|Groningen": {
+  "pt": 3.5,
+  "T": 2.658,
+  "over": 1.93,
+  "under": 1.9,
+  "book": "pinnacle",
+  "home": "Groningen",
+  "away": "Willem II",
+  "start": "2026-11-27T19:00:00Z"
+ },
+ "NED|2026-11-28T15:30:00Z|Excelsior": {
+  "pt": 3.5,
+  "T": 2.289,
+  "over": 2.39,
+  "under": 1.6,
+  "book": "onexbet",
+  "home": "Excelsior",
+  "away": "SC Telstar",
+  "start": "2026-11-28T15:30:00Z"
+ },
+ "NED|2026-11-28T17:45:00Z|PSV Eindhoven": {
+  "pt": 4.5,
+  "T": 2.403,
+  "over": 2.23,
+  "under": 1.69,
+  "book": "onexbet",
+  "home": "PSV Eindhoven",
+  "away": "Go Ahead Eagles",
+  "start": "2026-11-28T17:45:00Z"
+ },
+ "NED|2026-11-28T20:00:00Z|SC Cambuur": {
+  "pt": 3.5,
+  "T": 2.441,
+  "over": 2.18,
+  "under": 1.72,
+  "book": "onexbet",
+  "home": "SC Cambuur",
+  "away": "Sparta Rotterdam",
+  "start": "2026-11-28T20:00:00Z"
+ },
+ "NED|2026-11-29T11:15:00Z|ADO Den Haag": {
+  "pt": 2.5,
+  "T": 3.068,
+  "over": 1.62,
+  "under": 2.35,
+  "book": "onexbet",
+  "home": "ADO Den Haag",
+  "away": "FC Utrecht",
+  "start": "2026-11-29T11:15:00Z"
+ },
+ "NED|2026-11-29T13:30:00Z|Feyenoord": {
+  "pt": 3.5,
+  "T": 2.622,
+  "over": 1.97,
+  "under": 1.87,
+  "book": "pinnacle",
+  "home": "Feyenoord",
+  "away": "Ajax",
+  "start": "2026-11-29T13:30:00Z"
+ },
+ "NED|2026-11-29T13:30:00Z|Fortuna Sittard": {
+  "pt": 3.5,
+  "T": 2.403,
+  "over": 2.23,
+  "under": 1.69,
+  "book": "onexbet",
+  "home": "Fortuna Sittard",
+  "away": "Heerenveen",
+  "start": "2026-11-29T13:30:00Z"
+ },
+ "NED|2026-11-29T15:45:00Z|FC Zwolle": {
+  "pt": 3.5,
+  "T": 2.446,
+  "over": 2.17,
+  "under": 1.72,
+  "book": "onexbet",
+  "home": "FC Zwolle",
+  "away": "AZ Alkmaar",
+  "start": "2026-11-29T15:45:00Z"
+ },
+ "NED|2026-11-29T19:00:00Z|NEC Nijmegen": {
+  "pt": 3.5,
+  "T": 2.611,
+  "over": 1.98,
+  "under": 1.86,
+  "book": "pinnacle",
+  "home": "NEC Nijmegen",
+  "away": "FC Twente Enschede",
+  "start": "2026-11-29T19:00:00Z"
+ },
+ "ENG2|2026-11-24T19:45:00Z|Bristol City": {
+  "pt": 2.25,
+  "T": 2.753,
+  "over": 1.86,
+  "under": 2.01,
+  "book": "pinnacle",
+  "home": "Bristol City",
+  "away": "Wrexham AFC",
+  "start": "2026-11-24T19:45:00Z"
+ },
+ "ENG2|2026-11-24T19:45:00Z|Cardiff City": {
+  "pt": 3.5,
+  "T": 2.5,
+  "over": 2.05,
+  "under": 1.72,
+  "book": "onexbet",
+  "home": "Cardiff City",
+  "away": "Preston North End",
+  "start": "2026-11-24T19:45:00Z"
+ },
+ "ENG2|2026-11-24T19:45:00Z|Charlton Athletic": {
+  "pt": 2.5,
+  "T": 2.556,
+  "over": 2.06,
+  "under": 1.83,
+  "book": "pinnacle",
+  "home": "Charlton Athletic",
+  "away": "Lincoln City",
+  "start": "2026-11-24T19:45:00Z"
+ },
+ "ENG2|2026-11-24T19:45:00Z|Middlesbrough": {
+  "pt": 3.5,
+  "T": 2.303,
+  "over": 2.31,
+  "under": 1.57,
+  "book": "onexbet",
+  "home": "Middlesbrough",
+  "away": "Swansea City",
+  "start": "2026-11-24T19:45:00Z"
+ },
+ "ENG2|2026-11-24T19:45:00Z|Norwich City": {
+  "pt": 2.75,
+  "T": 2.769,
+  "over": 1.85,
+  "under": 2.03,
+  "book": "pinnacle",
+  "home": "Norwich City",
+  "away": "Queens Park Rangers",
+  "start": "2026-11-24T19:45:00Z"
+ },
+ "ENG2|2026-11-24T19:45:00Z|Portsmouth": {
+  "pt": 2.75,
+  "T": 2.561,
+  "over": 2.05,
+  "under": 1.83,
+  "book": "pinnacle",
+  "home": "Portsmouth",
+  "away": "West Ham United",
+  "start": "2026-11-24T19:45:00Z"
+ },
+ "ENG2|2026-11-24T19:45:00Z|Sheffield United": {
+  "pt": 2.75,
+  "T": 2.737,
+  "over": 1.88,
+  "under": 2.0,
+  "book": "pinnacle",
+  "home": "Sheffield United",
+  "away": "Southampton",
+  "start": "2026-11-24T19:45:00Z"
+ },
+ "ENG2|2026-11-24T20:00:00Z|Wolverhampton Wanderers": {
+  "pt": 3.5,
+  "T": 2.275,
+  "over": 2.35,
+  "under": 1.55,
+  "book": "onexbet",
+  "home": "Wolverhampton Wanderers",
+  "away": "Derby County",
+  "start": "2026-11-24T20:00:00Z"
+ },
+ "ENG2|2026-11-25T19:45:00Z|Burnley": {
+  "pt": 2.75,
+  "T": 2.701,
+  "over": 1.89,
+  "under": 1.94,
+  "book": "pinnacle",
+  "home": "Burnley",
+  "away": "Birmingham City",
+  "start": "2026-11-25T19:45:00Z"
+ },
+ "ENG2|2026-11-25T19:45:00Z|Watford": {
+  "pt": 2.5,
+  "T": 2.77,
+  "over": 1.83,
+  "under": 2.01,
+  "book": "pinnacle",
+  "home": "Watford",
+  "away": "Blackburn Rovers",
+  "start": "2026-11-25T19:45:00Z"
+ },
+ "ENG2|2026-11-25T19:45:00Z|Bolton Wanderers": {
+  "pt": 2.75,
+  "T": 2.674,
+  "over": 1.92,
+  "under": 1.92,
+  "book": "pinnacle",
+  "home": "Bolton Wanderers",
+  "away": "West Bromwich Albion",
+  "start": "2026-11-25T19:45:00Z"
+ },
+ "ENG2|2026-11-25T20:00:00Z|Stoke City": {
+  "pt": 2.5,
+  "T": 2.59,
+  "over": 2.0,
+  "under": 1.84,
+  "book": "pinnacle",
+  "home": "Stoke City",
+  "away": "Millwall",
+  "start": "2026-11-25T20:00:00Z"
+ },
+ "ENG2|2026-11-27T20:00:00Z|Southampton": {
+  "pt": 3.5,
+  "T": 2.344,
+  "over": 2.25,
+  "under": 1.6,
+  "book": "onexbet",
+  "home": "Southampton",
+  "away": "Middlesbrough",
+  "start": "2026-11-27T20:00:00Z"
+ },
+ "ENG2|2026-11-28T12:30:00Z|Blackburn Rovers": {
+  "pt": 2.5,
+  "T": 2.718,
+  "over": 1.83,
+  "under": 1.91,
+  "book": "onexbet",
+  "home": "Blackburn Rovers",
+  "away": "Charlton Athletic",
+  "start": "2026-11-28T12:30:00Z"
+ },
+ "ENG2|2026-11-28T12:30:00Z|Lincoln City": {
+  "pt": 2.5,
+  "T": 2.856,
+  "over": 1.72,
+  "under": 2.05,
+  "book": "onexbet",
+  "home": "Lincoln City",
+  "away": "Wolverhampton Wanderers",
+  "start": "2026-11-28T12:30:00Z"
+ },
+ "ENG2|2026-11-28T12:30:00Z|Preston North End": {
+  "pt": 3.5,
+  "T": 2.401,
+  "over": 2.17,
+  "under": 1.64,
+  "book": "onexbet",
+  "home": "Preston North End",
+  "away": "Norwich City",
+  "start": "2026-11-28T12:30:00Z"
+ },
+ "ENG2|2026-11-28T15:00:00Z|Birmingham City": {
+  "pt": 2.5,
+  "T": 3.051,
+  "over": 1.59,
+  "under": 2.27,
+  "book": "onexbet",
+  "home": "Birmingham City",
+  "away": "Bolton Wanderers",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "ENG2|2026-11-28T15:00:00Z|West Bromwich Albion": {
+  "pt": 2.5,
+  "T": 2.762,
+  "over": 1.79,
+  "under": 1.95,
+  "book": "onexbet",
+  "home": "West Bromwich Albion",
+  "away": "Bristol City",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "ENG2|2026-11-28T15:00:00Z|Millwall": {
+  "pt": 2.5,
+  "T": 3.013,
+  "over": 1.61,
+  "under": 2.22,
+  "book": "onexbet",
+  "home": "Millwall",
+  "away": "Burnley",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "ENG2|2026-11-28T15:00:00Z|Derby County": {
+  "pt": 2.5,
+  "T": 2.696,
+  "over": 1.85,
+  "under": 1.89,
+  "book": "onexbet",
+  "home": "Derby County",
+  "away": "Watford",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "ENG2|2026-11-28T15:00:00Z|Wrexham AFC": {
+  "pt": 2.5,
+  "T": 2.588,
+  "over": 1.95,
+  "under": 1.79,
+  "book": "onexbet",
+  "home": "Wrexham AFC",
+  "away": "Portsmouth",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "ENG2|2026-11-28T15:00:00Z|Queens Park Rangers": {
+  "pt": 2.5,
+  "T": 3.001,
+  "over": 1.62,
+  "under": 2.21,
+  "book": "onexbet",
+  "home": "Queens Park Rangers",
+  "away": "Sheffield United",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "ENG2|2026-11-28T15:00:00Z|West Ham United": {
+  "pt": 2.5,
+  "T": 3.034,
+  "over": 1.6,
+  "under": 2.25,
+  "book": "onexbet",
+  "home": "West Ham United",
+  "away": "Stoke City",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "ENG2|2026-11-29T12:00:00Z|Swansea City": {
+  "pt": 2.5,
+  "T": 3.117,
+  "over": 1.55,
+  "under": 2.35,
+  "book": "onexbet",
+  "home": "Swansea City",
+  "away": "Cardiff City",
+  "start": "2026-11-29T12:00:00Z"
+ },
+ "POR|2026-11-27T20:15:00Z|CS Maritimo": {
+  "pt": 2.25,
+  "T": 2.749,
+  "over": 1.85,
+  "under": 1.99,
+  "book": "pinnacle",
+  "home": "CS Maritimo",
+  "away": "Nacional",
+  "start": "2026-11-27T20:15:00Z"
+ },
+ "POR|2026-11-28T15:30:00Z|Arouca": {
+  "pt": 2.5,
+  "T": 2.653,
+  "over": 1.93,
+  "under": 1.89,
+  "book": "pinnacle",
+  "home": "Arouca",
+  "away": "Rio Ave FC",
+  "start": "2026-11-28T15:30:00Z"
+ },
+ "POR|2026-11-28T15:30:00Z|Moreirense FC": {
+  "pt": 2.5,
+  "T": 2.307,
+  "over": 2.3,
+  "under": 1.57,
+  "book": "williamhill",
+  "home": "Moreirense FC",
+  "away": "Santa Clara",
+  "start": "2026-11-28T15:30:00Z"
+ },
+ "POR|2026-11-28T18:00:00Z|Acad\u00e9mico de Viseu": {
+  "pt": 2.5,
+  "T": 2.565,
+  "over": 2.03,
+  "under": 1.82,
+  "book": "pinnacle",
+  "home": "Acad\u00e9mico de Viseu",
+  "away": "Alverca",
+  "start": "2026-11-28T18:00:00Z"
+ },
+ "POR|2026-11-28T20:30:00Z|Vit\u00f3ria SC": {
+  "pt": 2.5,
+  "T": 2.759,
+  "over": 1.84,
+  "under": 2.0,
+  "book": "pinnacle",
+  "home": "Vit\u00f3ria SC",
+  "away": "CF Estrela",
+  "start": "2026-11-28T20:30:00Z"
+ },
+ "POR|2026-11-29T18:00:00Z|Gil Vicente": {
+  "pt": 2.5,
+  "T": 2.632,
+  "over": 1.96,
+  "under": 1.88,
+  "book": "pinnacle",
+  "home": "Gil Vicente",
+  "away": "Estoril",
+  "start": "2026-11-29T18:00:00Z"
+ },
+ "POR|2026-11-29T20:30:00Z|FC Porto": {
+  "pt": 2.5,
+  "T": 2.727,
+  "over": 1.87,
+  "under": 1.97,
+  "book": "pinnacle",
+  "home": "FC Porto",
+  "away": "Sporting Lisbon",
+  "start": "2026-11-29T20:30:00Z"
+ },
+ "POR|2026-11-30T20:15:00Z|Benfica": {
+  "pt": 2.5,
+  "T": 3.549,
+  "over": 1.36,
+  "under": 3.0,
+  "book": "williamhill",
+  "home": "Benfica",
+  "away": "Famalic\u00e3o",
+  "start": "2026-11-30T20:15:00Z"
+ },
+ "POR|2026-11-30T20:15:00Z|Casa Pia": {
+  "pt": 2.5,
+  "T": 2.601,
+  "over": 1.99,
+  "under": 1.85,
+  "book": "pinnacle",
+  "home": "Casa Pia",
+  "away": "Braga",
+  "start": "2026-11-30T20:15:00Z"
+ },
+ "SCO|2026-11-24T19:45:00Z|Hibernian": {
+  "pt": 2.75,
+  "T": 2.743,
+  "over": 1.87,
+  "under": 2.0,
+  "book": "pinnacle",
+  "home": "Hibernian",
+  "away": "Dundee FC",
+  "start": "2026-11-24T19:45:00Z"
+ },
+ "SCO|2026-11-24T20:00:00Z|Rangers": {
+  "pt": 3.5,
+  "T": 2.526,
+  "over": 2.02,
+  "under": 1.74,
+  "book": "onexbet",
+  "home": "Rangers",
+  "away": "Aberdeen",
+  "start": "2026-11-24T20:00:00Z"
+ },
+ "SCO|2026-11-28T15:00:00Z|Aberdeen": {
+  "pt": 2.5,
+  "T": 2.951,
+  "over": 1.65,
+  "under": 2.15,
+  "book": "onexbet",
+  "home": "Aberdeen",
+  "away": "Dundee FC",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "SCO|2026-11-28T15:00:00Z|Dundee United": {
+  "pt": 3.5,
+  "T": 2.316,
+  "over": 2.29,
+  "under": 1.58,
+  "book": "onexbet",
+  "home": "Dundee United",
+  "away": "St Johnstone",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "SCO|2026-11-28T15:00:00Z|Rangers": {
+  "pt": 3.5,
+  "T": 2.49,
+  "over": 2.06,
+  "under": 1.71,
+  "book": "onexbet",
+  "home": "Rangers",
+  "away": "Falkirk F.C.",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "SCO|2026-11-28T15:00:00Z|St Mirren": {
+  "pt": 2.5,
+  "T": 3.084,
+  "over": 1.57,
+  "under": 2.31,
+  "book": "onexbet",
+  "home": "St Mirren",
+  "away": "Kilmarnock",
+  "start": "2026-11-28T15:00:00Z"
+ },
+ "SCO|2026-11-28T17:45:00Z|Motherwell": {
+  "pt": 2.5,
+  "T": 2.951,
+  "over": 1.65,
+  "under": 2.15,
+  "book": "onexbet",
+  "home": "Motherwell",
+  "away": "Hibernian",
+  "start": "2026-11-28T17:45:00Z"
+ },
+ "SCO|2026-11-29T15:00:00Z|Hearts": {
+  "pt": 3.5,
+  "T": 2.435,
+  "over": 2.13,
+  "under": 1.67,
+  "book": "onexbet",
+  "home": "Hearts",
+  "away": "Celtic",
+  "start": "2026-11-29T15:00:00Z"
+ },
+ "FRA2|2026-11-23T19:45:00Z|Nantes": {
+  "pt": 2.5,
+  "T": 2.603,
+  "over": 1.9,
+  "under": 1.77,
+  "book": "marathonbet",
+  "home": "Nantes",
+  "away": "Grenoble",
+  "start": "2026-11-23T19:45:00Z"
+ },
+ "FRA2|2026-11-23T19:45:00Z|Sochaux": {
+  "pt": 3.5,
+  "T": 2.391,
+  "over": 2.14,
+  "under": 1.6,
+  "book": "marathonbet",
+  "home": "Sochaux",
+  "away": "USL Dunkerque",
+  "start": "2026-11-23T19:45:00Z"
+ }
+}
