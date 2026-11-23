@@ -437,11 +437,11 @@
    "home_ga": 1.0,
    "away_n": 6,
    "away_gf": 0.67,
-   "away_ga": 1.17,
+   "away_ga": 1.5,
    "home_gf_x": 1.6,
    "home_ga_x": 1.0,
-   "away_gf_x": 0.67,
-   "away_ga_x": 1.17,
+   "away_gf_x": 0.8,
+   "away_ga_x": 1.0,
    "total_n": 11,
    "form6": "DLLWWL",
    "form6_pts": 7,
@@ -533,7 +533,7 @@
      "side": "A",
      "opp": "Brentford",
      "gf": 0,
-     "ga": 2,
+     "ga": 4,
      "res": "L"
     }
    ]
@@ -1075,13 +1075,13 @@
   },
   "Brentford": {
    "home_n": 6,
-   "home_gf": 2.0,
+   "home_gf": 2.33,
    "home_ga": 0.5,
    "away_n": 5,
    "away_gf": 1.2,
    "away_ga": 1.6,
    "home_gf_x": 2.0,
-   "home_ga_x": 0.5,
+   "home_ga_x": 0.6,
    "away_gf_x": 1.2,
    "away_ga_x": 1.6,
    "total_n": 11,
@@ -1174,7 +1174,7 @@
      "r": "11",
      "side": "H",
      "opp": "Everton",
-     "gf": 2,
+     "gf": 4,
      "ga": 0,
      "res": "W"
     }

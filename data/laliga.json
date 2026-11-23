@@ -540,13 +540,13 @@
   },
   "Levante": {
    "home_n": 6,
-   "home_gf": 2.17,
-   "home_ga": 2.0,
+   "home_gf": 2.33,
+   "home_ga": 2.17,
    "away_n": 7,
    "away_gf": 0.43,
    "away_ga": 1.29,
-   "home_gf_x": 1.5,
-   "home_ga_x": 1.5,
+   "home_gf_x": 1.75,
+   "home_ga_x": 1.75,
    "away_gf_x": 0.43,
    "away_ga_x": 1.29,
    "total_n": 13,
@@ -639,8 +639,8 @@
      "r": "13",
      "side": "H",
      "opp": "Elche",
-     "gf": 0,
-     "ga": 0,
+     "gf": 1,
+     "ga": 1,
      "res": "D"
     }
    ]
@@ -971,12 +971,12 @@
    "home_gf": 0.67,
    "home_ga": 2.33,
    "away_n": 7,
-   "away_gf": 1.43,
-   "away_ga": 0.86,
+   "away_gf": 1.57,
+   "away_ga": 1.0,
    "home_gf_x": 0.8,
    "home_ga_x": 1.8,
-   "away_gf_x": 1.43,
-   "away_ga_x": 0.86,
+   "away_gf_x": 1.57,
+   "away_ga_x": 1.0,
    "total_n": 13,
    "form6": "DDWLLD",
    "form6_pts": 6,
@@ -1067,8 +1067,8 @@
      "r": "13",
      "side": "A",
      "opp": "Levante",
-     "gf": 0,
-     "ga": 0,
+     "gf": 1,
+     "ga": 1,
      "res": "D"
     }
    ]

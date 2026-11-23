@@ -1,10 +1,10 @@
 {
  "EPL|2026-11-23T20:00:00Z|Brentford": {
   "pt": 3.5,
-  "T": 3.831,
-  "over": 1.78,
-  "under": 2.03,
-  "book": "marathonbet",
+  "T": 3.087,
+  "over": 2.58,
+  "under": 1.53,
+  "book": "pinnacle",
   "home": "Brentford",
   "away": "Everton",
   "start": "2026-11-23T20:00:00Z"
@@ -21,9 +21,9 @@
  },
  "EPL|2026-11-28T15:00:00Z|Manchester United": {
   "pt": 3.5,
-  "T": 3.222,
-  "over": 2.45,
-  "under": 1.65,
+  "T": 3.211,
+  "over": 2.46,
+  "under": 1.64,
   "book": "onexbet",
   "home": "Manchester United",
   "away": "Brentford",
@@ -208,16 +208,6 @@
   "home": "Tottenham Hotspur",
   "away": "Fulham",
   "start": "2026-12-03T20:00:00Z"
- },
- "ITA|2026-11-23T19:45:00Z|Monza": {
-  "pt": 2.5,
-  "T": 2.7,
-  "over": 1.92,
-  "under": 1.97,
-  "book": "pinnacle",
-  "home": "Monza",
-  "away": "Fiorentina",
-  "start": "2026-11-23T19:45:00Z"
  },
  "ITA|2026-11-27T19:45:00Z|Venezia": {
   "pt": 2.5,
@@ -421,9 +411,9 @@
  },
  "ESP|2026-11-23T20:00:00Z|Levante": {
   "pt": 1.5,
-  "T": 1.57,
-  "over": 2.08,
-  "under": 1.81,
+  "T": 1.578,
+  "over": 2.07,
+  "under": 1.82,
   "book": "pinnacle",
   "home": "Levante",
   "away": "Elche CF",
@@ -451,19 +441,19 @@
  },
  "ESP|2026-11-28T15:15:00Z|M\u00e1laga": {
   "pt": 2.5,
-  "T": 2.674,
-  "over": 1.94,
-  "under": 1.94,
+  "T": 2.69,
+  "over": 1.93,
+  "under": 1.96,
   "book": "pinnacle",
   "home": "M\u00e1laga",
   "away": "Athletic Bilbao",
   "start": "2026-11-28T15:15:00Z"
  },
  "ESP|2026-11-28T17:30:00Z|Elche CF": {
-  "pt": 2.5,
-  "T": 3.126,
-  "over": 1.63,
-  "under": 2.49,
+  "pt": 3.5,
+  "T": 3.211,
+  "over": 2.46,
+  "under": 1.64,
   "book": "onexbet",
   "home": "Elche CF",
   "away": "Atl\u00e9tico Madrid",
@@ -471,9 +461,9 @@
  },
  "ESP|2026-11-28T20:00:00Z|Real Madrid": {
   "pt": 3.5,
-  "T": 3.74,
-  "over": 1.88,
-  "under": 1.99,
+  "T": 3.654,
+  "over": 1.95,
+  "under": 1.92,
   "book": "pinnacle",
   "home": "Real Madrid",
   "away": "Alav\u00e9s",
@@ -1598,26 +1588,6 @@
   "home": "Hearts",
   "away": "Celtic",
   "start": "2026-11-29T15:00:00Z"
- },
- "FRA2|2026-11-23T19:45:00Z|Nantes": {
-  "pt": 2.5,
-  "T": 2.099,
-  "over": 2.6,
-  "under": 1.4,
-  "book": "tipico_de",
-  "home": "Nantes",
-  "away": "Grenoble",
-  "start": "2026-11-23T19:45:00Z"
- },
- "FRA2|2026-11-23T19:45:00Z|Sochaux": {
-  "pt": 3.5,
-  "T": 3.027,
-  "over": 2.52,
-  "under": 1.41,
-  "book": "betsson",
-  "home": "Sochaux",
-  "away": "USL Dunkerque",
-  "start": "2026-11-23T19:45:00Z"
  },
  "__ver__": 2
 }
