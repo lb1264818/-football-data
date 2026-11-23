@@ -1,0 +1,246 @@
+{
+ "fetched": "2026-11-23 17:01 UTC",
+ "ts": {
+  "日职": {
+   "found": true,
+   "id": "4633",
+   "name": "Japanese J1 League",
+   "season": "2026-2027",
+   "events": 380,
+   "teams": [
+    "Yokohama F Marinos",
+    "Gamba Osaka",
+    "Avispa Fukuoka",
+    "Cerezo Osaka",
+    "FC Tokyo",
+    "Kashiwa Reysol"
+   ],
+   "ok": true
+  },
+  "韩职": {
+   "found": true,
+   "id": "4689",
+   "name": "South Korean K League 1",
+   "season": "2026",
+   "events": 228,
+   "teams": [
+    "Incheon United",
+    "Ulsan HD",
+    "Gimcheon Sangmu",
+    "Jeonbuk Hyundai Motors",
+    "Jeju SK",
+    "Daejeon Hana Citizen"
+   ],
+   "ok": true
+  },
+  "澳超": {
+   "found": true,
+   "id": "4356",
+   "name": "Australian A-League",
+   "season": "2026-2027",
+   "events": 156,
+   "teams": [
+    "Sydney FC",
+    "Auckland FC",
+    "Macarthur FC",
+    "Central Coast Mariners",
+    "Wellington Phoenix",
+    "Brisbane Roar"
+   ],
+   "ok": true
+  },
+  "挪超": {
+   "found": true,
+   "id": "4358",
+   "name": "Norwegian Eliteserien",
+   "season": "2026",
+   "events": 240,
+   "teams": [
+    "Hamarkameratene",
+    "Molde",
+    "Kristiansund",
+    "Aalesund",
+    "KFUM-Kameratene Oslo",
+    "Vålerenga"
+   ],
+   "ok": true
+  },
+  "德甲": {
+   "found": true,
+   "id": "4399",
+   "name": "German 2. Bundesliga",
+   "season": "2026-2027",
+   "events": 306,
+   "teams": [
+    "Bochum",
+    "Wolfsburg",
+    "Magdeburg",
+    "Heidenheim",
+    "Darmstadt",
+    "Karlsruhe"
+   ],
+   "ok": true
+  },
+  "德乙": {
+   "found": true,
+   "id": "4399",
+   "name": "German 2. Bundesliga",
+   "season": "2026-2027",
+   "events": 306,
+   "teams": [
+    "Bochum",
+    "Wolfsburg",
+    "Magdeburg",
+    "Heidenheim",
+    "Darmstadt",
+    "Karlsruhe"
+   ],
+   "ok": true
+  },
+  "荷甲": {
+   "found": false,
+   "near": []
+  },
+  "荷乙": {
+   "found": false,
+   "near": []
+  },
+  "葡超": {
+   "found": true,
+   "id": "4344",
+   "name": "Portuguese Primeira Liga",
+   "season": "2026-2027",
+   "events": 306,
+   "teams": [
+    "Estoril Praia",
+    "Marítimo",
+    "Vitória de Guimarães",
+    "Estrela Amadora",
+    "Benfica",
+    "Porto"
+   ],
+   "ok": true
+  },
+  "苏超": {
+   "found": false,
+   "near": [
+    "Scottish Challenge Cup",
+    "Scottish Championship",
+    "Scottish FA Cup",
+    "Scottish Highland League",
+    "Scottish League 1",
+    "Scottish League 2",
+    "Scottish League Cup",
+    "Scottish Lowland League",
+    "Scottish Lowland League East",
+    "Scottish Lowland League West",
+    "Scottish Premier League"
+   ]
+  },
+  "英冠": {
+   "found": true,
+   "id": "4329",
+   "name": "English League Championship",
+   "season": "2026-2027",
+   "events": 552,
+   "teams": [
+    "Wolverhampton Wanderers",
+    "Bolton Wanderers",
+    "Bristol City",
+    "Middlesbrough",
+    "Norwich City",
+    "Stoke City"
+   ],
+   "ok": true
+  },
+  "法甲": {
+   "found": true,
+   "id": "4334",
+   "name": "French Ligue 1",
+   "season": "2026-2027",
+   "events": 306,
+   "teams": [
+    "Marseille",
+    "Nice",
+    "Toulouse",
+    "Troyes",
+    "Lens",
+    "Le Mans"
+   ],
+   "ok": true
+  }
+ },
+ "fd": {
+  "JPN": {
+   "kind": "new",
+   "ou": false,
+   "x12": true,
+   "rows": 4663,
+   "last": "08/11/2026"
+  },
+  "NOR": {
+   "kind": "new",
+   "ou": false,
+   "x12": true,
+   "rows": 3590,
+   "last": "09/11/2026"
+  },
+  "KOR": {
+   "kind": "new",
+   "ou": false,
+   "x12": true,
+   "rows": 3590,
+   "last": "09/11/2026"
+  },
+  "D2": {
+   "kind": "main",
+   "ou": true,
+   "x12": true,
+   "rows": 108,
+   "last": "Karlsruhe"
+  },
+  "N1": {
+   "kind": "main",
+   "ou": true,
+   "x12": true,
+   "rows": 117,
+   "last": "Go Ahead Eagles"
+  },
+  "D1": {
+   "kind": "main",
+   "ou": true,
+   "x12": true,
+   "rows": 90,
+   "last": "Werder Bremen"
+  },
+  "E1": {
+   "kind": "main",
+   "ou": true,
+   "x12": true,
+   "rows": 192,
+   "last": "Burnley"
+  },
+  "P1": {
+   "kind": "main",
+   "ou": true,
+   "x12": true,
+   "rows": 98,
+   "last": "Rio Ave"
+  },
+  "SC0": {
+   "kind": "main",
+   "ou": true,
+   "x12": true,
+   "rows": 81,
+   "last": "Motherwell"
+  },
+  "F1": {
+   "kind": "main",
+   "ou": true,
+   "x12": true,
+   "rows": 99,
+   "last": "Marseille"
+  }
+ },
+ "errors": []
+}
