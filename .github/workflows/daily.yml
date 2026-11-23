@@ -10,13 +10,31 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - run: python fetch.py
+
+      - name: fetch teams (thesportsdb)
+        run: python fetch.py
         env:
           SPORTSDB_KEY: ${{ secrets.SPORTSDB_KEY }}
-      - run: python fetch_ou.py || true
-      - run: python bt_model.py || true
-      - run: python verify_leagues.py || true
-      - run: |
+
+      - name: fetch over/under odds
+        run: python fetch_ou.py || true
+
+      - name: backtest model v4
+        run: python bt_model.py || true
+
+      - name: line move / CLV study v5
+        run: python bt_clv.py || true
+
+      - name: clv tracker (ledger)
+        run: python clv_track.py || true
+        env:
+          ODDS_KEY: ${{ secrets.ODDS_KEY }}
+
+      - name: league id check
+        run: python verify_leagues.py || true
+
+      - name: commit data
+        run: |
           git config user.name "sportsdb-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data
