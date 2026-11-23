@@ -51,8 +51,9 @@ def probs(lam, mu, N=10):
                 mar={k: v/tot for k, v in mar.items()})
 
 def norm(*ps):
-    s = sum(ps)
-    return [p/s for p in ps] if s > 0 else None
+    inv = [1/p for p in ps if p]
+    s = sum(inv)
+    return [x/s for x in inv] if s > 0 else None
 
 def run(code, rd):
     teams, res = {}, []
