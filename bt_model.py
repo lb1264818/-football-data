@@ -218,6 +218,9 @@ def main():
             print("BT-ERR", lg, traceback.format_exc()[-160:])
     out["n_rows"] = len(allrows)
     out["metrics"] = metrics(allrows)
+    mature = [r for r in allrows if r.get("nh", 0) >= 6 and r.get("na", 0) >= 6]
+    out["n_mature"] = len(mature)
+    out["metrics_mature"] = metrics(mature)
     out["sample"] = allrows[:2]
     pathlib.Path("data").mkdir(exist_ok=True)
     pathlib.Path("data/bt.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
