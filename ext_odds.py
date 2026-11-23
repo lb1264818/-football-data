@@ -23,7 +23,7 @@
 
 输出: data/ext_odds.json + data/ext_odds_log.txt, 并打印到 CI 日志
 """
-import json, math, pathlib, re, sys, time, urllib.request
+import json, math, pathlib, re, sys, time, traceback, urllib.request
 import concurrent.futures as cf
 from datetime import datetime, timedelta, timezone
 
@@ -320,8 +320,18 @@ def assign(subs, events, log):
 def main():
     now = datetime.now(CST)
     log = ["ext_odds @ %s" % now.strftime("%F %H:%M CST")]
+
+    def flush():
+        # 每阶段就落盘一次: CI 崩在中途也能看到死在哪一步
+        try:
+            LOG.parent.mkdir(parents=True, exist_ok=True)
+            LOG.write_text("\n".join(log), encoding="utf-8")
+        except Exception:                          # noqa: BLE001
+            pass
+
     subs = jc_matches()
     log.append("竞彩在售 %d 场" % len(subs))
+    flush()
 
     # 赛程(每联赛一次)
     comp_events, events = {}, []
@@ -339,6 +349,7 @@ def main():
                 log.append("  !! 赛程抓取失败 %s: %r" % (slug, e))
     for evs in comp_events.values():
         events.extend(evs)
+    flush()
 
     # 1X2 预取(并发)
     def one(e):
@@ -348,6 +359,7 @@ def main():
             for eid, o in ex.map(one, events):
                 ODDS[eid] = o
     log.append("1X2 预取 %d 场, 成功 %d" % (len(events), sum(1 for v in ODDS.values() if v)))
+    flush()
 
     log.append("对齐:")
     mapping = {}
@@ -505,5 +517,28 @@ if __name__ == "__main__":
     try:
         main()
     except Exception as exc:                       # noqa: BLE001
+        tb = traceback.format_exc()
+        stamp = datetime.now(CST).strftime("%F %H:%M CST")
+        head = [
+            "ext_odds FAILED @ %s" % stamp,
+            "python %s" % sys.version.split()[0],
+            "exception: %r" % (exc,),
+            "-" * 60,
+            tb,
+        ]
+        try:
+            OUT.parent.mkdir(parents=True, exist_ok=True)
+            # 失败也要落盘: 让 CI 的 commit data 能提交证据, 而不是静默空跑
+            LOG.write_text("\n".join(head), encoding="utf-8")
+            OUT.write_text(json.dumps({
+                "summary": {"date": datetime.now(CST).strftime("%F"),
+                            "fetched": stamp, "status": "error",
+                            "error": repr(exc),
+                            "traceback_tail": tb.strip().splitlines()[-12:]},
+                "rows": [],
+            }, ensure_ascii=False, indent=1), encoding="utf-8")
+            print("[diag] wrote %s + %s" % (LOG, OUT))
+        except Exception as e2:                    # noqa: BLE001
+            print("[diag] 落盘也失败: %r" % (e2,), file=sys.stderr)
         print("EXT-ODDS FAILED: %r" % (exc,), file=sys.stderr)
         raise
