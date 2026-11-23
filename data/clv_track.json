@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-23 20:50 UTC",
+ "fetched": "2026-11-23 21:00 UTC",
  "since": "2026-11-23",
  "today": "2026-11-23",
  "data_last_date": "2026-11-22",
@@ -9,47 +9,47 @@
   "desc": "bet only when total-goals T moves >=0.06 toward one side, follow the move"
  },
  "all": {
-  "n": 1678,
+  "n": 839,
   "hit": 0.5662,
-  "units": 89.14,
+  "units": 44.57,
   "roi": 0.0531,
-  "z_roi": 2.21,
+  "z_roi": 1.56,
   "clv_mean": 1.98,
   "clv_pos": 0.565,
-  "z_clv": 16.96
+  "z_clv": 11.99
  },
  "live": {
   "n": 0
  },
  "hist": {
-  "n": 1678,
+  "n": 839,
   "hit": 0.5662,
-  "units": 89.14,
+  "units": 44.57,
   "roi": 0.0531,
-  "z_roi": 2.21,
+  "z_roi": 1.56,
   "clv_mean": 1.98,
   "clv_pos": 0.565,
-  "z_clv": 16.96
+  "z_clv": 11.99
  },
  "trade": {
-  "n": 796,
+  "n": 398,
   "hit": 0.6156,
-  "units": 94.86,
+  "units": 47.43,
   "roi": 0.1192,
-  "z_roi": 3.58,
+  "z_roi": 2.53,
   "clv_mean": 5.03,
   "clv_pos": 0.8995,
-  "z_clv": 26.89
+  "z_clv": 19.0
  },
  "watch": {
-  "n": 882,
+  "n": 441,
   "hit": 0.5215,
-  "units": -5.72,
+  "units": -2.86,
   "roi": -0.0065,
-  "z_roi": -0.19,
+  "z_roi": -0.13,
   "clv_mean": -0.77,
   "clv_pos": 0.263,
-  "z_clv": -14.5
+  "z_clv": -10.25
  },
  "thresholds": {
   "watch_min": 0.06,
@@ -58,36 +58,36 @@
  "by_band": [
   {
    "band": "0.06~0.10",
-   "n": 558,
+   "n": 279,
    "hit": 0.509,
-   "units": -17.22,
+   "units": -8.61,
    "roi": -0.0309,
-   "z_roi": -0.72,
+   "z_roi": -0.51,
    "clv_mean": -1.43,
    "clv_pos": 0.0502,
-   "z_clv": -33.35
+   "z_clv": -23.56
   },
   {
    "band": "0.10~0.15",
-   "n": 324,
+   "n": 162,
    "hit": 0.5432,
-   "units": 11.5,
+   "units": 5.75,
    "roi": 0.0355,
-   "z_roi": 0.62,
+   "z_roi": 0.44,
    "clv_mean": 0.36,
    "clv_pos": 0.6296,
-   "z_clv": 3.74
+   "z_clv": 2.64
   },
   {
    "band": "0.15~9.99",
-   "n": 796,
+   "n": 398,
    "hit": 0.6156,
-   "units": 94.86,
+   "units": 47.43,
    "roi": 0.1192,
-   "z_roi": 3.58,
+   "z_roi": 2.53,
    "clv_mean": 5.03,
    "clv_pos": 0.8995,
-   "z_clv": 26.89
+   "z_clv": 19.0
   }
  ],
  "by_league": {
@@ -207,7 +207,7 @@
  "live_odds": {
   "status": "ok",
   "requests": 11,
-  "remaining": "489",
+  "remaining": "478",
   "n_sig": 0,
   "signals": [],
   "snap_n": 162,
