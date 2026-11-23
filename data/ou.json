@@ -1,0 +1,11 @@
+{
+ "fetched": "2026-11-23 15:47 UTC",
+ "sources": {},
+ "errors": [
+  "ttg_calc: HTTP Error 567: Unknown Status",
+  "hhad_calc: HTTP Error 567: Unknown Status",
+  "result: HTTP Error 567: Unknown Status",
+  "ttg_wap: HTTP Error 567: Unknown Status"
+ ],
+ "matches": []
+}
