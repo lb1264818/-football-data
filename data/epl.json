@@ -1,0 +1,2147 @@
+{
+ "league": "英超",
+ "season": "2026-2027",
+ "ft": 109,
+ "teams": {
+  "Arsenal": {
+   "home_n": 5,
+   "home_gf": 2.0,
+   "home_ga": 0.4,
+   "away_n": 6,
+   "away_gf": 1.17,
+   "away_ga": 0.83,
+   "home_gf_x": 2.0,
+   "home_ga_x": 0.4,
+   "away_gf_x": 1.17,
+   "away_ga_x": 0.83,
+   "total_n": 11,
+   "form6": "WWWWWD",
+   "form6_pts": 16,
+   "recent": [
+    {
+     "d": "2026-08-31",
+     "r": "2",
+     "side": "A",
+     "opp": "Aston Villa",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-06",
+     "r": "3",
+     "side": "H",
+     "opp": "Chelsea",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Sunderland",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "A",
+     "opp": "Brighton and Hove Albion",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Leeds United",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "A",
+     "opp": "Nottingham Forest",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-24",
+     "r": "8",
+     "side": "H",
+     "opp": "Everton",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-01",
+     "r": "9",
+     "side": "A",
+     "opp": "Liverpool",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "H",
+     "opp": "Hull City",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Newcastle United",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "Coventry City": {
+   "home_n": 6,
+   "home_gf": 1.67,
+   "home_ga": 1.83,
+   "away_n": 5,
+   "away_gf": 0.6,
+   "away_ga": 2.0,
+   "home_gf_x": 1.5,
+   "home_ga_x": 1.25,
+   "away_gf_x": 0.6,
+   "away_ga_x": 2.0,
+   "total_n": 11,
+   "form6": "WLLWLW",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Hull City",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Manchester City",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-13",
+     "r": "4",
+     "side": "H",
+     "opp": "Brighton and Hove Albion",
+     "gf": 0,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "A",
+     "opp": "Nottingham Forest",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-12",
+     "r": "6",
+     "side": "H",
+     "opp": "Newcastle United",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-19",
+     "r": "7",
+     "side": "A",
+     "opp": "Tottenham Hotspur",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-24",
+     "r": "8",
+     "side": "H",
+     "opp": "Fulham",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "H",
+     "opp": "Sunderland",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-06",
+     "r": "10",
+     "side": "A",
+     "opp": "Everton",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Crystal Palace",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "Hull City": {
+   "home_n": 6,
+   "home_gf": 1.5,
+   "home_ga": 0.83,
+   "away_n": 5,
+   "away_gf": 0.8,
+   "away_ga": 1.2,
+   "home_gf_x": 1.5,
+   "home_ga_x": 0.83,
+   "away_gf_x": 0.8,
+   "away_ga_x": 1.2,
+   "total_n": 11,
+   "form6": "DLDDLW",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Coventry City",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Aston Villa",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Chelsea",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "A",
+     "opp": "Newcastle United",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "H",
+     "opp": "Everton",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "A",
+     "opp": "Fulham",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Brentford",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "H",
+     "opp": "Ipswich Town",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "A",
+     "opp": "Arsenal",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-22",
+     "r": "11",
+     "side": "H",
+     "opp": "Brighton and Hove Albion",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Manchester United": {
+   "home_n": 5,
+   "home_gf": 2.0,
+   "home_ga": 2.2,
+   "away_n": 6,
+   "away_gf": 0.67,
+   "away_ga": 2.0,
+   "home_gf_x": 0.33,
+   "home_ga_x": 1.67,
+   "away_gf_x": 0.8,
+   "away_ga_x": 1.6,
+   "total_n": 11,
+   "form6": "DDLLDL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "H",
+     "opp": "Ipswich Town",
+     "gf": 5,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-06",
+     "r": "3",
+     "side": "A",
+     "opp": "Everton",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-13",
+     "r": "4",
+     "side": "H",
+     "opp": "Manchester City",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "A",
+     "opp": "Fulham",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Tottenham Hotspur",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "A",
+     "opp": "Leeds United",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Bournemouth",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "A",
+     "opp": "Chelsea",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Aston Villa",
+     "gf": 4,
+     "ga": 4,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-22",
+     "r": "11",
+     "side": "A",
+     "opp": "Liverpool",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "Everton": {
+   "home_n": 5,
+   "home_gf": 1.6,
+   "home_ga": 1.0,
+   "away_n": 5,
+   "away_gf": 0.8,
+   "away_ga": 1.0,
+   "home_gf_x": 1.6,
+   "home_ga_x": 1.0,
+   "away_gf_x": 0.8,
+   "away_ga_x": 1.0,
+   "total_n": 10,
+   "form6": "WDLLWW",
+   "form6_pts": 10,
+   "recent": [
+    {
+     "d": "2026-08-22",
+     "r": "1",
+     "side": "H",
+     "opp": "Crystal Palace",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Bournemouth",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-06",
+     "r": "3",
+     "side": "H",
+     "opp": "Manchester United",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Tottenham Hotspur",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "H",
+     "opp": "Ipswich Town",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "A",
+     "opp": "Hull City",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "H",
+     "opp": "Chelsea",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-24",
+     "r": "8",
+     "side": "A",
+     "opp": "Arsenal",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-02",
+     "r": "9",
+     "side": "A",
+     "opp": "Newcastle United",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-06",
+     "r": "10",
+     "side": "H",
+     "opp": "Coventry City",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "Crystal Palace": {
+   "home_n": 5,
+   "home_gf": 1.4,
+   "home_ga": 2.6,
+   "away_n": 6,
+   "away_gf": 0.83,
+   "away_ga": 2.33,
+   "home_gf_x": 1.5,
+   "home_ga_x": 2.25,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.8,
+   "total_n": 11,
+   "form6": "WLLLLL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-08-28",
+     "r": "2",
+     "side": "H",
+     "opp": "Manchester City",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Fulham",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Ipswich Town",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "A",
+     "opp": "Leeds United",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "H",
+     "opp": "Nottingham Forest",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "A",
+     "opp": "Brighton and Hove Albion",
+     "gf": 0,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Newcastle United",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "A",
+     "opp": "Tottenham Hotspur",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Liverpool",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Coventry City",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Ipswich Town": {
+   "home_n": 5,
+   "home_gf": 1.2,
+   "home_ga": 1.4,
+   "away_n": 6,
+   "away_gf": 1.5,
+   "away_ga": 2.5,
+   "home_gf_x": 1.2,
+   "home_ga_x": 1.4,
+   "away_gf_x": 1.4,
+   "away_ga_x": 2.0,
+   "total_n": 11,
+   "form6": "WLDDLL",
+   "form6_pts": 5,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "A",
+     "opp": "Manchester United",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-04",
+     "r": "3",
+     "side": "H",
+     "opp": "Liverpool",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Crystal Palace",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "A",
+     "opp": "Everton",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Fulham",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "A",
+     "opp": "Manchester City",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-23",
+     "r": "8",
+     "side": "H",
+     "opp": "Nottingham Forest",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "A",
+     "opp": "Hull City",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Bournemouth",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Tottenham Hotspur",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Sunderland": {
+   "home_n": 5,
+   "home_gf": 0.4,
+   "home_ga": 0.8,
+   "away_n": 6,
+   "away_gf": 1.0,
+   "away_ga": 2.17,
+   "home_gf_x": 0.4,
+   "home_ga_x": 0.8,
+   "away_gf_x": 0.6,
+   "away_ga_x": 1.6,
+   "total_n": 11,
+   "form6": "LLDLWD",
+   "form6_pts": 5,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "H",
+     "opp": "Fulham",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Brentford",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Arsenal",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "A",
+     "opp": "Manchester City",
+     "gf": 3,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Brighton and Hove Albion",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "A",
+     "opp": "Bournemouth",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Leeds United",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "A",
+     "opp": "Coventry City",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Chelsea",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Aston Villa",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "Nottingham Forest": {
+   "home_n": 5,
+   "home_gf": 0.6,
+   "home_ga": 0.8,
+   "away_n": 6,
+   "away_gf": 1.0,
+   "away_ga": 1.83,
+   "home_gf_x": 0.6,
+   "home_ga_x": 0.8,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.83,
+   "total_n": 11,
+   "form6": "LLDLWL",
+   "form6_pts": 4,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Liverpool",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Tottenham Hotspur",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Aston Villa",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "H",
+     "opp": "Coventry City",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "A",
+     "opp": "Crystal Palace",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "H",
+     "opp": "Arsenal",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-23",
+     "r": "8",
+     "side": "A",
+     "opp": "Ipswich Town",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "A",
+     "opp": "Brentford",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "H",
+     "opp": "Manchester City",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Bournemouth",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Leeds United": {
+   "home_n": 5,
+   "home_gf": 1.4,
+   "home_ga": 0.6,
+   "away_n": 6,
+   "away_gf": 1.17,
+   "away_ga": 1.0,
+   "home_gf_x": 0.75,
+   "home_ga_x": 0.5,
+   "away_gf_x": 0.6,
+   "away_ga_x": 1.0,
+   "total_n": 11,
+   "form6": "LDDLWW",
+   "form6_pts": 8,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "H",
+     "opp": "Brentford",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Brighton and Hove Albion",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-14",
+     "r": "4",
+     "side": "H",
+     "opp": "Newcastle United",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "H",
+     "opp": "Crystal Palace",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Arsenal",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "H",
+     "opp": "Manchester United",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Sunderland",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "A",
+     "opp": "Bournemouth",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "H",
+     "opp": "Tottenham Hotspur",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Chelsea",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "Brentford": {
+   "home_n": 5,
+   "home_gf": 2.0,
+   "home_ga": 0.6,
+   "away_n": 5,
+   "away_gf": 1.2,
+   "away_ga": 1.6,
+   "home_gf_x": 2.0,
+   "home_ga_x": 0.6,
+   "away_gf_x": 1.2,
+   "away_ga_x": 1.6,
+   "total_n": 10,
+   "form6": "WDLDWL",
+   "form6_pts": 8,
+   "recent": [
+    {
+     "d": "2026-08-22",
+     "r": "1",
+     "side": "H",
+     "opp": "Tottenham Hotspur",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "A",
+     "opp": "Leeds United",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Sunderland",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Bournemouth",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-18",
+     "r": "5",
+     "side": "H",
+     "opp": "Chelsea",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Aston Villa",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "H",
+     "opp": "Liverpool",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Hull City",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "H",
+     "opp": "Nottingham Forest",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Brighton and Hove Albion",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Tottenham Hotspur": {
+   "home_n": 6,
+   "home_gf": 1.5,
+   "home_ga": 1.0,
+   "away_n": 5,
+   "away_gf": 0.6,
+   "away_ga": 1.0,
+   "home_gf_x": 1.5,
+   "home_ga_x": 1.0,
+   "away_gf_x": 0.6,
+   "away_ga_x": 1.0,
+   "total_n": 11,
+   "form6": "DWWWLW",
+   "form6_pts": 13,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Newcastle United",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Nottingham Forest",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Everton",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "H",
+     "opp": "Aston Villa",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Manchester United",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-19",
+     "r": "7",
+     "side": "H",
+     "opp": "Coventry City",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-24",
+     "r": "8",
+     "side": "A",
+     "opp": "Chelsea",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "H",
+     "opp": "Crystal Palace",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "A",
+     "opp": "Leeds United",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Ipswich Town",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Manchester City": {
+   "home_n": 6,
+   "home_gf": 2.0,
+   "home_ga": 1.33,
+   "away_n": 5,
+   "away_gf": 2.0,
+   "away_ga": 1.2,
+   "home_gf_x": 1.4,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.5,
+   "away_ga_x": 1.25,
+   "total_n": 11,
+   "form6": "WWLLLD",
+   "form6_pts": 7,
+   "recent": [
+    {
+     "d": "2026-08-28",
+     "r": "2",
+     "side": "A",
+     "opp": "Crystal Palace",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Coventry City",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-13",
+     "r": "4",
+     "side": "A",
+     "opp": "Manchester United",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "H",
+     "opp": "Sunderland",
+     "gf": 5,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "A",
+     "opp": "Liverpool",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "H",
+     "opp": "Ipswich Town",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-24",
+     "r": "8",
+     "side": "A",
+     "opp": "Aston Villa",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "H",
+     "opp": "Brighton and Hove Albion",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "A",
+     "opp": "Nottingham Forest",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Fulham",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "Bournemouth": {
+   "home_n": 6,
+   "home_gf": 1.5,
+   "home_ga": 0.67,
+   "away_n": 5,
+   "away_gf": 1.8,
+   "away_ga": 2.0,
+   "home_gf_x": 1.5,
+   "home_ga_x": 0.67,
+   "away_gf_x": 2.0,
+   "away_ga_x": 1.25,
+   "total_n": 11,
+   "form6": "LWWWWW",
+   "form6_pts": 15,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Everton",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Newcastle United",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Brentford",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "H",
+     "opp": "Liverpool",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Chelsea",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "H",
+     "opp": "Sunderland",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Manchester United",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "H",
+     "opp": "Leeds United",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Ipswich Town",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Nottingham Forest",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Brighton and Hove Albion": {
+   "home_n": 5,
+   "home_gf": 3.0,
+   "home_ga": 0.2,
+   "away_n": 6,
+   "away_gf": 1.83,
+   "away_ga": 1.33,
+   "home_gf_x": 2.0,
+   "home_ga_x": 0.33,
+   "away_gf_x": 0.75,
+   "away_ga_x": 1.0,
+   "total_n": 11,
+   "form6": "WWLWWL",
+   "form6_pts": 12,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "A",
+     "opp": "Chelsea",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Leeds United",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-13",
+     "r": "4",
+     "side": "A",
+     "opp": "Coventry City",
+     "gf": 5,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "H",
+     "opp": "Arsenal",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Sunderland",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "H",
+     "opp": "Crystal Palace",
+     "gf": 5,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Liverpool",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "A",
+     "opp": "Manchester City",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Brentford",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-22",
+     "r": "11",
+     "side": "A",
+     "opp": "Hull City",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Aston Villa": {
+   "home_n": 6,
+   "home_gf": 1.0,
+   "home_ga": 1.17,
+   "away_n": 5,
+   "away_gf": 1.6,
+   "away_ga": 2.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.17,
+   "away_gf_x": 1.33,
+   "away_ga_x": 0.67,
+   "total_n": 11,
+   "form6": "DWWDDD",
+   "form6_pts": 10,
+   "recent": [
+    {
+     "d": "2026-08-31",
+     "r": "2",
+     "side": "H",
+     "opp": "Arsenal",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Hull City",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Nottingham Forest",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "A",
+     "opp": "Tottenham Hotspur",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Brentford",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "A",
+     "opp": "Newcastle United",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-24",
+     "r": "8",
+     "side": "H",
+     "opp": "Manchester City",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "H",
+     "opp": "Fulham",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Manchester United",
+     "gf": 4,
+     "ga": 4,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Sunderland",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "Newcastle United": {
+   "home_n": 6,
+   "home_gf": 1.33,
+   "home_ga": 1.5,
+   "away_n": 5,
+   "away_gf": 1.4,
+   "away_ga": 1.8,
+   "home_gf_x": 1.33,
+   "home_ga_x": 1.5,
+   "away_gf_x": 1.67,
+   "away_ga_x": 0.33,
+   "total_n": 11,
+   "form6": "LLWLDD",
+   "form6_pts": 5,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Tottenham Hotspur",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Bournemouth",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-14",
+     "r": "4",
+     "side": "A",
+     "opp": "Leeds United",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "H",
+     "opp": "Hull City",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-12",
+     "r": "6",
+     "side": "A",
+     "opp": "Coventry City",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "H",
+     "opp": "Aston Villa",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Crystal Palace",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-02",
+     "r": "9",
+     "side": "H",
+     "opp": "Everton",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "A",
+     "opp": "Fulham",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Arsenal",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "Liverpool": {
+   "home_n": 6,
+   "home_gf": 1.33,
+   "home_ga": 1.0,
+   "away_n": 5,
+   "away_gf": 2.0,
+   "away_ga": 0.8,
+   "home_gf_x": 0.8,
+   "home_ga_x": 1.2,
+   "away_gf_x": 2.0,
+   "away_ga_x": 0.8,
+   "total_n": 11,
+   "form6": "LWWLWW",
+   "form6_pts": 12,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Nottingham Forest",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Ipswich Town",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Fulham",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "A",
+     "opp": "Bournemouth",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "H",
+     "opp": "Manchester City",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "A",
+     "opp": "Brentford",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Brighton and Hove Albion",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-01",
+     "r": "9",
+     "side": "H",
+     "opp": "Arsenal",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Crystal Palace",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-22",
+     "r": "11",
+     "side": "H",
+     "opp": "Manchester United",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Fulham": {
+   "home_n": 5,
+   "home_gf": 1.4,
+   "home_ga": 1.6,
+   "away_n": 6,
+   "away_gf": 0.67,
+   "away_ga": 0.83,
+   "home_gf_x": 1.4,
+   "home_ga_x": 1.6,
+   "away_gf_x": 0.67,
+   "away_ga_x": 0.83,
+   "total_n": 11,
+   "form6": "LWWDDD",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "A",
+     "opp": "Sunderland",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Crystal Palace",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Liverpool",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "H",
+     "opp": "Manchester United",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Ipswich Town",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "H",
+     "opp": "Hull City",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-24",
+     "r": "8",
+     "side": "A",
+     "opp": "Coventry City",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "A",
+     "opp": "Aston Villa",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "H",
+     "opp": "Newcastle United",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Manchester City",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "Chelsea": {
+   "home_n": 6,
+   "home_gf": 2.33,
+   "home_ga": 2.0,
+   "away_n": 5,
+   "away_gf": 1.2,
+   "away_ga": 1.6,
+   "home_gf_x": 1.33,
+   "home_ga_x": 1.33,
+   "away_gf_x": 1.2,
+   "away_ga_x": 1.6,
+   "total_n": 11,
+   "form6": "WWLWLL",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "H",
+     "opp": "Brighton and Hove Albion",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-06",
+     "r": "3",
+     "side": "A",
+     "opp": "Arsenal",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Hull City",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-18",
+     "r": "5",
+     "side": "A",
+     "opp": "Brentford",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Bournemouth",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "A",
+     "opp": "Everton",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-24",
+     "r": "8",
+     "side": "H",
+     "opp": "Tottenham Hotspur",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "H",
+     "opp": "Manchester United",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Sunderland",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Leeds United",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  }
+ }
+}

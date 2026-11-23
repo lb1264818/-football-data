@@ -1,0 +1,1933 @@
+{
+ "league": "法乙",
+ "season": "2026-2027",
+ "ft": 99,
+ "teams": {
+  "Marseille": {
+   "home_n": 6,
+   "home_gf": 2.5,
+   "home_ga": 1.83,
+   "away_n": 5,
+   "away_gf": 1.8,
+   "away_ga": 1.2,
+   "home_gf_x": 1.75,
+   "home_ga_x": 2.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.0,
+   "total_n": 11,
+   "form6": "WWWWWL",
+   "form6_pts": 15,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "A",
+     "opp": "Monaco",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-06",
+     "r": "3",
+     "side": "H",
+     "opp": "Paris FC",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-11",
+     "r": "4",
+     "side": "A",
+     "opp": "Rennes",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "H",
+     "opp": "Paris Saint-Germain",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "A",
+     "opp": "Troyes",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "A",
+     "opp": "Angers",
+     "gf": 5,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Le Havre",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-01",
+     "r": "9",
+     "side": "H",
+     "opp": "Toulouse",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Lens",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-22",
+     "r": "11",
+     "side": "H",
+     "opp": "Le Mans",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Strasbourg": {
+   "home_n": 5,
+   "home_gf": 1.8,
+   "home_ga": 1.4,
+   "away_n": 6,
+   "away_gf": 1.5,
+   "away_ga": 2.67,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.5,
+   "away_gf_x": 0.75,
+   "away_ga_x": 2.5,
+   "total_n": 11,
+   "form6": "LLLWLL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Lens",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-06",
+     "r": "3",
+     "side": "A",
+     "opp": "Troyes",
+     "gf": 6,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Monaco",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "A",
+     "opp": "Paris FC",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "A",
+     "opp": "Nice",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "H",
+     "opp": "Paris Saint-Germain",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Rennes",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-01",
+     "r": "9",
+     "side": "H",
+     "opp": "Auxerre",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-06",
+     "r": "10",
+     "side": "A",
+     "opp": "Toulouse",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Brest",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "Nice": {
+   "home_n": 6,
+   "home_gf": 2.0,
+   "home_ga": 1.33,
+   "away_n": 5,
+   "away_gf": 1.0,
+   "away_ga": 1.4,
+   "home_gf_x": 1.4,
+   "home_ga_x": 1.2,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.4,
+   "total_n": 11,
+   "form6": "WLWWWL",
+   "form6_pts": 12,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "A",
+     "opp": "Paris FC",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Le Mans",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Auxerre",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "H",
+     "opp": "Lille",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "H",
+     "opp": "Strasbourg",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "A",
+     "opp": "Lyon",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-23",
+     "r": "8",
+     "side": "A",
+     "opp": "Brest",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-30",
+     "r": "9",
+     "side": "H",
+     "opp": "Rennes",
+     "gf": 5,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Angers",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Paris Saint-Germain",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Lorient": {
+   "home_n": 6,
+   "home_gf": 1.0,
+   "home_ga": 1.17,
+   "away_n": 5,
+   "away_gf": 0.8,
+   "away_ga": 0.4,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.17,
+   "away_gf_x": 0.8,
+   "away_ga_x": 0.4,
+   "total_n": 11,
+   "form6": "WWDLWD",
+   "form6_pts": 11,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Troyes",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Lens",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Toulouse",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "A",
+     "opp": "Le Mans",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Paris FC",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "H",
+     "opp": "Monaco",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Angers",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-02",
+     "r": "9",
+     "side": "H",
+     "opp": "Brest",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Le Havre",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-22",
+     "r": "11",
+     "side": "H",
+     "opp": "Rennes",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "Toulouse": {
+   "home_n": 5,
+   "home_gf": 1.2,
+   "home_ga": 1.2,
+   "away_n": 6,
+   "away_gf": 1.67,
+   "away_ga": 1.5,
+   "home_gf_x": 1.2,
+   "home_ga_x": 1.2,
+   "away_gf_x": 1.67,
+   "away_ga_x": 1.5,
+   "total_n": 11,
+   "form6": "DWDLWD",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Brest",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-03",
+     "r": "3",
+     "side": "H",
+     "opp": "Lille",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Lorient",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "H",
+     "opp": "Le Havre",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Monaco",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-16",
+     "r": "7",
+     "side": "A",
+     "opp": "Le Mans",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Troyes",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-01",
+     "r": "9",
+     "side": "A",
+     "opp": "Marseille",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-06",
+     "r": "10",
+     "side": "H",
+     "opp": "Strasbourg",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Lens",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "Lyon": {
+   "home_n": 5,
+   "home_gf": 2.4,
+   "home_ga": 0.6,
+   "away_n": 6,
+   "away_gf": 0.67,
+   "away_ga": 1.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 0.75,
+   "away_gf_x": 0.67,
+   "away_ga_x": 1.0,
+   "total_n": 11,
+   "form6": "LWLWLW",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Le Havre",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-04",
+     "r": "3",
+     "side": "H",
+     "opp": "Auxerre",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Paris FC",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "H",
+     "opp": "Rennes",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-09",
+     "r": "6",
+     "side": "A",
+     "opp": "Lens",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "H",
+     "opp": "Nice",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-26",
+     "r": "8",
+     "side": "A",
+     "opp": "Paris Saint-Germain",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-01",
+     "r": "9",
+     "side": "H",
+     "opp": "Angers",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Brest",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Lille",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Troyes": {
+   "home_n": 6,
+   "home_gf": 1.33,
+   "home_ga": 2.0,
+   "away_n": 5,
+   "away_gf": 0.4,
+   "away_ga": 1.2,
+   "home_gf_x": 1.2,
+   "home_ga_x": 1.2,
+   "away_gf_x": 0.4,
+   "away_ga_x": 1.2,
+   "total_n": 11,
+   "form6": "LLDWLW",
+   "form6_pts": 7,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Lorient",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-06",
+     "r": "3",
+     "side": "H",
+     "opp": "Strasbourg",
+     "gf": 2,
+     "ga": 6,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-13",
+     "r": "4",
+     "side": "A",
+     "opp": "Lille",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "A",
+     "opp": "Angers",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "H",
+     "opp": "Marseille",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "H",
+     "opp": "Lens",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Toulouse",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "H",
+     "opp": "Le Mans",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "A",
+     "opp": "Paris Saint-Germain",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-20",
+     "r": "11",
+     "side": "H",
+     "opp": "Le Havre",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "Paris FC": {
+   "home_n": 6,
+   "home_gf": 2.67,
+   "home_ga": 0.83,
+   "away_n": 5,
+   "away_gf": 1.0,
+   "away_ga": 1.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 0.5,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.0,
+   "total_n": 11,
+   "form6": "LWLWWW",
+   "form6_pts": 12,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "H",
+     "opp": "Nice",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-06",
+     "r": "3",
+     "side": "A",
+     "opp": "Marseille",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Lyon",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "H",
+     "opp": "Strasbourg",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Lorient",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "H",
+     "opp": "Rennes",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-24",
+     "r": "8",
+     "side": "A",
+     "opp": "Lens",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-01",
+     "r": "9",
+     "side": "H",
+     "opp": "Monaco",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "A",
+     "opp": "Auxerre",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-22",
+     "r": "11",
+     "side": "H",
+     "opp": "Angers",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Lens": {
+   "home_n": 6,
+   "home_gf": 1.83,
+   "home_ga": 1.33,
+   "away_n": 5,
+   "away_gf": 1.4,
+   "away_ga": 1.6,
+   "home_gf_x": 1.2,
+   "home_ga_x": 1.2,
+   "away_gf_x": 1.4,
+   "away_ga_x": 1.6,
+   "total_n": 11,
+   "form6": "WWWLLD",
+   "form6_pts": 10,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Strasbourg",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Lorient",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-13",
+     "r": "4",
+     "side": "A",
+     "opp": "Le Mans",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-18",
+     "r": "5",
+     "side": "A",
+     "opp": "Monaco",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-09",
+     "r": "6",
+     "side": "H",
+     "opp": "Lyon",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "A",
+     "opp": "Troyes",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-24",
+     "r": "8",
+     "side": "H",
+     "opp": "Paris FC",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-30",
+     "r": "9",
+     "side": "A",
+     "opp": "Lille",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Marseille",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Toulouse",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "Auxerre": {
+   "home_n": 5,
+   "home_gf": 1.0,
+   "home_ga": 1.2,
+   "away_n": 6,
+   "away_gf": 1.5,
+   "away_ga": 3.17,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.2,
+   "away_gf_x": 1.67,
+   "away_ga_x": 1.67,
+   "total_n": 11,
+   "form6": "LWDLLD",
+   "form6_pts": 5,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Angers",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Lyon",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Nice",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "H",
+     "opp": "Brest",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "A",
+     "opp": "Rennes",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "A",
+     "opp": "Le Havre",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Le Mans",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-01",
+     "r": "9",
+     "side": "A",
+     "opp": "Strasbourg",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "H",
+     "opp": "Paris FC",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Monaco",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "Le Mans": {
+   "home_n": 5,
+   "home_gf": 1.4,
+   "home_ga": 1.8,
+   "away_n": 6,
+   "away_gf": 1.33,
+   "away_ga": 2.0,
+   "home_gf_x": 1.4,
+   "home_ga_x": 1.8,
+   "away_gf_x": 1.33,
+   "away_ga_x": 2.0,
+   "total_n": 11,
+   "form6": "LLDLDW",
+   "form6_pts": 5,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "A",
+     "opp": "Rennes",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Nice",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-13",
+     "r": "4",
+     "side": "H",
+     "opp": "Lens",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "H",
+     "opp": "Lorient",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Paris Saint-Germain",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-16",
+     "r": "7",
+     "side": "H",
+     "opp": "Toulouse",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Auxerre",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-31",
+     "r": "9",
+     "side": "A",
+     "opp": "Troyes",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Monaco",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-22",
+     "r": "11",
+     "side": "A",
+     "opp": "Marseille",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "Brest": {
+   "home_n": 5,
+   "home_gf": 2.0,
+   "home_ga": 1.2,
+   "away_n": 6,
+   "away_gf": 1.5,
+   "away_ga": 1.0,
+   "home_gf_x": 1.25,
+   "home_ga_x": 1.25,
+   "away_gf_x": 1.5,
+   "away_ga_x": 1.0,
+   "total_n": 11,
+   "form6": "WDLWWW",
+   "form6_pts": 13,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Toulouse",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Le Havre",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-13",
+     "r": "4",
+     "side": "H",
+     "opp": "Paris Saint-Germain",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "A",
+     "opp": "Auxerre",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Angers",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "A",
+     "opp": "Lille",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-23",
+     "r": "8",
+     "side": "H",
+     "opp": "Nice",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-02",
+     "r": "9",
+     "side": "A",
+     "opp": "Lorient",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Lyon",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Strasbourg",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Angers": {
+   "home_n": 6,
+   "home_gf": 0.83,
+   "home_ga": 1.83,
+   "away_n": 5,
+   "away_gf": 0.8,
+   "away_ga": 2.4,
+   "home_gf_x": 0.6,
+   "home_ga_x": 1.2,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.0,
+   "total_n": 11,
+   "form6": "LLDLLL",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Auxerre",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-06",
+     "r": "3",
+     "side": "H",
+     "opp": "Rennes",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Le Havre",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "H",
+     "opp": "Troyes",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Brest",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "H",
+     "opp": "Marseille",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Lorient",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-01",
+     "r": "9",
+     "side": "A",
+     "opp": "Lyon",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Nice",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-22",
+     "r": "11",
+     "side": "A",
+     "opp": "Paris FC",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "Lille": {
+   "home_n": 6,
+   "home_gf": 1.17,
+   "home_ga": 0.67,
+   "away_n": 5,
+   "away_gf": 1.4,
+   "away_ga": 0.8,
+   "home_gf_x": 1.17,
+   "home_ga_x": 0.67,
+   "away_gf_x": 1.4,
+   "away_ga_x": 0.8,
+   "total_n": 11,
+   "form6": "WDDWWL",
+   "form6_pts": 11,
+   "recent": [
+    {
+     "d": "2026-08-28",
+     "r": "2",
+     "side": "H",
+     "opp": "Paris Saint-Germain",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-03",
+     "r": "3",
+     "side": "A",
+     "opp": "Toulouse",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-13",
+     "r": "4",
+     "side": "H",
+     "opp": "Troyes",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "A",
+     "opp": "Nice",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Le Havre",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "H",
+     "opp": "Brest",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Monaco",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-30",
+     "r": "9",
+     "side": "H",
+     "opp": "Lens",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Rennes",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Lyon",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "Rennes": {
+   "home_n": 6,
+   "home_gf": 2.33,
+   "home_ga": 1.17,
+   "away_n": 5,
+   "away_gf": 1.6,
+   "away_ga": 3.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.2,
+   "away_gf_x": 1.5,
+   "away_ga_x": 1.0,
+   "total_n": 11,
+   "form6": "WLWLLD",
+   "form6_pts": 7,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "H",
+     "opp": "Le Mans",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-06",
+     "r": "3",
+     "side": "A",
+     "opp": "Angers",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-11",
+     "r": "4",
+     "side": "H",
+     "opp": "Marseille",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "A",
+     "opp": "Lyon",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-11",
+     "r": "6",
+     "side": "H",
+     "opp": "Auxerre",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "A",
+     "opp": "Paris FC",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Strasbourg",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-30",
+     "r": "9",
+     "side": "A",
+     "opp": "Nice",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Lille",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-22",
+     "r": "11",
+     "side": "A",
+     "opp": "Lorient",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "Paris Saint-Germain": {
+   "home_n": 4,
+   "home_gf": 1.75,
+   "home_ga": 0.75,
+   "away_n": 7,
+   "away_gf": 2.57,
+   "away_ga": 1.29,
+   "home_gf_x": 1.75,
+   "home_ga_x": 0.75,
+   "away_gf_x": 2.17,
+   "away_ga_x": 1.33,
+   "total_n": 11,
+   "form6": "WWWWWW",
+   "form6_pts": 18,
+   "recent": [
+    {
+     "d": "2026-08-28",
+     "r": "2",
+     "side": "A",
+     "opp": "Lille",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-04",
+     "r": "3",
+     "side": "H",
+     "opp": "Monaco",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-13",
+     "r": "4",
+     "side": "A",
+     "opp": "Brest",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-20",
+     "r": "5",
+     "side": "A",
+     "opp": "Marseille",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Le Mans",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-17",
+     "r": "7",
+     "side": "A",
+     "opp": "Strasbourg",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-26",
+     "r": "8",
+     "side": "H",
+     "opp": "Lyon",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-30",
+     "r": "9",
+     "side": "A",
+     "opp": "Le Havre",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-07",
+     "r": "10",
+     "side": "H",
+     "opp": "Troyes",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "A",
+     "opp": "Nice",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "Le Havre": {
+   "home_n": 6,
+   "home_gf": 0.5,
+   "home_ga": 2.17,
+   "away_n": 5,
+   "away_gf": 1.4,
+   "away_ga": 2.4,
+   "home_gf_x": 0.4,
+   "home_ga_x": 1.6,
+   "away_gf_x": 1.0,
+   "away_ga_x": 2.0,
+   "total_n": 11,
+   "form6": "LLLLLL",
+   "form6_pts": 0,
+   "recent": [
+    {
+     "d": "2026-08-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Lyon",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Brest",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "H",
+     "opp": "Angers",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-19",
+     "r": "5",
+     "side": "A",
+     "opp": "Toulouse",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "A",
+     "opp": "Lille",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "H",
+     "opp": "Auxerre",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "A",
+     "opp": "Marseille",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-30",
+     "r": "9",
+     "side": "H",
+     "opp": "Paris Saint-Germain",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "H",
+     "opp": "Lorient",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-20",
+     "r": "11",
+     "side": "A",
+     "opp": "Troyes",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Monaco": {
+   "home_n": 5,
+   "home_gf": 1.6,
+   "home_ga": 1.0,
+   "away_n": 6,
+   "away_gf": 1.0,
+   "away_ga": 1.17,
+   "home_gf_x": 1.6,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.17,
+   "total_n": 11,
+   "form6": "DLDLDD",
+   "form6_pts": 4,
+   "recent": [
+    {
+     "d": "2026-08-30",
+     "r": "2",
+     "side": "H",
+     "opp": "Marseille",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Paris Saint-Germain",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-12",
+     "r": "4",
+     "side": "A",
+     "opp": "Strasbourg",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-09-18",
+     "r": "5",
+     "side": "H",
+     "opp": "Lens",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-10",
+     "r": "6",
+     "side": "H",
+     "opp": "Toulouse",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-18",
+     "r": "7",
+     "side": "A",
+     "opp": "Lorient",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-25",
+     "r": "8",
+     "side": "H",
+     "opp": "Lille",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-01",
+     "r": "9",
+     "side": "A",
+     "opp": "Paris FC",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-08",
+     "r": "10",
+     "side": "A",
+     "opp": "Le Mans",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-21",
+     "r": "11",
+     "side": "H",
+     "opp": "Auxerre",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  }
+ }
+}
