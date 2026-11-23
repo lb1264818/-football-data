@@ -58,15 +58,28 @@ def dv(*odds):
     return [x / s for x in inv] if s > 0 else None
 
 
-def p_over(t):
-    return 1.0 - math.exp(-t) * (1.0 + t + t * t / 2.0)
+def p_over_line(t, line):
+    """P(total goals > line) for half lines only (1.5 / 2.5 / 3.5 ...): exact Poisson tail"""
+    if abs(line - round(line)) < 1e-9 or abs((line * 2) % 1) > 1e-9:
+        return None
+    n = int(math.floor(line))
+    s = 0.0
+    term = math.exp(-t)
+    for k in range(n + 1):
+        s += term
+        term *= t / (k + 1)
+    return max(0.0, 1.0 - s)
 
 
-def solve_T(po):
+def solve_T(po, line=2.5):
+    """market P(over line) -> expected total goals T"""
     lo, hi = 0.3, 9.0
     for _ in range(42):
         mid = (lo + hi) / 2.0
-        if p_over(mid) < po:
+        v = p_over_line(mid, line)
+        if v is None:
+            return None
+        if v < po:
             lo = mid
         else:
             hi = mid
@@ -104,7 +117,7 @@ def scan_history():
             a, b = dv(*so), dv(*sc)
             if not (a and b):
                 continue
-            T_o, T_c = solve_T(a[0]), solve_T(b[0])
+            T_o, T_c = solve_T(a[0], 2.5), solve_T(b[0], 2.5)
             hs, as_ = fs(r.get("FTHG")), fs(r.get("FTAG"))
             out.append(dict(key="%s|%s|%s|%s" % (lg, d, r.get("HomeTeam"), r.get("AwayTeam")),
                             lg=lg, d=d, h=r.get("HomeTeam"), a=r.get("AwayTeam"),
@@ -112,6 +125,40 @@ def scan_history():
                             od_over=so[0], od_under=so[1], fair_over_close=b[0],
                             ft=None if (hs is None or as_ is None) else [int(hs), int(as_)]))
     return out, last
+
+
+CANON = {
+    "\u82f1\u8d85": "EPL", "\u610f\u7532": "ITA", "\u897f\u7532": "ESP",
+    "\u6cd5\u7532": "FRA1", "\u6cd5\u4e59": "FRA2",
+    "\u5fb7\u7532": "GER1", "\u5fb7\u4e59": "GER2", "\u8377\u7532": "NED",
+    "\u82f1\u51a0": "ENG2", "\u8461\u8d85": "POR", "\u82cf\u8d85": "SCO",
+}
+
+
+def migrate(ents):
+    """old ledgers used Chinese league names; collapse duplicates onto one canonical key"""
+    out = {}
+    for k, v in ents.items():
+        parts = k.split("|")
+        if len(parts) != 4:
+            out[k] = v
+            continue
+        lg = CANON.get(parts[0], parts[0])
+        v["lg"] = lg
+        if v.get("pick") in ("\u5927", "\u5c0f"):
+            v["pick"] = "OVER" if v["pick"] == "\u5927" else "UNDER"
+        k2 = "|".join([lg] + parts[1:])
+        if k2 in out:
+            a, b = out[k2], v
+            keep = a if (a.get("logged") or "9999") <= (b.get("logged") or "9999") else b
+            drop = b if keep is a else a
+            for f in ("won", "units", "clv_pct", "ft", "tot"):
+                if f in drop and f not in keep:
+                    keep[f] = drop[f]
+            out[k2] = keep
+        else:
+            out[k2] = v
+    return out
 
 
 def settle(e, ft):
@@ -171,7 +218,7 @@ def pick_totals(game):
             pts = {}
             for o in mk.get("outcomes", []):
                 pts.setdefault(o.get("point"), {})[o.get("name")] = o.get("price")
-            for pt in (2.5, 3.5, 2.25, 2.75, 1.5, 4.5):
+            for pt in (2.5, 3.5, 1.5, 4.5):
                 d = pts.get(pt)
                 if d and d.get("Over") and d.get("Under"):
                     return dict(pt=pt, over=d["Over"], under=d["Under"], book=bk["key"])
@@ -184,7 +231,13 @@ def live_signals(today):
         return dict(status="skip-no-key", note="ODDS_KEY not set, live signals disabled")
     only = [x.strip() for x in os.environ.get("LIVE_LEAGUES", "").split(",") if x.strip()]
     snap_p = pathlib.Path("data/odds_snap.json")
-    prev = json.loads(snap_p.read_text()) if snap_p.exists() else {}
+    prev_raw = json.loads(snap_p.read_text()) if snap_p.exists() else {}
+    # old snapshots were solved on a fixed 2.5 line -> their T is wrong; drop them
+    if prev_raw.get("__ver__") != 2:
+        prev = {}
+        print("SNAP-INVALIDATE legacy snapshot ignored")
+    else:
+        prev = {k: v for k, v in prev_raw.items() if k != "__ver__"}
     cur, sigs, used, rem = {}, [], 0, None
     for lg, sk in SPORT_KEYS.items():
         if only and lg not in only:
@@ -205,7 +258,9 @@ def live_signals(today):
             z = dv(tk["over"], tk["under"])
             if not z:
                 continue
-            T = solve_T(z[0])
+            T = solve_T(z[0], tk["pt"])
+            if T is None:
+                continue
             cur[mt] = dict(pt=tk["pt"], T=round(T, 3), over=tk["over"], under=tk["under"],
                            book=tk["book"], home=g.get("home_team"), away=g.get("away_team"),
                            start=g.get("commence_time"))
@@ -230,9 +285,10 @@ def live_signals(today):
     if used == 0:
         return dict(status="auth-or-network-fail", requests=0, remaining=None,
                     note="every odds request failed: check ODDS_KEY value and sport keys")
+    cur["__ver__"] = 2
     snap_p.write_text(json.dumps(cur, indent=1))
     return dict(status="ok", requests=used, remaining=rem, n_sig=len(sigs), signals=sigs,
-                snap_n=len(cur),
+                snap_n=len(cur) - 1,
                 note="first run only builds snapshot, dT available from second run")
 
 
@@ -243,7 +299,7 @@ def main():
 
     led = json.loads(LEDGER.read_text()) if LEDGER.exists() else {}
     since = led.get("since") or today
-    ents = led.get("entries", {})
+    ents = migrate(led.get("entries", {}))
 
     # 1) history backfill / new signal logging (pick and odds are frozen once logged)
     for r in hist:
