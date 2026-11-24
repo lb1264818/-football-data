@@ -1,6 +1,6 @@
 {
  "since": "2026-11-23",
- "updated": "2026-11-23 22:12 UTC",
+ "updated": "2026-11-24 00:00 UTC",
  "entries": {
   "EPL|2026-08-22|Hull|Man United": {
    "lg": "EPL",
@@ -18459,6 +18459,72 @@
    "won": true,
    "units": 0.57,
    "clv_pct": -0.02
+  },
+  "EPL|2026-11-23|Brentford|Everton": {
+   "lg": "EPL",
+   "d": "2026-11-23",
+   "h": "Brentford",
+   "a": "Everton",
+   "dT": -0.2013,
+   "pick": "UNDER",
+   "odds": 2.1,
+   "fair_close": 0.5,
+   "closing_line": 2.674,
+   "tier": "trade",
+   "phase": "live",
+   "logged": "2026-11-24",
+   "ft": [
+    4,
+    0
+   ],
+   "tot": 4,
+   "won": false,
+   "units": -1.0,
+   "clv_pct": 5.0
+  },
+  "ITA|2026-11-23|Monza|Fiorentina": {
+   "lg": "ITA",
+   "d": "2026-11-23",
+   "h": "Monza",
+   "a": "Fiorentina",
+   "dT": -0.0816,
+   "pick": "UNDER",
+   "odds": 2.3,
+   "fair_close": 0.5684754521963824,
+   "closing_line": 2.963,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-24",
+   "ft": [
+    3,
+    0
+   ],
+   "tot": 3,
+   "won": false,
+   "units": -1.0,
+   "clv_pct": -0.75
+  },
+  "FRA2|2026-11-23|Nantes|Grenoble": {
+   "lg": "FRA2",
+   "d": "2026-11-23",
+   "h": "Nantes",
+   "a": "Grenoble",
+   "dT": -0.1067,
+   "pick": "UNDER",
+   "odds": 1.95,
+   "fair_close": 0.48684210526315796,
+   "closing_line": 2.621,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-24",
+   "ft": [
+    1,
+    0
+   ],
+   "tot": 1,
+   "won": true,
+   "units": 0.95,
+   "clv_pct": 0.07
   }
  }
 }

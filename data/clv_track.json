@@ -1,25 +1,32 @@
 {
- "fetched": "2026-11-23 22:12 UTC",
+ "fetched": "2026-11-24 00:00 UTC",
  "since": "2026-11-23",
- "today": "2026-11-23",
- "data_last_date": "2026-11-22",
+ "today": "2026-11-24",
+ "data_last_date": "2026-11-23",
  "rule": {
   "market": "ou2.5",
   "sig": 0.06,
   "desc": "bet only when total-goals T moves >=0.06 toward one side, follow the move"
  },
  "all": {
-  "n": 839,
-  "hit": 0.5662,
-  "units": 44.57,
-  "roi": 0.0531,
-  "z_roi": 1.56,
+  "n": 842,
+  "hit": 0.5653,
+  "units": 43.52,
+  "roi": 0.0517,
+  "z_roi": 1.52,
   "clv_mean": 1.98,
-  "clv_pos": 0.565,
-  "z_clv": 11.99
+  "clv_pos": 0.5653,
+  "z_clv": 12.01
  },
  "live": {
-  "n": 0
+  "n": 3,
+  "hit": 0.3333,
+  "units": -1.05,
+  "roi": -0.35,
+  "z_roi": -0.54,
+  "clv_mean": 1.44,
+  "clv_pos": 0.6667,
+  "z_clv": 0.8
  },
  "hist": {
   "n": 839,
@@ -32,24 +39,24 @@
   "z_clv": 11.99
  },
  "trade": {
-  "n": 398,
-  "hit": 0.6156,
-  "units": 47.43,
-  "roi": 0.1192,
-  "z_roi": 2.53,
+  "n": 399,
+  "hit": 0.614,
+  "units": 46.43,
+  "roi": 0.1164,
+  "z_roi": 2.47,
   "clv_mean": 5.03,
-  "clv_pos": 0.8995,
-  "z_clv": 19.0
+  "clv_pos": 0.8997,
+  "z_clv": 19.05
  },
  "watch": {
-  "n": 441,
-  "hit": 0.5215,
-  "units": -2.86,
-  "roi": -0.0065,
-  "z_roi": -0.13,
+  "n": 443,
+  "hit": 0.5214,
+  "units": -2.91,
+  "roi": -0.0066,
+  "z_roi": -0.14,
   "clv_mean": -0.77,
-  "clv_pos": 0.263,
-  "z_clv": -10.25
+  "clv_pos": 0.2641,
+  "z_clv": -10.27
  },
  "thresholds": {
   "watch_min": 0.06,
@@ -58,58 +65,58 @@
  "by_band": [
   {
    "band": "0.06~0.10",
-   "n": 279,
-   "hit": 0.509,
-   "units": -8.61,
-   "roi": -0.0309,
-   "z_roi": -0.51,
+   "n": 280,
+   "hit": 0.5071,
+   "units": -9.61,
+   "roi": -0.0343,
+   "z_roi": -0.57,
    "clv_mean": -1.43,
-   "clv_pos": 0.0502,
-   "z_clv": -23.56
+   "clv_pos": 0.05,
+   "z_clv": -23.58
   },
   {
    "band": "0.10~0.15",
-   "n": 162,
-   "hit": 0.5432,
-   "units": 5.75,
-   "roi": 0.0355,
-   "z_roi": 0.44,
+   "n": 163,
+   "hit": 0.546,
+   "units": 6.7,
+   "roi": 0.0411,
+   "z_roi": 0.51,
    "clv_mean": 0.36,
-   "clv_pos": 0.6296,
-   "z_clv": 2.64
+   "clv_pos": 0.6319,
+   "z_clv": 2.65
   },
   {
    "band": "0.15~9.99",
-   "n": 398,
-   "hit": 0.6156,
-   "units": 47.43,
-   "roi": 0.1192,
-   "z_roi": 2.53,
+   "n": 399,
+   "hit": 0.614,
+   "units": 46.43,
+   "roi": 0.1164,
+   "z_roi": 2.47,
    "clv_mean": 5.03,
-   "clv_pos": 0.8995,
-   "z_clv": 19.0
+   "clv_pos": 0.8997,
+   "z_clv": 19.05
   }
  ],
  "by_league": {
   "EPL": {
-   "n": 76,
-   "hit": 0.5526,
-   "units": 8.01,
-   "roi": 0.1054,
-   "z_roi": 0.87,
-   "clv_mean": 2.16,
-   "clv_pos": 0.5789,
-   "z_clv": 4.1
+   "n": 77,
+   "hit": 0.5455,
+   "units": 7.01,
+   "roi": 0.091,
+   "z_roi": 0.75,
+   "clv_mean": 2.2,
+   "clv_pos": 0.5844,
+   "z_clv": 4.21
   },
   "ITA": {
-   "n": 89,
-   "hit": 0.5618,
-   "units": 2.55,
-   "roi": 0.0287,
-   "z_roi": 0.29,
-   "clv_mean": 2.81,
-   "clv_pos": 0.7303,
-   "z_clv": 6.32
+   "n": 90,
+   "hit": 0.5556,
+   "units": 1.55,
+   "roi": 0.0172,
+   "z_roi": 0.17,
+   "clv_mean": 2.77,
+   "clv_pos": 0.7222,
+   "z_clv": 6.28
   },
   "ESP": {
    "n": 99,
@@ -132,14 +139,14 @@
    "z_clv": 5.21
   },
   "FRA2": {
-   "n": 48,
-   "hit": 0.5417,
-   "units": 1.2,
-   "roi": 0.025,
-   "z_roi": 0.18,
+   "n": 49,
+   "hit": 0.551,
+   "units": 2.15,
+   "roi": 0.0439,
+   "z_roi": 0.32,
    "clv_mean": 0.06,
-   "clv_pos": 0.3542,
-   "z_clv": 0.19
+   "clv_pos": 0.3673,
+   "z_clv": 0.2
   },
   "GER1": {
    "n": 65,
@@ -207,10 +214,10 @@
  "live_odds": {
   "status": "ok",
   "requests": 11,
-  "remaining": "458",
+  "remaining": "448",
   "n_sig": 0,
   "signals": [],
-  "snap_n": 158,
+  "snap_n": 157,
   "note": "first run only builds snapshot, dT available from second run"
  },
  "note": "hist = backfill validation, live = forward tracking after go-live; never mixed"

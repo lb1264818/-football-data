@@ -1,47 +1,26 @@
 {
- "fetched": "2026-11-23 22:12 UTC",
+ "fetched": "2026-11-23 23:59 UTC",
  "season": "2627",
  "sources": {
   "英超_2627": {
    "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
-   "n": 109
+   "n": 110
   },
   "意甲_2627": {
    "url": "https://www.football-data.co.uk/mmz4281/2627/I1.csv",
-   "n": 119
+   "n": 120
   },
   "西甲_2627": {
    "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
-   "n": 128
+   "n": 129
   },
   "法乙_2627": {
    "url": "https://www.football-data.co.uk/mmz4281/2627/F2.csv",
-   "n": 114
+   "n": 116
   }
  },
  "errors": [],
  "rows": [
-  {
-   "lg": "英超",
-   "season": "2627",
-   "date": "2026-11-01",
-   "home": "Liverpool",
-   "away": "Arsenal",
-   "ft": [
-    "0",
-    "1"
-   ],
-   "line": 2.5,
-   "src": "football-data",
-   "b365o": 1.88,
-   "b365u": 1.98,
-   "avgo": 1.82,
-   "avgu": 1.92,
-   "cb365o": 1.67,
-   "cb365u": 2.2,
-   "cavgo": 1.63,
-   "cavgu": 2.2
-  },
   {
    "lg": "英超",
    "season": "2627",
@@ -463,109 +442,25 @@
    "cavgu": 2.6
   },
   {
-   "lg": "意甲",
+   "lg": "英超",
    "season": "2627",
-   "date": "2026-11-01",
-   "home": "Como",
-   "away": "Venezia",
+   "date": "2026-11-23",
+   "home": "Brentford",
+   "away": "Everton",
    "ft": [
-    "1",
+    "4",
     "0"
    ],
    "line": 2.5,
    "src": "football-data",
-   "b365o": 1.4,
-   "b365u": 3.0,
-   "avgo": 1.37,
-   "avgu": 2.91,
-   "cb365o": 1.4,
-   "cb365u": 3.0,
-   "cavgo": 1.37,
-   "cavgu": 2.98
-  },
-  {
-   "lg": "意甲",
-   "season": "2627",
-   "date": "2026-11-01",
-   "home": "Frosinone",
-   "away": "Torino",
-   "ft": [
-    "2",
-    "0"
-   ],
-   "line": 2.5,
-   "src": "football-data",
-   "b365o": 1.4,
-   "b365u": 3.0,
-   "avgo": 1.4,
-   "avgu": 2.84,
-   "cb365o": 1.36,
-   "cb365u": 3.2,
-   "cavgo": 1.36,
-   "cavgu": 3.02
-  },
-  {
-   "lg": "意甲",
-   "season": "2627",
-   "date": "2026-11-01",
-   "home": "Lazio",
-   "away": "Cagliari",
-   "ft": [
-    "2",
-    "1"
-   ],
-   "line": 2.5,
-   "src": "football-data",
-   "b365o": 1.8,
-   "b365u": 2.0,
-   "avgo": 1.78,
-   "avgu": 1.97,
-   "cb365o": 1.67,
-   "cb365u": 2.2,
-   "cavgo": 1.68,
-   "cavgu": 2.13
-  },
-  {
-   "lg": "意甲",
-   "season": "2627",
-   "date": "2026-11-01",
-   "home": "Lecce",
-   "away": "Genoa",
-   "ft": [
-    "1",
-    "2"
-   ],
-   "line": 2.5,
-   "src": "football-data",
-   "b365o": 2.38,
-   "b365u": 1.57,
-   "avgo": 2.33,
-   "avgu": 1.56,
-   "cb365o": 2.2,
-   "cb365u": 1.67,
-   "cavgo": 2.2,
-   "cavgu": 1.64
-  },
-  {
-   "lg": "意甲",
-   "season": "2627",
-   "date": "2026-11-01",
-   "home": "Juventus",
-   "away": "Napoli",
-   "ft": [
-    "2",
-    "0"
-   ],
-   "line": 2.5,
-   "src": "football-data",
-   "b365o": 2.03,
-   "b365u": 1.83,
-   "avgo": 1.95,
-   "avgu": 1.8,
-   "cb365o": 1.8,
-   "cb365u": 2.0,
-   "cavgo": 1.79,
-   "cavgu": 1.96
+   "b365o": 1.73,
+   "b365u": 2.1,
+   "avgo": 1.71,
+   "avgu": 2.05,
+   "cb365o": 1.91,
+   "cb365u": 1.91,
+   "cavgo": 1.84,
+   "cavgu": 1.89
   },
   {
    "lg": "意甲",
@@ -1009,88 +904,25 @@
    "cavgu": 2.88
   },
   {
-   "lg": "西甲",
+   "lg": "意甲",
    "season": "2627",
-   "date": "2026-11-01",
-   "home": "Getafe",
-   "away": "Sevilla",
+   "date": "2026-11-23",
+   "home": "Monza",
+   "away": "Fiorentina",
    "ft": [
     "3",
-    "1"
+    "0"
    ],
    "line": 2.5,
    "src": "football-data",
-   "b365o": 2.75,
-   "b365u": 1.44,
-   "avgo": 2.66,
-   "avgu": 1.44,
-   "cb365o": 2.63,
-   "cb365u": 1.5,
-   "cavgo": 2.54,
-   "cavgu": 1.49
-  },
-  {
-   "lg": "西甲",
-   "season": "2627",
-   "date": "2026-11-01",
-   "home": "Santander",
-   "away": "Real Madrid",
-   "ft": [
-    "0",
-    "3"
-   ],
-   "line": 2.5,
-   "src": "football-data",
-   "b365o": 1.2,
-   "b365u": 4.5,
-   "avgo": 1.19,
-   "avgu": 4.39,
-   "cb365o": 1.25,
-   "cb365u": 4.0,
-   "cavgo": 1.22,
-   "cavgu": 4.07
-  },
-  {
-   "lg": "西甲",
-   "season": "2627",
-   "date": "2026-11-01",
-   "home": "Elche",
-   "away": "Valencia",
-   "ft": [
-    "0",
-    "1"
-   ],
-   "line": 2.5,
-   "src": "football-data",
-   "b365o": 1.98,
-   "b365u": 1.88,
-   "avgo": 1.91,
-   "avgu": 1.82,
-   "cb365o": 1.83,
-   "cb365u": 2.03,
-   "cavgo": 1.81,
-   "cavgu": 1.95
-  },
-  {
-   "lg": "西甲",
-   "season": "2627",
-   "date": "2026-11-01",
-   "home": "Ath Bilbao",
-   "away": "Sociedad",
-   "ft": [
-    "2",
-    "1"
-   ],
-   "line": 2.5,
-   "src": "football-data",
-   "b365o": 1.67,
-   "b365u": 2.2,
-   "avgo": 1.65,
-   "avgu": 2.14,
-   "cb365o": 1.8,
-   "cb365u": 2.0,
-   "cavgo": 1.75,
-   "cavgu": 2.02
+   "b365o": 1.62,
+   "b365u": 2.3,
+   "avgo": 1.57,
+   "avgu": 2.3,
+   "cb365o": 1.67,
+   "cb365u": 2.2,
+   "cavgo": 1.61,
+   "cavgu": 2.24
   },
   {
    "lg": "西甲",
@@ -1513,6 +1345,27 @@
    "cavgu": 1.69
   },
   {
+   "lg": "西甲",
+   "season": "2627",
+   "date": "2026-11-23",
+   "home": "Levante",
+   "away": "Elche",
+   "ft": [
+    "1",
+    "1"
+   ],
+   "line": 2.5,
+   "src": "football-data",
+   "b365o": 1.67,
+   "b365u": 2.2,
+   "avgo": 1.66,
+   "avgu": 2.13,
+   "cb365o": 1.67,
+   "cb365u": 2.2,
+   "cavgo": 1.67,
+   "cavgu": 2.12
+  },
+  {
    "lg": "法乙",
    "season": "2627",
    "date": "2026-11-02",
@@ -1888,6 +1741,48 @@
    "cb365o": 1.85,
    "cb365u": 1.95,
    "cavgo": 1.81,
+   "cavgu": 1.9
+  },
+  {
+   "lg": "法乙",
+   "season": "2627",
+   "date": "2026-11-23",
+   "home": "Nantes",
+   "away": "Grenoble",
+   "ft": [
+    "1",
+    "0"
+   ],
+   "line": 2.5,
+   "src": "football-data",
+   "b365o": 1.85,
+   "b365u": 1.95,
+   "avgo": 1.79,
+   "avgu": 1.91,
+   "cb365o": 1.95,
+   "cb365u": 1.85,
+   "cavgo": 1.92,
+   "cavgu": 1.8
+  },
+  {
+   "lg": "法乙",
+   "season": "2627",
+   "date": "2026-11-23",
+   "home": "Sochaux",
+   "away": "Dunkerque",
+   "ft": [
+    "2",
+    "3"
+   ],
+   "line": 2.5,
+   "src": "football-data",
+   "b365o": 1.85,
+   "b365u": 1.95,
+   "avgo": 1.8,
+   "avgu": 1.9,
+   "cb365o": 1.85,
+   "cb365u": 1.95,
+   "cavgo": 1.82,
    "cavgu": 1.9
   }
  ]

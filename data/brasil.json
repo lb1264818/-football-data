@@ -1,7 +1,7 @@
 {
  "league": "巴甲",
  "season": "2026",
- "ft": 356,
+ "ft": 358,
  "teams": {
   "Atlético Mineiro": {
    "home_n": 17,
@@ -1074,29 +1074,20 @@
    ]
   },
   "Internacional": {
-   "home_n": 17,
-   "home_gf": 1.29,
-   "home_ga": 1.0,
+   "home_n": 18,
+   "home_gf": 1.28,
+   "home_ga": 1.11,
    "away_n": 18,
    "away_gf": 0.94,
    "away_ga": 1.5,
    "home_gf_x": 1.12,
-   "home_ga_x": 1.0,
+   "home_ga_x": 1.12,
    "away_gf_x": 0.94,
    "away_ga_x": 1.5,
-   "total_n": 35,
-   "form6": "DLWLWL",
-   "form6_pts": 7,
+   "total_n": 36,
+   "form6": "LWLWLL",
+   "form6_pts": 6,
    "recent": [
-    {
-     "d": "2026-09-06",
-     "r": "26",
-     "side": "H",
-     "opp": "Santos",
-     "gf": 2,
-     "ga": 3,
-     "res": "L"
-    },
     {
      "d": "2026-09-12",
      "r": "27",
@@ -1176,6 +1167,15 @@
      "opp": "Vasco da Gama",
      "gf": 1,
      "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-23",
+     "r": "36",
+     "side": "H",
+     "opp": "Vitória",
+     "gf": 1,
+     "ga": 3,
      "res": "L"
     }
    ]
@@ -1291,26 +1291,17 @@
    "home_n": 18,
    "home_gf": 1.39,
    "home_ga": 0.94,
-   "away_n": 17,
-   "away_gf": 0.71,
-   "away_ga": 2.06,
+   "away_n": 18,
+   "away_gf": 0.83,
+   "away_ga": 2.0,
    "home_gf_x": 1.13,
    "home_ga_x": 0.8,
-   "away_gf_x": 0.69,
-   "away_ga_x": 1.88,
-   "total_n": 35,
-   "form6": "LDDLLW",
-   "form6_pts": 5,
+   "away_gf_x": 0.82,
+   "away_ga_x": 1.82,
+   "total_n": 36,
+   "form6": "DDLLWW",
+   "form6_pts": 8,
    "recent": [
-    {
-     "d": "2026-09-07",
-     "r": "26",
-     "side": "H",
-     "opp": "Grêmio",
-     "gf": 1,
-     "ga": 0,
-     "res": "W"
-    },
     {
      "d": "2026-09-13",
      "r": "27",
@@ -1389,6 +1380,15 @@
      "side": "H",
      "opp": "Bragantino",
      "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-23",
+     "r": "36",
+     "side": "A",
+     "opp": "Internacional",
+     "gf": 3,
      "ga": 1,
      "res": "W"
     }
@@ -1719,26 +1719,17 @@
    "home_n": 18,
    "home_gf": 1.39,
    "home_ga": 0.78,
-   "away_n": 17,
-   "away_gf": 0.82,
-   "away_ga": 1.53,
+   "away_n": 18,
+   "away_gf": 0.83,
+   "away_ga": 1.44,
    "home_gf_x": 1.24,
    "home_ga_x": 0.76,
-   "away_gf_x": 0.82,
-   "away_ga_x": 1.53,
-   "total_n": 35,
-   "form6": "WWDLDL",
+   "away_gf_x": 0.83,
+   "away_ga_x": 1.44,
+   "total_n": 36,
+   "form6": "WDLDLW",
    "form6_pts": 8,
    "recent": [
-    {
-     "d": "2026-09-12",
-     "r": "27",
-     "side": "A",
-     "opp": "Palmeiras",
-     "gf": 0,
-     "ga": 2,
-     "res": "L"
-    },
     {
      "d": "2026-09-20",
      "r": "28",
@@ -1819,6 +1810,15 @@
      "gf": 0,
      "ga": 1,
      "res": "L"
+    },
+    {
+     "d": "2026-11-23",
+     "r": "36",
+     "side": "A",
+     "opp": "Botafogo",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
     }
    ]
   },
@@ -1930,29 +1930,20 @@
    ]
   },
   "Botafogo": {
-   "home_n": 17,
-   "home_gf": 1.59,
-   "home_ga": 1.29,
+   "home_n": 18,
+   "home_gf": 1.5,
+   "home_ga": 1.28,
    "away_n": 18,
    "away_gf": 1.06,
    "away_ga": 1.94,
-   "home_gf_x": 1.44,
-   "home_ga_x": 1.38,
+   "home_gf_x": 1.35,
+   "home_ga_x": 1.35,
    "away_gf_x": 0.79,
    "away_ga_x": 1.5,
-   "total_n": 35,
-   "form6": "DWLLWL",
-   "form6_pts": 7,
+   "total_n": 36,
+   "form6": "WLLWLL",
+   "form6_pts": 6,
    "recent": [
-    {
-     "d": "2026-09-12",
-     "r": "27",
-     "side": "H",
-     "opp": "Bragantino",
-     "gf": 1,
-     "ga": 1,
-     "res": "D"
-    },
     {
      "d": "2026-09-16",
      "r": "21",
@@ -2032,6 +2023,15 @@
      "opp": "Corinthians",
      "gf": 0,
      "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-23",
+     "r": "36",
+     "side": "H",
+     "opp": "São Paulo",
+     "gf": 0,
+     "ga": 1,
      "res": "L"
     }
    ]
