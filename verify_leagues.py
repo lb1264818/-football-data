@@ -1,7 +1,8 @@
 # 联赛接入前校验：thesportsdb 联赛 ID 实测 + football-data 覆盖探测，只输出结论
-import json, pathlib, urllib.request, datetime, traceback
+import json, os, pathlib, urllib.parse, urllib.request, datetime, traceback
 
-KEY = "4607099659"
+# 密钥不再写死在仓库(公开仓库=明文泄露), 由 CI 的 secrets.SPORTSDB_KEY 注入
+KEY = os.environ.get("SPORTSDB_KEY", "").strip()
 TS = "https://www.thesportsdb.com/api/v1/json/{}/{}"
 TARGET = {
  "日职": ("Japan", ["J1 League", "J.League", "J1"]),
@@ -38,7 +39,9 @@ def ts_events(lid, season):
     return len(ev), teams[:6]
 
 def main():
-    import urllib.parse
+    if not KEY:
+        print("VERIFY-SKIP: SPORTSDB_KEY 未设置")
+        return
     out = {"fetched": datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"),
            "ts": {}, "fd": {}, "errors": []}
     cache = {}
