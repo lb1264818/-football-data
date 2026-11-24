@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-24 00:15 UTC",
+ "fetched": "2026-11-24 00:47 UTC",
  "since": "2026-11-23",
  "today": "2026-11-24",
  "data_last_date": "2026-11-23",
@@ -214,7 +214,7 @@
  "live_odds": {
   "status": "ok",
   "requests": 11,
-  "remaining": "438",
+  "remaining": "428",
   "n_sig": 0,
   "signals": [],
   "snap_n": 157,

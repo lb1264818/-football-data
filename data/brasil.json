@@ -1,7 +1,7 @@
 {
  "league": "巴甲",
  "season": "2026",
- "ft": 358,
+ "ft": 359,
  "teams": {
   "Atlético Mineiro": {
    "home_n": 17,
@@ -325,29 +325,20 @@
    ]
   },
   "Santos": {
-   "home_n": 17,
-   "home_gf": 1.35,
-   "home_ga": 1.24,
+   "home_n": 18,
+   "home_gf": 1.28,
+   "home_ga": 1.22,
    "away_n": 18,
    "away_gf": 1.56,
    "away_ga": 1.56,
-   "home_gf_x": 1.35,
-   "home_ga_x": 1.24,
+   "home_gf_x": 1.28,
+   "home_ga_x": 1.22,
    "away_gf_x": 1.53,
    "away_ga_x": 1.41,
-   "total_n": 35,
-   "form6": "LWDDLW",
+   "total_n": 36,
+   "form6": "WDDLWL",
    "form6_pts": 8,
    "recent": [
-    {
-     "d": "2026-09-13",
-     "r": "27",
-     "side": "H",
-     "opp": "Cruzeiro",
-     "gf": 2,
-     "ga": 1,
-     "res": "W"
-    },
     {
      "d": "2026-09-19",
      "r": "28",
@@ -428,6 +419,15 @@
      "gf": 1,
      "ga": 0,
      "res": "W"
+    },
+    {
+     "d": "2026-11-24",
+     "r": "36",
+     "side": "H",
+     "opp": "Grêmio",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
     }
    ]
   },
@@ -970,26 +970,17 @@
    "home_n": 18,
    "home_gf": 1.5,
    "home_ga": 1.17,
-   "away_n": 17,
-   "away_gf": 0.65,
-   "away_ga": 1.53,
+   "away_n": 18,
+   "away_gf": 0.67,
+   "away_ga": 1.44,
    "home_gf_x": 1.25,
    "home_ga_x": 0.88,
-   "away_gf_x": 0.65,
-   "away_ga_x": 1.53,
-   "total_n": 35,
-   "form6": "DLWWLD",
-   "form6_pts": 8,
+   "away_gf_x": 0.67,
+   "away_ga_x": 1.44,
+   "total_n": 36,
+   "form6": "LWWLDW",
+   "form6_pts": 10,
    "recent": [
-    {
-     "d": "2026-09-12",
-     "r": "27",
-     "side": "H",
-     "opp": "Vasco da Gama",
-     "gf": 1,
-     "ga": 2,
-     "res": "L"
-    },
     {
      "d": "2026-09-16",
      "r": "21",
@@ -1070,18 +1061,27 @@
      "gf": 0,
      "ga": 0,
      "res": "D"
+    },
+    {
+     "d": "2026-11-24",
+     "r": "36",
+     "side": "A",
+     "opp": "Santos",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
     }
    ]
   },
   "Internacional": {
    "home_n": 18,
-   "home_gf": 1.28,
-   "home_ga": 1.11,
+   "home_gf": 1.33,
+   "home_ga": 1.22,
    "away_n": 18,
    "away_gf": 0.94,
    "away_ga": 1.5,
    "home_gf_x": 1.12,
-   "home_ga_x": 1.12,
+   "home_ga_x": 1.0,
    "away_gf_x": 0.94,
    "away_ga_x": 1.5,
    "total_n": 36,
@@ -1174,8 +1174,8 @@
      "r": "36",
      "side": "H",
      "opp": "Vitória",
-     "gf": 1,
-     "ga": 3,
+     "gf": 2,
+     "ga": 5,
      "res": "L"
     }
    ]
@@ -1292,12 +1292,12 @@
    "home_gf": 1.39,
    "home_ga": 0.94,
    "away_n": 18,
-   "away_gf": 0.83,
-   "away_ga": 2.0,
+   "away_gf": 0.94,
+   "away_ga": 2.06,
    "home_gf_x": 1.13,
    "home_ga_x": 0.8,
-   "away_gf_x": 0.82,
-   "away_ga_x": 1.82,
+   "away_gf_x": 0.69,
+   "away_ga_x": 1.88,
    "total_n": 36,
    "form6": "DDLLWW",
    "form6_pts": 8,
@@ -1388,8 +1388,8 @@
      "r": "36",
      "side": "A",
      "opp": "Internacional",
-     "gf": 3,
-     "ga": 1,
+     "gf": 5,
+     "ga": 2,
      "res": "W"
     }
    ]

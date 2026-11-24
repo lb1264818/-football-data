@@ -1,0 +1,4282 @@
+{
+ "league": "欧冠",
+ "season": "2026-2027",
+ "ft": 162,
+ "teams": {
+  "Víkingur Reykjavík": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 0.5,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 2.0,
+   "home_gf_x": 1.5,
+   "home_ga_x": 0.5,
+   "away_gf_x": 1.0,
+   "away_ga_x": 2.0,
+   "total_n": 4,
+   "form6": "WDWL",
+   "form6_pts": 7,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "H",
+     "opp": "Győri ETO",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "A",
+     "opp": "Győri ETO",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "Hapoel Be'er Sheva",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Hapoel Be'er Sheva",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Győri ETO": {
+   "home_n": 1,
+   "home_gf": 2.0,
+   "home_ga": 2.0,
+   "away_n": 1,
+   "away_gf": 0.0,
+   "away_ga": 1.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 1.0,
+   "total_n": 2,
+   "form6": "LD",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "A",
+     "opp": "Víkingur Reykjavík",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "H",
+     "opp": "Víkingur Reykjavík",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "Vardar": {
+   "home_n": 1,
+   "home_gf": 0.0,
+   "home_ga": 2.0,
+   "away_n": 1,
+   "away_gf": 3.0,
+   "away_ga": 2.0,
+   "home_gf_x": 0.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 3.0,
+   "away_ga_x": 2.0,
+   "total_n": 2,
+   "form6": "LW",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "H",
+     "opp": "KuPS",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "A",
+     "opp": "KuPS",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "KuPS": {
+   "home_n": 2,
+   "home_gf": 1.0,
+   "home_ga": 2.5,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 0.5,
+   "home_gf_x": 1.0,
+   "home_ga_x": 2.5,
+   "away_gf_x": 1.0,
+   "away_ga_x": 0.5,
+   "total_n": 4,
+   "form6": "WLLL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "A",
+     "opp": "Vardar",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "H",
+     "opp": "Vardar",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "Sabah Baku",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "H",
+     "opp": "Sabah Baku",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Lincoln Red Imps": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 0.5,
+   "away_n": 2,
+   "away_gf": 0.5,
+   "away_ga": 2.0,
+   "home_gf_x": 1.5,
+   "home_ga_x": 0.5,
+   "away_gf_x": 0.5,
+   "away_ga_x": 2.0,
+   "total_n": 4,
+   "form6": "WDLD",
+   "form6_pts": 5,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "H",
+     "opp": "Inter Club d'Escaldes",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "A",
+     "opp": "Inter Club d'Escaldes",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "Mjällby",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "H",
+     "opp": "Mjällby",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "Inter Club d'Escaldes": {
+   "home_n": 1,
+   "home_gf": 1.0,
+   "home_ga": 1.0,
+   "away_n": 1,
+   "away_gf": 1.0,
+   "away_ga": 3.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 3.0,
+   "total_n": 2,
+   "form6": "LD",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "A",
+     "opp": "Lincoln Red Imps",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "H",
+     "opp": "Lincoln Red Imps",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "KÍ Klaksvík": {
+   "home_n": 2,
+   "home_gf": 1.0,
+   "home_ga": 0.5,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 1.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 0.5,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "WWDL",
+   "form6_pts": 7,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "H",
+     "opp": "Atert Bissen",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-15",
+     "r": "1",
+     "side": "A",
+     "opp": "Atert Bissen",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "Kauno Žalgiris",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Kauno Žalgiris",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "Atert Bissen": {
+   "home_n": 1,
+   "home_gf": 1.0,
+   "home_ga": 2.0,
+   "away_n": 1,
+   "away_gf": 1.0,
+   "away_ga": 2.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 2.0,
+   "total_n": 2,
+   "form6": "LL",
+   "form6_pts": 0,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "A",
+     "opp": "KÍ Klaksvík",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-15",
+     "r": "1",
+     "side": "H",
+     "opp": "KÍ Klaksvík",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Tre Fiori": {
+   "home_n": 1,
+   "home_gf": 0.0,
+   "home_ga": 1.0,
+   "away_n": 1,
+   "away_gf": 1.0,
+   "away_ga": 2.0,
+   "home_gf_x": 0.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 2.0,
+   "total_n": 2,
+   "form6": "LL",
+   "form6_pts": 0,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "H",
+     "opp": "Larne",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "A",
+     "opp": "Larne",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Larne": {
+   "home_n": 2,
+   "home_gf": 1.0,
+   "home_ga": 2.5,
+   "away_n": 2,
+   "away_gf": 0.5,
+   "away_ga": 2.5,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 0.0,
+   "total_n": 4,
+   "form6": "WWLL",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "A",
+     "opp": "Tre Fiori",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "H",
+     "opp": "Tre Fiori",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "Crvena Zvezda",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Crvena Zvezda",
+     "gf": 0,
+     "ga": 5,
+     "res": "L"
+    }
+   ]
+  },
+  "Borac Banja Luka": {
+   "home_n": 1,
+   "home_gf": 1.0,
+   "home_ga": 1.0,
+   "away_n": 1,
+   "away_gf": 0.0,
+   "away_ga": 4.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": null,
+   "away_ga_x": null,
+   "total_n": 2,
+   "form6": "DL",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "H",
+     "opp": "Levski Sofia",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "A",
+     "opp": "Levski Sofia",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "Levski Sofia": {
+   "home_n": 4,
+   "home_gf": 1.5,
+   "home_ga": 0.0,
+   "away_n": 4,
+   "away_gf": 1.0,
+   "away_ga": 1.75,
+   "home_gf_x": 0.67,
+   "home_ga_x": 0.0,
+   "away_gf_x": 1.33,
+   "away_ga_x": 1.0,
+   "total_n": 8,
+   "form6": "WDWWDL",
+   "form6_pts": 11,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "A",
+     "opp": "Borac Banja Luka",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "H",
+     "opp": "Borac Banja Luka",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-22",
+     "r": "2",
+     "side": "H",
+     "opp": "Universitatea Craiova",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Universitatea Craiova",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "H",
+     "opp": "Kairat Almaty",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "A",
+     "opp": "Kairat Almaty",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-18",
+     "r": "0",
+     "side": "H",
+     "opp": "AEK Athens",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-26",
+     "r": "0",
+     "side": "A",
+     "opp": "AEK Athens",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "Ararat-Armenia": {
+   "home_n": 3,
+   "home_gf": 2.0,
+   "home_ga": 0.33,
+   "away_n": 3,
+   "away_gf": 1.0,
+   "away_ga": 2.33,
+   "home_gf_x": 2.0,
+   "home_ga_x": 0.33,
+   "away_gf_x": 1.0,
+   "away_ga_x": 2.33,
+   "total_n": 6,
+   "form6": "WLWLWL",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "H",
+     "opp": "Riga FC",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "A",
+     "opp": "Riga FC",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "Shamrock Rovers",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "A",
+     "opp": "Shamrock Rovers",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "H",
+     "opp": "Celje",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "A",
+     "opp": "Celje",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Riga FC": {
+   "home_n": 1,
+   "home_gf": 3.0,
+   "home_ga": 2.0,
+   "away_n": 1,
+   "away_gf": 0.0,
+   "away_ga": 2.0,
+   "home_gf_x": 3.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 2.0,
+   "total_n": 2,
+   "form6": "LW",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "A",
+     "opp": "Ararat-Armenia",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "H",
+     "opp": "Ararat-Armenia",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "Kauno Žalgiris": {
+   "home_n": 3,
+   "home_gf": 1.0,
+   "home_ga": 1.0,
+   "away_n": 3,
+   "away_gf": 1.0,
+   "away_ga": 2.33,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.5,
+   "away_ga_x": 1.0,
+   "total_n": 6,
+   "form6": "DWDWLL",
+   "form6_pts": 8,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "H",
+     "opp": "Drita",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "A",
+     "opp": "Drita",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "KÍ Klaksvík",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "H",
+     "opp": "KÍ Klaksvík",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Dinamo Zagreb",
+     "gf": 0,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "H",
+     "opp": "Dinamo Zagreb",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Drita": {
+   "home_n": 1,
+   "home_gf": 2.0,
+   "home_ga": 3.0,
+   "away_n": 1,
+   "away_gf": 1.0,
+   "away_ga": 1.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 3.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.0,
+   "total_n": 2,
+   "form6": "DL",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "A",
+     "opp": "Kauno Žalgiris",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "H",
+     "opp": "Kauno Žalgiris",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Floriana": {
+   "home_n": 1,
+   "home_gf": 2.0,
+   "home_ga": 0.0,
+   "away_n": 1,
+   "away_gf": 1.0,
+   "away_ga": 5.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 0.0,
+   "away_gf_x": null,
+   "away_ga_x": null,
+   "total_n": 2,
+   "form6": "WL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "H",
+     "opp": "Shamrock Rovers",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "A",
+     "opp": "Shamrock Rovers",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    }
+   ]
+  },
+  "Shamrock Rovers": {
+   "home_n": 2,
+   "home_gf": 3.5,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 0.0,
+   "away_ga": 2.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 2.0,
+   "total_n": 4,
+   "form6": "LWLW",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "A",
+     "opp": "Floriana",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "H",
+     "opp": "Floriana",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "Ararat-Armenia",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "H",
+     "opp": "Ararat-Armenia",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "Sabah Baku": {
+   "home_n": 6,
+   "home_gf": 2.5,
+   "home_ga": 0.67,
+   "away_n": 6,
+   "away_gf": 1.17,
+   "away_ga": 2.17,
+   "home_gf_x": 1.5,
+   "home_ga_x": 0.5,
+   "away_gf_x": 1.5,
+   "away_ga_x": 1.25,
+   "total_n": 12,
+   "form6": "LWLWLL",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "KuPS",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "A",
+     "opp": "KuPS",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-05",
+     "r": "3",
+     "side": "A",
+     "opp": "AGF Aarhus",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "H",
+     "opp": "AGF Aarhus",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-19",
+     "r": "0",
+     "side": "A",
+     "opp": "Hapoel Be'er Sheva",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-25",
+     "r": "0",
+     "side": "H",
+     "opp": "Hapoel Be'er Sheva",
+     "gf": 5,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "A",
+     "opp": "Manchester United",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "H",
+     "opp": "Slavia Prague",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "H",
+     "opp": "Borussia Dortmund",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "A",
+     "opp": "Viking",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "The New Saints": {
+   "home_n": 1,
+   "home_gf": 1.0,
+   "home_ga": 2.0,
+   "away_n": 1,
+   "away_gf": 0.0,
+   "away_ga": 2.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 2.0,
+   "total_n": 2,
+   "form6": "LL",
+   "form6_pts": 0,
+   "recent": [
+    {
+     "d": "2026-07-07",
+     "r": "1",
+     "side": "A",
+     "opp": "Sabah Baku",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "H",
+     "opp": "Sabah Baku",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Kairat Almaty": {
+   "home_n": 3,
+   "home_gf": 1.0,
+   "home_ga": 0.67,
+   "away_n": 3,
+   "away_gf": 0.67,
+   "away_ga": 0.67,
+   "home_gf_x": 1.0,
+   "home_ga_x": 0.67,
+   "away_gf_x": 0.67,
+   "away_ga_x": 0.67,
+   "total_n": 6,
+   "form6": "WWLWLL",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-07-08",
+     "r": "1",
+     "side": "H",
+     "opp": "Sutjeska",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-15",
+     "r": "1",
+     "side": "A",
+     "opp": "Sutjeska",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-22",
+     "r": "2",
+     "side": "A",
+     "opp": "Omonia Nicosia",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Omonia Nicosia",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Levski Sofia",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "H",
+     "opp": "Levski Sofia",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "Sutjeska": {
+   "home_n": 1,
+   "home_gf": 0.0,
+   "home_ga": 2.0,
+   "away_n": 1,
+   "away_gf": 1.0,
+   "away_ga": 2.0,
+   "home_gf_x": 0.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 2.0,
+   "total_n": 2,
+   "form6": "LL",
+   "form6_pts": 0,
+   "recent": [
+    {
+     "d": "2026-07-08",
+     "r": "1",
+     "side": "A",
+     "opp": "Kairat Almaty",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-15",
+     "r": "1",
+     "side": "H",
+     "opp": "Kairat Almaty",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Flora Tallinn": {
+   "home_n": 1,
+   "home_gf": 2.0,
+   "home_ga": 3.0,
+   "away_n": 1,
+   "away_gf": 2.0,
+   "away_ga": 2.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 3.0,
+   "away_gf_x": 2.0,
+   "away_ga_x": 2.0,
+   "total_n": 2,
+   "form6": "LD",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-07-08",
+     "r": "1",
+     "side": "H",
+     "opp": "Iberia 1999",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "A",
+     "opp": "Iberia 1999",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "Iberia 1999": {
+   "home_n": 2,
+   "home_gf": 1.0,
+   "home_ga": 2.0,
+   "away_n": 2,
+   "away_gf": 2.0,
+   "away_ga": 1.5,
+   "home_gf_x": 1.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 2.0,
+   "away_ga_x": 1.5,
+   "total_n": 4,
+   "form6": "WDLD",
+   "form6_pts": 5,
+   "recent": [
+    {
+     "d": "2026-07-08",
+     "r": "1",
+     "side": "A",
+     "opp": "Flora Tallinn",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-14",
+     "r": "1",
+     "side": "H",
+     "opp": "Flora Tallinn",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "Slovan Bratislava",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Slovan Bratislava",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "Petrocub Hîncești": {
+   "home_n": 1,
+   "home_gf": 1.0,
+   "home_ga": 1.0,
+   "away_n": 1,
+   "away_gf": 1.0,
+   "away_ga": 6.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": null,
+   "away_ga_x": null,
+   "total_n": 2,
+   "form6": "DL",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-07-08",
+     "r": "1",
+     "side": "H",
+     "opp": "Egnatia",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-15",
+     "r": "1",
+     "side": "A",
+     "opp": "Egnatia",
+     "gf": 1,
+     "ga": 6,
+     "res": "L"
+    }
+   ]
+  },
+  "Egnatia": {
+   "home_n": 2,
+   "home_gf": 4.5,
+   "home_ga": 2.0,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 1.0,
+   "home_gf_x": 3.0,
+   "home_ga_x": 3.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "DWDD",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-07-08",
+     "r": "1",
+     "side": "A",
+     "opp": "Petrocub Hîncești",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-15",
+     "r": "1",
+     "side": "H",
+     "opp": "Petrocub Hîncești",
+     "gf": 6,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-22",
+     "r": "2",
+     "side": "H",
+     "opp": "Celje",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "A",
+     "opp": "Celje",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "Maxline Vitebsk": {
+   "home_n": 1,
+   "home_gf": 1.0,
+   "home_ga": 4.0,
+   "away_n": 1,
+   "away_gf": 0.0,
+   "away_ga": 1.0,
+   "home_gf_x": null,
+   "home_ga_x": null,
+   "away_gf_x": 0.0,
+   "away_ga_x": 1.0,
+   "total_n": 2,
+   "form6": "LL",
+   "form6_pts": 0,
+   "recent": [
+    {
+     "d": "2026-07-08",
+     "r": "1",
+     "side": "H",
+     "opp": "Universitatea Craiova",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-15",
+     "r": "1",
+     "side": "A",
+     "opp": "Universitatea Craiova",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "Universitatea Craiova": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 2.0,
+   "away_ga": 1.0,
+   "home_gf_x": 1.5,
+   "home_ga_x": 1.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "WWLD",
+   "form6_pts": 7,
+   "recent": [
+    {
+     "d": "2026-07-08",
+     "r": "1",
+     "side": "A",
+     "opp": "Maxline Vitebsk",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-15",
+     "r": "1",
+     "side": "H",
+     "opp": "Maxline Vitebsk",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-22",
+     "r": "2",
+     "side": "A",
+     "opp": "Levski Sofia",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Levski Sofia",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    }
+   ]
+  },
+  "AGF Aarhus": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 2.5,
+   "away_n": 2,
+   "away_gf": 1.5,
+   "away_ga": 2.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 3.0,
+   "away_ga_x": 0.0,
+   "total_n": 4,
+   "form6": "LWWL",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "Lech Poznań",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Lech Poznań",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Sabah Baku",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "A",
+     "opp": "Sabah Baku",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "Lech Poznań": {
+   "home_n": 1,
+   "home_gf": 0.0,
+   "home_ga": 3.0,
+   "away_n": 1,
+   "away_gf": 4.0,
+   "away_ga": 1.0,
+   "home_gf_x": 0.0,
+   "home_ga_x": 3.0,
+   "away_gf_x": null,
+   "away_ga_x": null,
+   "total_n": 2,
+   "form6": "WL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "AGF Aarhus",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "H",
+     "opp": "AGF Aarhus",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Fenerbahçe": {
+   "home_n": 6,
+   "home_gf": 1.67,
+   "home_ga": 1.0,
+   "away_n": 4,
+   "away_gf": 1.0,
+   "away_ga": 2.0,
+   "home_gf_x": 1.67,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.33,
+   "away_ga_x": 0.67,
+   "total_n": 10,
+   "form6": "DWDLDW",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "Górnik Zabrze",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Górnik Zabrze",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-05",
+     "r": "3",
+     "side": "H",
+     "opp": "Sturm Graz",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "A",
+     "opp": "Sturm Graz",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-18",
+     "r": "0",
+     "side": "H",
+     "opp": "Lyon",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-26",
+     "r": "0",
+     "side": "A",
+     "opp": "Lyon",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "H",
+     "opp": "Roma",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "A",
+     "opp": "Aston Villa",
+     "gf": 0,
+     "ga": 6,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "H",
+     "opp": "Slavia Prague",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "H",
+     "opp": "Liverpool",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "Górnik Zabrze": {
+   "home_n": 1,
+   "home_gf": 1.0,
+   "home_ga": 1.0,
+   "away_n": 1,
+   "away_gf": 0.0,
+   "away_ga": 1.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 1.0,
+   "total_n": 2,
+   "form6": "LD",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "Fenerbahçe",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Fenerbahçe",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    }
+   ]
+  },
+  "Sturm Graz": {
+   "home_n": 2,
+   "home_gf": 2.0,
+   "home_ga": 0.5,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 1.0,
+   "home_gf_x": 0.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "WWLL",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "Heart of Midlothian",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "A",
+     "opp": "Heart of Midlothian",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-05",
+     "r": "3",
+     "side": "A",
+     "opp": "Fenerbahçe",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "H",
+     "opp": "Fenerbahçe",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "Heart of Midlothian": {
+   "home_n": 1,
+   "home_gf": 0.0,
+   "home_ga": 2.0,
+   "away_n": 1,
+   "away_gf": 0.0,
+   "away_ga": 4.0,
+   "home_gf_x": 0.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": null,
+   "away_ga_x": null,
+   "total_n": 2,
+   "form6": "LL",
+   "form6_pts": 0,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "Sturm Graz",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "H",
+     "opp": "Sturm Graz",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Thun": {
+   "home_n": 1,
+   "home_gf": 1.0,
+   "home_ga": 1.0,
+   "away_n": 1,
+   "away_gf": 2.0,
+   "away_ga": 3.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 2.0,
+   "away_ga_x": 3.0,
+   "total_n": 2,
+   "form6": "DL",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "Dinamo Zagreb",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "A",
+     "opp": "Dinamo Zagreb",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Dinamo Zagreb": {
+   "home_n": 3,
+   "home_gf": 3.33,
+   "home_ga": 1.33,
+   "away_n": 3,
+   "away_gf": 1.33,
+   "away_ga": 1.67,
+   "home_gf_x": 2.5,
+   "home_ga_x": 2.0,
+   "away_gf_x": 1.33,
+   "away_ga_x": 1.67,
+   "total_n": 6,
+   "form6": "DWWWDL",
+   "form6_pts": 11,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "Thun",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "H",
+     "opp": "Thun",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "H",
+     "opp": "Kauno Žalgiris",
+     "gf": 5,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "A",
+     "opp": "Kauno Žalgiris",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-18",
+     "r": "0",
+     "side": "H",
+     "opp": "Viking",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-26",
+     "r": "0",
+     "side": "A",
+     "opp": "Viking",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Hapoel Be'er Sheva": {
+   "home_n": 3,
+   "home_gf": 1.67,
+   "home_ga": 0.33,
+   "away_n": 3,
+   "away_gf": 1.67,
+   "away_ga": 2.33,
+   "home_gf_x": 1.67,
+   "home_ga_x": 0.33,
+   "away_gf_x": 1.5,
+   "away_ga_x": 1.0,
+   "total_n": 6,
+   "form6": "LWWWWL",
+   "form6_pts": 12,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "Víkingur Reykjavík",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Víkingur Reykjavík",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "H",
+     "opp": "Crvena Zvezda",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "A",
+     "opp": "Crvena Zvezda",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-19",
+     "r": "0",
+     "side": "H",
+     "opp": "Sabah Baku",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-25",
+     "r": "0",
+     "side": "A",
+     "opp": "Sabah Baku",
+     "gf": 2,
+     "ga": 5,
+     "res": "L"
+    }
+   ]
+  },
+  "Mjällby": {
+   "home_n": 2,
+   "home_gf": 2.0,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 0.0,
+   "away_ga": 1.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "WDLL",
+   "form6_pts": 4,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "H",
+     "opp": "Lincoln Red Imps",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "A",
+     "opp": "Lincoln Red Imps",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "H",
+     "opp": "Slovan Bratislava",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "A",
+     "opp": "Slovan Bratislava",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Slovan Bratislava": {
+   "home_n": 4,
+   "home_gf": 1.0,
+   "home_ga": 1.25,
+   "away_n": 6,
+   "away_gf": 1.17,
+   "away_ga": 2.67,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.25,
+   "away_gf_x": 2.0,
+   "away_ga_x": 0.67,
+   "total_n": 10,
+   "form6": "DWLLLL",
+   "form6_pts": 4,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "Iberia 1999",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Iberia 1999",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Mjällby",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "H",
+     "opp": "Mjällby",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-19",
+     "r": "0",
+     "side": "H",
+     "opp": "Celje",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-26",
+     "r": "0",
+     "side": "A",
+     "opp": "Celje",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "A",
+     "opp": "Paris Saint-Germain",
+     "gf": 1,
+     "ga": 6,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "H",
+     "opp": "Stuttgart",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "A",
+     "opp": "Roma",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "A",
+     "opp": "LASK",
+     "gf": 0,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "Crvena Zvezda": {
+   "home_n": 2,
+   "home_gf": 2.5,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 2.0,
+   "away_ga": 0.5,
+   "home_gf_x": 0.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "WWLL",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-07-21",
+     "r": "2",
+     "side": "A",
+     "opp": "Larne",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "H",
+     "opp": "Larne",
+     "gf": 5,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Hapoel Be'er Sheva",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "H",
+     "opp": "Hapoel Be'er Sheva",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Celje": {
+   "home_n": 3,
+   "home_gf": 1.33,
+   "home_ga": 1.0,
+   "away_n": 3,
+   "away_gf": 1.67,
+   "away_ga": 2.0,
+   "home_gf_x": 1.33,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.67,
+   "away_ga_x": 2.0,
+   "total_n": 6,
+   "form6": "DDLWDL",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-07-22",
+     "r": "2",
+     "side": "A",
+     "opp": "Egnatia",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "d": "2026-07-28",
+     "r": "2",
+     "side": "H",
+     "opp": "Egnatia",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Ararat-Armenia",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "H",
+     "opp": "Ararat-Armenia",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-19",
+     "r": "0",
+     "side": "A",
+     "opp": "Slovan Bratislava",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-26",
+     "r": "0",
+     "side": "H",
+     "opp": "Slovan Bratislava",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Omonia Nicosia": {
+   "home_n": 1,
+   "home_gf": 1.0,
+   "home_ga": 0.0,
+   "away_n": 1,
+   "away_gf": 0.0,
+   "away_ga": 1.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 0.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 1.0,
+   "total_n": 2,
+   "form6": "WL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-07-22",
+     "r": "2",
+     "side": "H",
+     "opp": "Kairat Almaty",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-07-29",
+     "r": "2",
+     "side": "A",
+     "opp": "Kairat Almaty",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "Olympiacos": {
+   "home_n": 1,
+   "home_gf": 0.0,
+   "home_ga": 0.0,
+   "away_n": 1,
+   "away_gf": 1.0,
+   "away_ga": 2.0,
+   "home_gf_x": 0.0,
+   "home_ga_x": 0.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 2.0,
+   "total_n": 2,
+   "form6": "DL",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "H",
+     "opp": "NEC Nijmegen",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "A",
+     "opp": "NEC Nijmegen",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "NEC Nijmegen": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 2.0,
+   "away_n": 2,
+   "away_gf": 0.0,
+   "away_ga": 1.5,
+   "home_gf_x": 1.5,
+   "home_ga_x": 2.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 1.5,
+   "total_n": 4,
+   "form6": "DWLL",
+   "form6_pts": 4,
+   "recent": [
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Olympiacos",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "H",
+     "opp": "Olympiacos",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-19",
+     "r": "0",
+     "side": "H",
+     "opp": "Bodø/Glimt",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-25",
+     "r": "0",
+     "side": "A",
+     "opp": "Bodø/Glimt",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Sparta Prague": {
+   "home_n": 1,
+   "home_gf": 2.0,
+   "home_ga": 1.0,
+   "away_n": 1,
+   "away_gf": 0.0,
+   "away_ga": 3.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 3.0,
+   "total_n": 2,
+   "form6": "WL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "H",
+     "opp": "Lyon",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "A",
+     "opp": "Lyon",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Lyon": {
+   "home_n": 2,
+   "home_gf": 2.0,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 1.5,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.5,
+   "total_n": 4,
+   "form6": "LWDL",
+   "form6_pts": 4,
+   "recent": [
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Sparta Prague",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "H",
+     "opp": "Sparta Prague",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-18",
+     "r": "0",
+     "side": "A",
+     "opp": "Fenerbahçe",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-26",
+     "r": "0",
+     "side": "H",
+     "opp": "Fenerbahçe",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Union Saint-Gilloise": {
+   "home_n": 1,
+   "home_gf": 3.0,
+   "home_ga": 3.0,
+   "away_n": 1,
+   "away_gf": 2.0,
+   "away_ga": 3.0,
+   "home_gf_x": 3.0,
+   "home_ga_x": 3.0,
+   "away_gf_x": 2.0,
+   "away_ga_x": 3.0,
+   "total_n": 2,
+   "form6": "DL",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "H",
+     "opp": "Bodø/Glimt",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "A",
+     "opp": "Bodø/Glimt",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Bodø/Glimt": {
+   "home_n": 4,
+   "home_gf": 1.75,
+   "home_ga": 0.5,
+   "away_n": 4,
+   "away_gf": 2.25,
+   "away_ga": 3.25,
+   "home_gf_x": 1.75,
+   "home_ga_x": 0.5,
+   "away_gf_x": 3.0,
+   "away_ga_x": 2.0,
+   "total_n": 8,
+   "form6": "WWLWLD",
+   "form6_pts": 10,
+   "recent": [
+    {
+     "d": "2026-08-04",
+     "r": "3",
+     "side": "A",
+     "opp": "Union Saint-Gilloise",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-11",
+     "r": "3",
+     "side": "H",
+     "opp": "Union Saint-Gilloise",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-19",
+     "r": "0",
+     "side": "A",
+     "opp": "NEC Nijmegen",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-25",
+     "r": "0",
+     "side": "H",
+     "opp": "NEC Nijmegen",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "A",
+     "opp": "Bayern Munich",
+     "gf": 0,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "H",
+     "opp": "Borussia Dortmund",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "A",
+     "opp": "Napoli",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "H",
+     "opp": "Lille",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "Viking": {
+   "home_n": 3,
+   "home_gf": 3.33,
+   "home_ga": 1.67,
+   "away_n": 3,
+   "away_gf": 1.33,
+   "away_ga": 2.67,
+   "home_gf_x": 3.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 1.33,
+   "away_ga_x": 2.67,
+   "total_n": 6,
+   "form6": "DWLDLW",
+   "form6_pts": 8,
+   "recent": [
+    {
+     "d": "2026-08-18",
+     "r": "0",
+     "side": "A",
+     "opp": "Dinamo Zagreb",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-26",
+     "r": "0",
+     "side": "H",
+     "opp": "Dinamo Zagreb",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "A",
+     "opp": "Stuttgart",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "H",
+     "opp": "Bayern Munich",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "A",
+     "opp": "Aston Villa",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "H",
+     "opp": "Sabah Baku",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "AEK Athens": {
+   "home_n": 3,
+   "home_gf": 2.33,
+   "home_ga": 1.0,
+   "away_n": 3,
+   "away_gf": 0.67,
+   "away_ga": 2.67,
+   "home_gf_x": 1.5,
+   "home_ga_x": 1.5,
+   "away_gf_x": 0.5,
+   "away_ga_x": 1.5,
+   "total_n": 6,
+   "form6": "DWWLLL",
+   "form6_pts": 7,
+   "recent": [
+    {
+     "d": "2026-08-18",
+     "r": "0",
+     "side": "A",
+     "opp": "Levski Sofia",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    },
+    {
+     "d": "2026-08-26",
+     "r": "0",
+     "side": "H",
+     "opp": "Levski Sofia",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "H",
+     "opp": "LASK",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "A",
+     "opp": "Shakhtar Donetsk",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "A",
+     "opp": "Manchester City",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "H",
+     "opp": "Real Madrid",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Celtic": {
+   "home_n": 1,
+   "home_gf": 3.0,
+   "home_ga": 0.0,
+   "away_n": 1,
+   "away_gf": 1.0,
+   "away_ga": 5.0,
+   "home_gf_x": 3.0,
+   "home_ga_x": 0.0,
+   "away_gf_x": null,
+   "away_ga_x": null,
+   "total_n": 2,
+   "form6": "WL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-08-19",
+     "r": "0",
+     "side": "H",
+     "opp": "LASK",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-08-25",
+     "r": "0",
+     "side": "A",
+     "opp": "LASK",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    }
+   ]
+  },
+  "LASK": {
+   "home_n": 3,
+   "home_gf": 4.0,
+   "home_ga": 2.33,
+   "away_n": 3,
+   "away_gf": 1.0,
+   "away_ga": 2.0,
+   "home_gf_x": null,
+   "home_ga_x": null,
+   "away_gf_x": 1.0,
+   "away_ga_x": 2.0,
+   "total_n": 6,
+   "form6": "LWLLWW",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-08-19",
+     "r": "0",
+     "side": "A",
+     "opp": "Celtic",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-08-25",
+     "r": "0",
+     "side": "H",
+     "opp": "Celtic",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "A",
+     "opp": "AEK Athens",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "H",
+     "opp": "Liverpool",
+     "gf": 3,
+     "ga": 6,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "A",
+     "opp": "Sporting CP",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "H",
+     "opp": "Slovan Bratislava",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Lille": {
+   "home_n": 2,
+   "home_gf": 2.0,
+   "home_ga": 3.5,
+   "away_n": 2,
+   "away_gf": 0.0,
+   "away_ga": 1.5,
+   "home_gf_x": 2.0,
+   "home_ga_x": 3.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 1.5,
+   "total_n": 4,
+   "form6": "LLLD",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "H",
+     "opp": "Real Betis",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "A",
+     "opp": "Arsenal",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "H",
+     "opp": "Galatasaray",
+     "gf": 2,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "A",
+     "opp": "Bodø/Glimt",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
+    }
+   ]
+  },
+  "Real Betis": {
+   "home_n": 2,
+   "home_gf": 2.0,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 2.0,
+   "away_ga": 2.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 2.0,
+   "away_ga_x": 2.0,
+   "total_n": 4,
+   "form6": "WWWL",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "A",
+     "opp": "Lille",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "H",
+     "opp": "Porto",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "H",
+     "opp": "Feyenoord",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "A",
+     "opp": "Borussia Dortmund",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Borussia Dortmund": {
+   "home_n": 2,
+   "home_gf": 2.5,
+   "home_ga": 1.5,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 1.0,
+   "home_gf_x": 2.5,
+   "home_ga_x": 1.5,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "WLWW",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "H",
+     "opp": "Villarreal",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "A",
+     "opp": "Bodø/Glimt",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "A",
+     "opp": "Sabah Baku",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "H",
+     "opp": "Real Betis",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "Villarreal": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 3.5,
+   "away_n": 2,
+   "away_gf": 2.5,
+   "away_ga": 3.5,
+   "home_gf_x": 3.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 2.0,
+   "away_ga_x": 3.0,
+   "total_n": 4,
+   "form6": "LWLL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "A",
+     "opp": "Borussia Dortmund",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "H",
+     "opp": "Napoli",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "A",
+     "opp": "Liverpool",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "H",
+     "opp": "Paris Saint-Germain",
+     "gf": 0,
+     "ga": 6,
+     "res": "L"
+    }
+   ]
+  },
+  "Porto": {
+   "home_n": 3,
+   "home_gf": 1.33,
+   "home_ga": 1.33,
+   "away_n": 1,
+   "away_gf": 2.0,
+   "away_ga": 3.0,
+   "home_gf_x": 0.0,
+   "home_ga_x": 1.5,
+   "away_gf_x": 2.0,
+   "away_ga_x": 3.0,
+   "total_n": 4,
+   "form6": "LLLW",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "H",
+     "opp": "Manchester City",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "A",
+     "opp": "Real Betis",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "H",
+     "opp": "PSV Eindhoven",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "H",
+     "opp": "Napoli",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "Manchester City": {
+   "home_n": 2,
+   "home_gf": 3.5,
+   "home_ga": 2.5,
+   "away_n": 2,
+   "away_gf": 2.5,
+   "away_ga": 1.0,
+   "home_gf_x": null,
+   "home_ga_x": null,
+   "away_gf_x": 2.5,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "WLWW",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "A",
+     "opp": "Porto",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "H",
+     "opp": "Paris Saint-Germain",
+     "gf": 2,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "H",
+     "opp": "AEK Athens",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "A",
+     "opp": "RB Leipzig",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "Real Madrid": {
+   "home_n": 2,
+   "home_gf": 3.0,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 3.5,
+   "away_ga": 2.5,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 3.0,
+   "away_ga_x": 2.0,
+   "total_n": 4,
+   "form6": "WWWW",
+   "form6_pts": 12,
+   "recent": [
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "H",
+     "opp": "Inter Milan",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "A",
+     "opp": "Roma",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "H",
+     "opp": "RB Leipzig",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "A",
+     "opp": "AEK Athens",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "Inter Milan": {
+   "home_n": 2,
+   "home_gf": 2.0,
+   "home_ga": 2.0,
+   "away_n": 2,
+   "away_gf": 2.0,
+   "away_ga": 1.0,
+   "home_gf_x": 1.0,
+   "home_ga_x": 0.0,
+   "away_gf_x": 2.0,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "LLWW",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "A",
+     "opp": "Real Madrid",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "H",
+     "opp": "Club Brugge",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "H",
+     "opp": "Shakhtar Donetsk",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "A",
+     "opp": "Feyenoord",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Club Brugge": {
+   "home_n": 2,
+   "home_gf": 2.5,
+   "home_ga": 1.5,
+   "away_n": 2,
+   "away_gf": 3.0,
+   "away_ga": 2.0,
+   "home_gf_x": 2.5,
+   "home_ga_x": 1.5,
+   "away_gf_x": 2.0,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "LWWW",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "H",
+     "opp": "Aston Villa",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "A",
+     "opp": "Inter Milan",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "H",
+     "opp": "Lens",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "A",
+     "opp": "PSV Eindhoven",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "Aston Villa": {
+   "home_n": 2,
+   "home_gf": 4.5,
+   "home_ga": 0.5,
+   "away_n": 2,
+   "away_gf": 1.5,
+   "away_ga": 2.5,
+   "home_gf_x": 3.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.5,
+   "away_ga_x": 2.5,
+   "total_n": 4,
+   "form6": "WWWL",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-09-08",
+     "r": "1",
+     "side": "A",
+     "opp": "Club Brugge",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "H",
+     "opp": "Fenerbahçe",
+     "gf": 6,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "H",
+     "opp": "Viking",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "A",
+     "opp": "Barcelona",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Liverpool": {
+   "home_n": 2,
+   "home_gf": 3.0,
+   "home_ga": 2.0,
+   "away_n": 2,
+   "away_gf": 4.0,
+   "away_ga": 3.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 2.0,
+   "away_ga_x": 3.0,
+   "total_n": 4,
+   "form6": "WWWL",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "H",
+     "opp": "Atlético Madrid",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "A",
+     "opp": "LASK",
+     "gf": 6,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "H",
+     "opp": "Villarreal",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "A",
+     "opp": "Fenerbahçe",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Atlético Madrid": {
+   "home_n": 2,
+   "home_gf": 1.0,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 1.5,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 1.5,
+   "total_n": 4,
+   "form6": "LWDL",
+   "form6_pts": 4,
+   "recent": [
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "A",
+     "opp": "Liverpool",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "H",
+     "opp": "Manchester United",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "A",
+     "opp": "Stuttgart",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "H",
+     "opp": "Bayern Munich",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Paris Saint-Germain": {
+   "home_n": 2,
+   "home_gf": 5.0,
+   "home_ga": 1.5,
+   "away_n": 2,
+   "away_gf": 5.0,
+   "away_ga": 1.0,
+   "home_gf_x": null,
+   "home_ga_x": null,
+   "away_gf_x": null,
+   "away_ga_x": null,
+   "total_n": 4,
+   "form6": "WWWW",
+   "form6_pts": 12,
+   "recent": [
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "H",
+     "opp": "Slovan Bratislava",
+     "gf": 6,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "A",
+     "opp": "Manchester City",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "H",
+     "opp": "Barcelona",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "A",
+     "opp": "Villarreal",
+     "gf": 6,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Stuttgart": {
+   "home_n": 2,
+   "home_gf": 2.0,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 1.5,
+   "away_ga": 1.0,
+   "home_gf_x": 2.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.5,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "WWDL",
+   "form6_pts": 7,
+   "recent": [
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "H",
+     "opp": "Viking",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "A",
+     "opp": "Slovan Bratislava",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "H",
+     "opp": "Atlético Madrid",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "A",
+     "opp": "Galatasaray",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Sporting CP": {
+   "home_n": 2,
+   "home_gf": 2.5,
+   "home_ga": 2.0,
+   "away_n": 2,
+   "away_gf": 1.5,
+   "away_ga": 0.0,
+   "home_gf_x": 2.5,
+   "home_ga_x": 2.0,
+   "away_gf_x": 1.5,
+   "away_ga_x": 0.0,
+   "total_n": 4,
+   "form6": "WWLW",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "H",
+     "opp": "Galatasaray",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "A",
+     "opp": "Lens",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "H",
+     "opp": "LASK",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "A",
+     "opp": "Shakhtar Donetsk",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Galatasaray": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 2.0,
+   "away_n": 2,
+   "away_gf": 2.5,
+   "away_ga": 2.5,
+   "home_gf_x": 2.0,
+   "home_ga_x": 0.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 3.0,
+   "total_n": 4,
+   "form6": "LLWW",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "A",
+     "opp": "Sporting CP",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "H",
+     "opp": "Barcelona",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "A",
+     "opp": "Lille",
+     "gf": 4,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "H",
+     "opp": "Stuttgart",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Napoli": {
+   "home_n": 2,
+   "home_gf": 2.0,
+   "home_ga": 2.0,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 3.5,
+   "home_gf_x": 0.0,
+   "home_ga_x": 1.0,
+   "away_gf_x": 1.0,
+   "away_ga_x": 3.0,
+   "total_n": 4,
+   "form6": "LLWL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "H",
+     "opp": "Arsenal",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "A",
+     "opp": "Villarreal",
+     "gf": 1,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "H",
+     "opp": "Bodø/Glimt",
+     "gf": 4,
+     "ga": 3,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "A",
+     "opp": "Porto",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    }
+   ]
+  },
+  "Arsenal": {
+   "home_n": 1,
+   "home_gf": 3.0,
+   "home_ga": 0.0,
+   "away_n": 3,
+   "away_gf": 1.67,
+   "away_ga": 1.0,
+   "home_gf_x": 3.0,
+   "home_ga_x": 0.0,
+   "away_gf_x": 1.67,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "WWDW",
+   "form6_pts": 10,
+   "recent": [
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "A",
+     "opp": "Napoli",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "H",
+     "opp": "Lille",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "A",
+     "opp": "Bayern Munich",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "A",
+     "opp": "Slavia Prague",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "Barcelona": {
+   "home_n": 2,
+   "home_gf": 4.0,
+   "home_ga": 0.5,
+   "away_n": 2,
+   "away_gf": 3.0,
+   "away_ga": 2.5,
+   "home_gf_x": 3.0,
+   "home_ga_x": 0.0,
+   "away_gf_x": null,
+   "away_ga_x": null,
+   "total_n": 4,
+   "form6": "WWLW",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "H",
+     "opp": "Feyenoord",
+     "gf": 5,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "A",
+     "opp": "Galatasaray",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "A",
+     "opp": "Paris Saint-Germain",
+     "gf": 2,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "H",
+     "opp": "Aston Villa",
+     "gf": 3,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "Feyenoord": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 2.5,
+   "away_n": 2,
+   "away_gf": 0.5,
+   "away_ga": 3.0,
+   "home_gf_x": 1.5,
+   "home_ga_x": 2.5,
+   "away_gf_x": 0.0,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "LWLL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-09-09",
+     "r": "1",
+     "side": "A",
+     "opp": "Barcelona",
+     "gf": 1,
+     "ga": 5,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "H",
+     "opp": "Como",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "A",
+     "opp": "Real Betis",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "H",
+     "opp": "Inter Milan",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Manchester United": {
+   "home_n": 2,
+   "home_gf": 3.5,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 0.5,
+   "away_ga": 3.0,
+   "home_gf_x": 3.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 0.0,
+   "away_ga_x": 2.0,
+   "total_n": 4,
+   "form6": "WLLW",
+   "form6_pts": 6,
+   "recent": [
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "H",
+     "opp": "Sabah Baku",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "A",
+     "opp": "Atlético Madrid",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "A",
+     "opp": "Como",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "H",
+     "opp": "Roma",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    }
+   ]
+  },
+  "Bayern Munich": {
+   "home_n": 2,
+   "home_gf": 3.5,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 2.5,
+   "away_ga": 1.5,
+   "home_gf_x": 2.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 2.5,
+   "away_ga_x": 1.5,
+   "total_n": 4,
+   "form6": "WDDW",
+   "form6_pts": 8,
+   "recent": [
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "H",
+     "opp": "Bodø/Glimt",
+     "gf": 5,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "A",
+     "opp": "Viking",
+     "gf": 3,
+     "ga": 3,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "H",
+     "opp": "Arsenal",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "A",
+     "opp": "Atlético Madrid",
+     "gf": 2,
+     "ga": 0,
+     "res": "W"
+    }
+   ]
+  },
+  "PSV Eindhoven": {
+   "home_n": 2,
+   "home_gf": 1.0,
+   "home_ga": 1.5,
+   "away_n": 2,
+   "away_gf": 0.5,
+   "away_ga": 0.5,
+   "home_gf_x": 1.0,
+   "home_ga_x": 1.5,
+   "away_gf_x": 0.5,
+   "away_ga_x": 0.5,
+   "total_n": 4,
+   "form6": "DLWL",
+   "form6_pts": 4,
+   "recent": [
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "H",
+     "opp": "Shakhtar Donetsk",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "A",
+     "opp": "RB Leipzig",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "A",
+     "opp": "Porto",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "H",
+     "opp": "Club Brugge",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Shakhtar Donetsk": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 0.5,
+   "away_ga": 1.0,
+   "home_gf_x": 1.5,
+   "home_ga_x": 1.0,
+   "away_gf_x": 0.5,
+   "away_ga_x": 1.0,
+   "total_n": 4,
+   "form6": "DWLL",
+   "form6_pts": 4,
+   "recent": [
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "A",
+     "opp": "PSV Eindhoven",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "H",
+     "opp": "AEK Athens",
+     "gf": 3,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "A",
+     "opp": "Inter Milan",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "H",
+     "opp": "Sporting CP",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
+    }
+   ]
+  },
+  "Slavia Prague": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 2.5,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 2.0,
+   "home_gf_x": 1.5,
+   "home_ga_x": 2.5,
+   "away_gf_x": 1.0,
+   "away_ga_x": 2.0,
+   "total_n": 4,
+   "form6": "LLDL",
+   "form6_pts": 1,
+   "recent": [
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "H",
+     "opp": "Lens",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "A",
+     "opp": "Sabah Baku",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "A",
+     "opp": "Fenerbahçe",
+     "gf": 2,
+     "ga": 2,
+     "res": "D"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "H",
+     "opp": "Arsenal",
+     "gf": 1,
+     "ga": 2,
+     "res": "L"
+    }
+   ]
+  },
+  "Lens": {
+   "home_n": 2,
+   "home_gf": 0.5,
+   "home_ga": 5.5,
+   "away_n": 2,
+   "away_gf": 1.5,
+   "away_ga": 2.5,
+   "home_gf_x": 0.0,
+   "home_ga_x": 2.0,
+   "away_gf_x": 1.5,
+   "away_ga_x": 2.5,
+   "total_n": 4,
+   "form6": "WLLL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "A",
+     "opp": "Slavia Prague",
+     "gf": 3,
+     "ga": 2,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "H",
+     "opp": "Sporting CP",
+     "gf": 0,
+     "ga": 2,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "A",
+     "opp": "Club Brugge",
+     "gf": 0,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "H",
+     "opp": "Como",
+     "gf": 1,
+     "ga": 9,
+     "res": "L"
+    }
+   ]
+  },
+  "Roma": {
+   "home_n": 2,
+   "home_gf": 3.5,
+   "home_ga": 2.0,
+   "away_n": 2,
+   "away_gf": 1.5,
+   "away_ga": 2.0,
+   "home_gf_x": null,
+   "home_ga_x": null,
+   "away_gf_x": 1.5,
+   "away_ga_x": 2.0,
+   "total_n": 4,
+   "form6": "DLWL",
+   "form6_pts": 4,
+   "recent": [
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "A",
+     "opp": "Fenerbahçe",
+     "gf": 1,
+     "ga": 1,
+     "res": "D"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "H",
+     "opp": "Real Madrid",
+     "gf": 3,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-20",
+     "r": "3",
+     "side": "H",
+     "opp": "Slovan Bratislava",
+     "gf": 4,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-03",
+     "r": "4",
+     "side": "A",
+     "opp": "Manchester United",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  },
+  "Como": {
+   "home_n": 2,
+   "home_gf": 4.0,
+   "home_ga": 1.0,
+   "away_n": 2,
+   "away_gf": 5.5,
+   "away_ga": 2.0,
+   "home_gf_x": null,
+   "home_ga_x": null,
+   "away_gf_x": 2.0,
+   "away_ga_x": 3.0,
+   "total_n": 4,
+   "form6": "WLWW",
+   "form6_pts": 9,
+   "recent": [
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "H",
+     "opp": "RB Leipzig",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-14",
+     "r": "2",
+     "side": "A",
+     "opp": "Feyenoord",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "H",
+     "opp": "Manchester United",
+     "gf": 4,
+     "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "A",
+     "opp": "Lens",
+     "gf": 9,
+     "ga": 1,
+     "res": "W"
+    }
+   ]
+  },
+  "RB Leipzig": {
+   "home_n": 2,
+   "home_gf": 1.5,
+   "home_ga": 1.5,
+   "away_n": 2,
+   "away_gf": 1.0,
+   "away_ga": 4.0,
+   "home_gf_x": 1.5,
+   "home_ga_x": 1.5,
+   "away_gf_x": null,
+   "away_ga_x": null,
+   "total_n": 4,
+   "form6": "LWLL",
+   "form6_pts": 3,
+   "recent": [
+    {
+     "d": "2026-09-10",
+     "r": "1",
+     "side": "A",
+     "opp": "Como",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-10-13",
+     "r": "2",
+     "side": "H",
+     "opp": "PSV Eindhoven",
+     "gf": 1,
+     "ga": 0,
+     "res": "W"
+    },
+    {
+     "d": "2026-10-21",
+     "r": "3",
+     "side": "A",
+     "opp": "Real Madrid",
+     "gf": 1,
+     "ga": 4,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-04",
+     "r": "4",
+     "side": "H",
+     "opp": "Manchester City",
+     "gf": 2,
+     "ga": 3,
+     "res": "L"
+    }
+   ]
+  }
+ }
+}

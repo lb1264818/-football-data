@@ -1,10 +1,10 @@
 {
  "summary": {
   "date": "2026-11-24",
-  "fetched": "2026-11-24 08:15 CST",
+  "fetched": "2026-11-24 08:48 CST",
   "window_h": 48,
-  "n_comp": 31,
-  "n_events": 53,
+  "n_comp": 30,
+  "n_events": 59,
   "n_x12": 0,
   "n_ah": 0,
   "n_ou": 0
@@ -19,8 +19,7 @@
   {
    "lg": "欧联",
    "slug": "football/europe/europa-league",
-   "n_all": 18,
-   "n_sel": 0
+   "error": "<HTTPError 429: 'Too Many Requests'>"
   },
   {
    "lg": "欧协",
@@ -31,8 +30,7 @@
   {
    "lg": "英超",
    "slug": "football/england/premier-league",
-   "n_all": 30,
-   "n_sel": 0
+   "error": "<HTTPError 429: 'Too Many Requests'>"
   },
   {
    "lg": "英冠",
@@ -103,7 +101,8 @@
   {
    "lg": "葡超",
    "slug": "football/portugal/primeira-liga",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
+   "n_all": 0,
+   "n_sel": 0
   },
   {
    "lg": "苏超",
@@ -114,8 +113,8 @@
   {
    "lg": "巴甲",
    "slug": "football/brazil/serie-a",
-   "n_all": 24,
-   "n_sel": 5
+   "n_all": 23,
+   "n_sel": 4
   },
   {
    "lg": "阿甲",
@@ -132,7 +131,8 @@
   {
    "lg": "日职",
    "slug": "football/japan/j1-league",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
+   "n_all": 27,
+   "n_sel": 7
   },
   {
    "lg": "韩职",
@@ -185,8 +185,7 @@
   {
    "lg": "奥甲",
    "slug": "football/austria/bundesliga",
-   "n_all": 12,
-   "n_sel": 0
+   "error": "<HTTPError 429: 'Too Many Requests'>"
   },
   {
    "lg": "俄超",
@@ -297,7 +296,8 @@
    "name": "Slovan Bratislava - Betis",
    "lg": "欧冠",
    "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-25 04:00"
+   "utc_cst": "2026-11-25 04:00",
+   "err_ah": "<HTTPError 429: 'Too Many Requests'>"
   },
   {
    "id": "rB9Y2j5S",
@@ -318,7 +318,8 @@
    "name": "Bodo/Glimt - LASK",
    "lg": "欧冠",
    "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-25 01:45"
+   "utc_cst": "2026-11-25 01:45",
+   "err_1x2": "<HTTPError 429: 'Too Many Requests'>"
   },
   {
    "id": "pxXsydY8",
@@ -332,7 +333,8 @@
    "name": "Como - AEK Athens",
    "lg": "欧冠",
    "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-25 04:00"
+   "utc_cst": "2026-11-25 04:00",
+   "err_1x2": "<HTTPError 429: 'Too Many Requests'>"
   },
   {
    "id": "bL0NFRhT",
@@ -552,13 +554,6 @@
    "utc_cst": "2026-11-26 07:00"
   },
   {
-   "id": "fN5uwUr2",
-   "name": "Internacional - Vitoria",
-   "lg": "巴甲",
-   "slug": "football/brazil/serie-a",
-   "utc_cst": "2026-11-24 06:30"
-  },
-  {
    "id": "OzJP5JI5",
    "name": "Chapecoense-SC - Palmeiras",
    "lg": "巴甲",
@@ -578,6 +573,157 @@
    "lg": "美职",
    "slug": "football/usa/mls",
    "utc_cst": "2026-11-25 11:00"
+  },
+  {
+   "id": "IqtuYjgm",
+   "name": "Mito - Verdy",
+   "lg": "日职",
+   "slug": "football/japan/j1-league",
+   "utc_cst": "2026-11-25 18:00"
+  },
+  {
+   "id": "jcvmWUNa",
+   "name": "Urawa Reds - Cerezo Osaka",
+   "lg": "日职",
+   "slug": "football/japan/j1-league",
+   "utc_cst": "2026-11-25 18:30"
+  },
+  {
+   "id": "xExeU8hC",
+   "name": "Chiba - Nagoya Grampus",
+   "lg": "日职",
+   "slug": "football/japan/j1-league",
+   "utc_cst": "2026-11-25 18:00"
+  },
+  {
+   "id": "pvt3SnNO",
+   "name": "FC Tokyo - Sanfrecce Hiroshima",
+   "lg": "日职",
+   "slug": "football/japan/j1-league",
+   "utc_cst": "2026-11-25 18:00"
+  },
+  {
+   "id": "0jGCnj8t",
+   "name": "Okayama - Shimizu S-Pulse",
+   "lg": "日职",
+   "slug": "football/japan/j1-league",
+   "utc_cst": "2026-11-25 18:00"
+  },
+  {
+   "id": "8GJKpUxg",
+   "name": "Avispa Fukuoka - Yokohama F. Marinos",
+   "lg": "日职",
+   "slug": "football/japan/j1-league",
+   "utc_cst": "2026-11-25 18:00"
+  },
+  {
+   "id": "EDMSr875",
+   "name": "V-Varen Nagasaki - Kawasaki Frontale",
+   "lg": "日职",
+   "slug": "football/japan/j1-league",
+   "utc_cst": "2026-11-25 18:00"
+  }
+ ],
+ "diag": [
+  {
+   "code": "429",
+   "url": "/football/europe/europa-league/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/europe/europa-league/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/europe/europa-league/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/europe/conference-league/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/england/premier-league/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/england/premier-league/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/england/premier-league/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/england/league-one/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/netherlands/eredivisie/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/usa/mls/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/usa/mls/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/belgium/jupiler-league/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/belgium/jupiler-league/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/austria/bundesliga/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/austria/bundesliga/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/football/austria/bundesliga/",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/match-odds/6PURSlmI/1/1x2/odds/?lang=en",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/match-odds/QqI3ne15/1/ah/odds/?lang=en",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/match-odds/xn4kY4te/1/ah/odds/?lang=en",
+   "body": ""
+  },
+  {
+   "code": "429",
+   "url": "/match-odds/OxXVS94F/1/ou/odds/?lang=en",
+   "body": ""
   }
  ]
 }
