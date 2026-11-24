@@ -327,12 +327,12 @@
   "Santos": {
    "home_n": 18,
    "home_gf": 1.28,
-   "home_ga": 1.22,
+   "home_ga": 1.28,
    "away_n": 18,
    "away_gf": 1.56,
    "away_ga": 1.56,
    "home_gf_x": 1.28,
-   "home_ga_x": 1.22,
+   "home_ga_x": 1.28,
    "away_gf_x": 1.53,
    "away_ga_x": 1.41,
    "total_n": 36,
@@ -426,7 +426,7 @@
      "side": "H",
      "opp": "Grêmio",
      "gf": 0,
-     "ga": 1,
+     "ga": 2,
      "res": "L"
     }
    ]
@@ -971,11 +971,11 @@
    "home_gf": 1.5,
    "home_ga": 1.17,
    "away_n": 18,
-   "away_gf": 0.67,
+   "away_gf": 0.72,
    "away_ga": 1.44,
    "home_gf_x": 1.25,
    "home_ga_x": 0.88,
-   "away_gf_x": 0.67,
+   "away_gf_x": 0.72,
    "away_ga_x": 1.44,
    "total_n": 36,
    "form6": "LWWLDW",
@@ -1067,7 +1067,7 @@
      "r": "36",
      "side": "A",
      "opp": "Santos",
-     "gf": 1,
+     "gf": 2,
      "ga": 0,
      "res": "W"
     }
