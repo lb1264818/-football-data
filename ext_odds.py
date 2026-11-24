@@ -49,6 +49,9 @@ def headers(url):
             "Accept-Language": "en-US,en;q=0.9", "X-Requested-With": "XMLHttpRequest"}
 OUT = pathlib.Path("data/ext_odds.json")
 LOG = pathlib.Path("data/ext_odds_log.txt")
+ANCHOR_OUT = pathlib.Path("data/anchor_pool.json")
+ANCHOR_LOG = pathlib.Path("data/anchor_log.txt")
+WINDOW_H = 48            # 锚库只收未来 48 小时内的场次
 
 COMP = {
     "欧冠": "football/europe/champions-league",
@@ -317,6 +320,92 @@ def assign(subs, events, log):
 
 
 # ----------------------------------------------------------------- 主流程
+# ------------------------------------------------------- 模式 B: 只抓锚(CI 用)
+def anchor_only():
+    """GitHub Actions 只能跑这个模式: 竞彩接口只认大陆 IP(境外一律 567),
+    但 betexplorer 全球可达, 于是境内外分工 —— CI 定时产锚库, 竞彩+EV 在境内机器跑。
+    产出 data/anchor_pool.json + data/anchor_log.txt
+    """
+    now = datetime.now(CST)
+    log = ["anchor_only @ %s" % now.strftime("%F %H:%M CST"),
+           "窗口: 现在-6h ~ 现在+%dh" % WINDOW_H]
+
+    def flush():
+        try:
+            ANCHOR_LOG.parent.mkdir(parents=True, exist_ok=True)
+            ANCHOR_LOG.write_text("\n".join(log), encoding="utf-8")
+        except Exception:                          # noqa: BLE001
+            pass
+    flush()
+
+    t_from = now - timedelta(hours=6)
+    t_to = now + timedelta(hours=WINDOW_H)
+    comps, by_slug = [], {}
+    for lg, slug in COMP.items():
+        try:
+            evs = ld_events(slug)
+            sel = [e for e in evs if t_from <= e["utc"].astimezone(CST) <= t_to]
+            by_slug[slug] = {"lg": lg, "evs": sel}
+            comps.append({"lg": lg, "slug": slug, "n_all": len(evs), "n_sel": len(sel)})
+            log.append("赛程 %-42s 全 %3d / 窗内 %2d" % (slug, len(evs), len(sel)))
+        except Exception as e:                     # noqa: BLE001
+            comps.append({"lg": lg, "slug": slug, "error": repr(e)})
+            log.append("  !! 赛程失败 %s: %r" % (slug, e))
+    flush()
+
+    todo = [(slug, e) for slug, v in by_slug.items() for e in v["evs"]]
+    log.append("待抓赔率 %d 场 (1x2 + ah + ou)" % len(todo))
+    flush()
+
+    def one(t):
+        slug, e = t
+        o = {"id": e["id"], "name": e["name"], "lg": by_slug[slug]["lg"], "slug": slug,
+             "utc_cst": e["utc"].astimezone(CST).strftime("%F %H:%M")}
+        try:
+            m = med1x2(odds_rows(e["id"], "1x2"))
+            if m:
+                o["x12"] = m
+        except Exception as ex:                    # noqa: BLE001
+            o["err_1x2"] = repr(ex)
+        for bt in ("ah", "ou"):
+            try:
+                mm = med_line(odds_rows(e["id"], bt))
+                if mm:
+                    o[bt] = mm
+            except Exception as ex:                # noqa: BLE001
+                o["err_" + bt] = repr(ex)
+        return o
+
+    evs_out = []
+    if todo:
+        with cf.ThreadPoolExecutor(max_workers=8) as ex:
+            for o in ex.map(one, todo):
+                evs_out.append(o)
+
+    n_x12 = sum(1 for o in evs_out if o.get("x12"))
+    n_ah = sum(1 for o in evs_out if o.get("ah"))
+    n_ou = sum(1 for o in evs_out if o.get("ou"))
+    log.append("赔率: 1X2 %d / 亚盘 %d / 大小球 %d (共 %d 场)" % (n_x12, n_ah, n_ou, len(evs_out)))
+
+    payload = {"summary": {"date": now.strftime("%F"), "fetched": now.strftime("%F %H:%M CST"),
+                           "window_h": WINDOW_H, "n_comp": len([c for c in comps if "error" not in c]),
+                           "n_events": len(evs_out), "n_x12": n_x12, "n_ah": n_ah, "n_ou": n_ou},
+               "comps": comps, "events": evs_out}
+    ANCHOR_OUT.parent.mkdir(parents=True, exist_ok=True)
+    ANCHOR_OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1, default=str),
+                          encoding="utf-8")
+    ANCHOR_LOG.write_text("\n".join(log), encoding="utf-8")
+
+    s0 = payload["summary"]
+    print("\nANCHOR %s | 联赛 %d | 场次 %d | 1X2 %d | 亚盘 %d | 大小球 %d"
+          % (s0["date"], s0["n_comp"], s0["n_events"], s0["n_x12"], s0["n_ah"], s0["n_ou"]))
+    for c in comps:
+        if "error" in c:
+            print("  !! %-6s %s" % (c["lg"], c["error"]))
+    print("ANCHOR-SUMMARY date=%s comp=%d events=%d x12=%d ah=%d ou=%d"
+          % (s0["date"], s0["n_comp"], s0["n_events"], s0["n_x12"], s0["n_ah"], s0["n_ou"]))
+
+
 def main():
     now = datetime.now(CST)
     log = ["ext_odds @ %s" % now.strftime("%F %H:%M CST")]
@@ -514,8 +603,9 @@ def main():
 
 
 if __name__ == "__main__":
+    MODE = "anchor" if "--anchor-only" in sys.argv else "full"
     try:
-        main()
+        anchor_only() if MODE == "anchor" else main()
     except Exception as exc:                       # noqa: BLE001
         tb = traceback.format_exc()
         stamp = datetime.now(CST).strftime("%F %H:%M CST")
