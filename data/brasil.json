@@ -1721,14 +1721,14 @@
    "home_ga": 0.78,
    "away_n": 18,
    "away_gf": 0.83,
-   "away_ga": 1.44,
+   "away_ga": 1.5,
    "home_gf_x": 1.24,
    "home_ga_x": 0.76,
    "away_gf_x": 0.83,
-   "away_ga_x": 1.44,
+   "away_ga_x": 1.5,
    "total_n": 36,
-   "form6": "WDLDLW",
-   "form6_pts": 8,
+   "form6": "WDLDLD",
+   "form6_pts": 6,
    "recent": [
     {
      "d": "2026-09-20",
@@ -1817,8 +1817,8 @@
      "side": "A",
      "opp": "Botafogo",
      "gf": 1,
-     "ga": 0,
-     "res": "W"
+     "ga": 1,
+     "res": "D"
     }
    ]
   },
@@ -1931,18 +1931,18 @@
   },
   "Botafogo": {
    "home_n": 18,
-   "home_gf": 1.5,
+   "home_gf": 1.56,
    "home_ga": 1.28,
    "away_n": 18,
    "away_gf": 1.06,
    "away_ga": 1.94,
-   "home_gf_x": 1.35,
+   "home_gf_x": 1.41,
    "home_ga_x": 1.35,
    "away_gf_x": 0.79,
    "away_ga_x": 1.5,
    "total_n": 36,
-   "form6": "WLLWLL",
-   "form6_pts": 6,
+   "form6": "WLLWLD",
+   "form6_pts": 7,
    "recent": [
     {
      "d": "2026-09-16",
@@ -2030,9 +2030,9 @@
      "r": "36",
      "side": "H",
      "opp": "São Paulo",
-     "gf": 0,
+     "gf": 1,
      "ga": 1,
-     "res": "L"
+     "res": "D"
     }
    ]
   },

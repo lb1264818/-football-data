@@ -1,729 +1,696 @@
 {
  "summary": {
   "date": "2026-11-24",
-  "fetched": "2026-11-24 08:48 CST",
+  "fetched": "2026-11-24 08:58 CST",
+  "provider": "oddsapi",
   "window_h": 48,
-  "n_comp": 30,
-  "n_events": 59,
-  "n_x12": 0,
-  "n_ah": 0,
-  "n_ou": 0
+  "n_events": 22,
+  "n_x12": 22,
+  "n_ah": 10,
+  "n_ou": 22,
+  "credits": 15,
+  "remaining": 403
  },
- "comps": [
-  {
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "n_all": 18,
-   "n_sel": 18
-  },
-  {
-   "lg": "欧联",
-   "slug": "football/europe/europa-league",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "lg": "欧协",
-   "slug": "football/europe/conference-league",
-   "n_all": 18,
-   "n_sel": 0
-  },
-  {
-   "lg": "英超",
-   "slug": "football/england/premier-league",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "n_all": 36,
-   "n_sel": 12
-  },
-  {
-   "lg": "英甲",
-   "slug": "football/england/league-one",
-   "n_all": 29,
-   "n_sel": 4
-  },
-  {
-   "lg": "意甲",
-   "slug": "football/italy/serie-a",
-   "n_all": 20,
-   "n_sel": 0
-  },
-  {
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "n_all": 30,
-   "n_sel": 10
-  },
-  {
-   "lg": "西甲",
-   "slug": "football/spain/laliga",
-   "n_all": 22,
-   "n_sel": 0
-  },
-  {
-   "lg": "西乙",
-   "slug": "football/spain/laliga2",
-   "n_all": 22,
-   "n_sel": 0
-  },
-  {
-   "lg": "德甲",
-   "slug": "football/germany/bundesliga",
-   "n_all": 18,
-   "n_sel": 0
-  },
-  {
-   "lg": "德乙",
-   "slug": "football/germany/2-bundesliga",
-   "n_all": 18,
-   "n_sel": 0
-  },
-  {
-   "lg": "法甲",
-   "slug": "football/france/ligue-1",
-   "n_all": 18,
-   "n_sel": 0
-  },
-  {
-   "lg": "法乙",
-   "slug": "football/france/ligue-2",
-   "n_all": 9,
-   "n_sel": 0
-  },
-  {
-   "lg": "荷甲",
-   "slug": "football/netherlands/eredivisie",
-   "n_all": 18,
-   "n_sel": 0
-  },
-  {
-   "lg": "葡超",
-   "slug": "football/portugal/primeira-liga",
-   "n_all": 0,
-   "n_sel": 0
-  },
-  {
-   "lg": "苏超",
-   "slug": "football/scotland/premiership",
-   "n_all": 20,
-   "n_sel": 2
-  },
-  {
-   "lg": "巴甲",
-   "slug": "football/brazil/serie-a",
-   "n_all": 23,
-   "n_sel": 4
-  },
-  {
-   "lg": "阿甲",
-   "slug": "football/argentina/torneo-betano",
-   "n_all": 0,
-   "n_sel": 0
-  },
-  {
-   "lg": "美职",
-   "slug": "football/usa/mls",
-   "n_all": 10,
-   "n_sel": 2
-  },
-  {
-   "lg": "日职",
-   "slug": "football/japan/j1-league",
-   "n_all": 27,
-   "n_sel": 7
-  },
-  {
-   "lg": "韩职",
-   "slug": "football/south-korea/k-league-1",
-   "n_all": 12,
-   "n_sel": 0
-  },
-  {
-   "lg": "澳超",
-   "slug": "football/australia/a-league",
-   "n_all": 5,
-   "n_sel": 0
-  },
-  {
-   "lg": "挪超",
-   "slug": "football/norway/eliteserien",
-   "n_all": 16,
-   "n_sel": 0
-  },
-  {
-   "lg": "瑞超",
-   "slug": "football/sweden/allsvenskan",
-   "n_all": 9,
-   "n_sel": 0
-  },
-  {
-   "lg": "丹超",
-   "slug": "football/denmark/superliga",
-   "n_all": 12,
-   "n_sel": 0
-  },
-  {
-   "lg": "比甲",
-   "slug": "football/belgium/jupiler-league",
-   "n_all": 0,
-   "n_sel": 0
-  },
-  {
-   "lg": "土超",
-   "slug": "football/turkey/super-lig",
-   "n_all": 18,
-   "n_sel": 0
-  },
-  {
-   "lg": "瑞士超",
-   "slug": "football/switzerland/super-league",
-   "n_all": 12,
-   "n_sel": 0
-  },
-  {
-   "lg": "奥甲",
-   "slug": "football/austria/bundesliga",
-   "error": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "lg": "俄超",
-   "slug": "football/russia/premier-league",
-   "n_all": 16,
-   "n_sel": 0
-  },
-  {
-   "lg": "墨超",
-   "slug": "football/mexico/liga-mx",
-   "n_all": 8,
-   "n_sel": 0
-  },
-  {
-   "lg": "沙特",
-   "slug": "football/saudi-arabia/saudi-professional-league",
-   "n_all": 19,
-   "n_sel": 0
-  }
- ],
+ "comps": [],
  "events": [
   {
-   "id": "6PURSlmI",
-   "name": "Real Madrid - PSV",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-25 04:00"
-  },
-  {
-   "id": "OxXVS94F",
-   "name": "Manchester City - Napoli",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-25 04:00"
-  },
-  {
-   "id": "xn4kY4te",
-   "name": "Inter - Stuttgart",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-26 04:00"
-  },
-  {
-   "id": "QqI3ne15",
-   "name": "Sabah FC - Barcelona",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-26 01:45"
-  },
-  {
-   "id": "zwfT2Gon",
-   "name": "Atl. Madrid - Viking",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-26 04:00"
-  },
-  {
-   "id": "v74Mijwo",
-   "name": "PSG - AS Roma",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-26 04:00"
-  },
-  {
-   "id": "6wSZISyp",
-   "name": "Club Brugge KV - Liverpool",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-26 04:00"
-  },
-  {
-   "id": "vPVzwlTF",
-   "name": "Arsenal - Dortmund",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-25 04:00"
-  },
-  {
-   "id": "CfLLoIBm",
-   "name": "Lille - Bayern Munich",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-26 04:00"
-  },
-  {
-   "id": "CEDJzDKq",
-   "name": "Sporting CP - Manchester Utd",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-26 04:00"
-  },
-  {
-   "id": "6grtKluR",
-   "name": "Feyenoord - FC Porto",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-25 04:00"
-  },
-  {
-   "id": "OCNDYmfK",
+   "id": "e422af92d1fc06c0a330838c1c2f2e08",
    "name": "Galatasaray - Aston Villa",
    "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-25 01:45"
-  },
-  {
-   "id": "I9qIUvgn",
-   "name": "Slovan Bratislava - Betis",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-25 04:00",
-   "err_ah": "<HTTPError 429: 'Too Many Requests'>"
-  },
-  {
-   "id": "rB9Y2j5S",
-   "name": "Shakhtar Donetsk - Fenerbahce",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-26 04:00"
-  },
-  {
-   "id": "vJEGXMRG",
-   "name": "Slavia Prague - Villarreal",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-26 01:45"
-  },
-  {
-   "id": "pItlFEBk",
-   "name": "Bodo/Glimt - LASK",
-   "lg": "欧冠",
-   "slug": "football/europe/champions-league",
    "utc_cst": "2026-11-25 01:45",
-   "err_1x2": "<HTTPError 429: 'Too Many Requests'>"
+   "x12": {
+    "x12": [
+     2.92,
+     3.89,
+     2.22
+    ],
+    "fair": [
+     0.3289,
+     0.2438,
+     0.4273
+    ],
+    "n": 23
+   },
+   "ou": {
+    "3.5": [
+     1.91,
+     1.89,
+     13,
+     0.4974
+    ]
+   }
   },
   {
-   "id": "pxXsydY8",
-   "name": "RB Leipzig - Lens",
+   "id": "50b80f3ebd38bf63663b11ae0afc575b",
+   "name": "Bodø/Glimt - LASK",
    "lg": "欧冠",
-   "slug": "football/europe/champions-league",
-   "utc_cst": "2026-11-25 04:00"
+   "utc_cst": "2026-11-25 01:45",
+   "x12": {
+    "x12": [
+     1.49,
+     5.05,
+     5.5
+    ],
+    "fair": [
+     0.638,
+     0.1881,
+     0.1739
+    ],
+    "n": 23
+   },
+   "ou": {
+    "3.5": [
+     1.73,
+     2.12,
+     10,
+     0.5514
+    ]
+   }
   },
   {
-   "id": "jiHA3xET",
+   "id": "ba719e378ac366262013bdb51a06aa6f",
    "name": "Como - AEK Athens",
    "lg": "欧冠",
-   "slug": "football/europe/champions-league",
    "utc_cst": "2026-11-25 04:00",
-   "err_1x2": "<HTTPError 429: 'Too Many Requests'>"
+   "x12": {
+    "x12": [
+     1.25,
+     6.5,
+     10.57
+    ],
+    "fair": [
+     0.7616,
+     0.1455,
+     0.0928
+    ],
+    "n": 23
+   },
+   "ou": {
+    "3.5": [
+     1.85,
+     1.98,
+     14,
+     0.5163
+    ]
+   }
   },
   {
-   "id": "bL0NFRhT",
-   "name": "Charlton - Lincoln",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-25 03:45"
+   "id": "aee4e3c225603397ab52de3d066b566b",
+   "name": "Arsenal - Borussia Dortmund",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-25 04:00",
+   "x12": {
+    "x12": [
+     1.41,
+     4.95,
+     7.3
+    ],
+    "fair": [
+     0.6787,
+     0.1935,
+     0.1278
+    ],
+    "n": 23
+   },
+   "ah": {
+    "-1.5": [
+     2.21,
+     1.71,
+     7,
+     0.4362
+    ]
+   },
+   "ou": {
+    "2.5": [
+     1.61,
+     2.28,
+     12,
+     0.5861
+    ]
+   }
   },
   {
-   "id": "U3igA5Gj",
-   "name": "Norwich - QPR",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-25 03:45"
+   "id": "9a2ebad454db4ab3d53b89e96c79847a",
+   "name": "Feyenoord - Porto",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-25 04:00",
+   "x12": {
+    "x12": [
+     2.95,
+     3.65,
+     2.28
+    ],
+    "fair": [
+     0.325,
+     0.2585,
+     0.4165
+    ],
+    "n": 23
+   },
+   "ou": {
+    "2.5": [
+     1.6,
+     2.3,
+     11,
+     0.5897
+    ]
+   }
   },
   {
-   "id": "dAquY88c",
-   "name": "Portsmouth - West Ham",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-25 03:45"
+   "id": "b9f00a4d399ec661e733857c9d5fb2dc",
+   "name": "Manchester City - Napoli",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-25 04:00",
+   "x12": {
+    "x12": [
+     1.28,
+     6.3,
+     8.95
+    ],
+    "fair": [
+     0.7441,
+     0.1509,
+     0.105
+    ],
+    "n": 23
+   },
+   "ou": {
+    "3.5": [
+     1.81,
+     2.02,
+     14,
+     0.5274
+    ]
+   }
   },
   {
-   "id": "UNsmWnwA",
-   "name": "Sheffield Utd - Southampton",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-25 03:45"
+   "id": "3fb5e4a792cf34a0459efcb79a11a785",
+   "name": "Real Madrid - PSV Eindhoven",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-25 04:00",
+   "x12": {
+    "x12": [
+     1.17,
+     9.0,
+     12.58
+    ],
+    "fair": [
+     0.8195,
+     0.1068,
+     0.0737
+    ],
+    "n": 23
+   },
+   "ah": {
+    "-2.5": [
+     2.02,
+     1.84,
+     7,
+     0.4767
+    ]
+   },
+   "ou": {
+    "4.5": [
+     2.02,
+     1.79,
+     12,
+     0.4698
+    ]
+   }
   },
   {
-   "id": "GvteUQ7M",
-   "name": "Wolves - Derby",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-25 04:00"
+   "id": "aea973c122c91837c15e066c757c747f",
+   "name": "RB Leipzig - RC Lens",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-25 04:00",
+   "x12": {
+    "x12": [
+     1.38,
+     5.6,
+     6.75
+    ],
+    "fair": [
+     0.6888,
+     0.1698,
+     0.1414
+    ],
+    "n": 23
+   },
+   "ah": {
+    "-1.5": [
+     1.95,
+     1.91,
+     9,
+     0.4948
+    ]
+   },
+   "ou": {
+    "3.5": [
+     1.78,
+     2.05,
+     12,
+     0.5352
+    ]
+   }
   },
   {
-   "id": "nNWQO4Vq",
-   "name": "Bolton - West Brom",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-26 03:45"
+   "id": "8e93849b4c1ccbf1c207836d5c470150",
+   "name": "ŠK Slovan Bratislava - Real Betis",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-25 04:00",
+   "x12": {
+    "x12": [
+     10.5,
+     6.59,
+     1.25
+    ],
+    "fair": [
+     0.0919,
+     0.146,
+     0.7621
+    ],
+    "n": 23
+   },
+   "ou": {
+    "3.5": [
+     1.93,
+     1.89,
+     14,
+     0.4948
+    ]
+   }
   },
   {
-   "id": "KzVYMr0d",
-   "name": "Burnley - Birmingham",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-26 03:45"
+   "id": "e6fa007f93e0cef004be920f96ee95ba",
+   "name": "Sabah FK - Barcelona",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-26 01:45",
+   "x12": {
+    "x12": [
+     22.0,
+     13.0,
+     1.08
+    ],
+    "fair": [
+     0.0463,
+     0.0742,
+     0.8795
+    ],
+    "n": 23
+   },
+   "ah": {
+    "3.0": [
+     1.97,
+     1.88,
+     6,
+     0.489
+    ]
+   },
+   "ou": {
+    "4.5": [
+     1.7,
+     2.16,
+     10,
+     0.559
+    ]
+   }
   },
   {
-   "id": "nsNKpnh3",
-   "name": "Stoke - Millwall",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-26 04:00"
+   "id": "a7c87fac9e9cbcfc02ad0e0b29ca89e2",
+   "name": "Slavia Praha - Villarreal",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-26 01:45",
+   "x12": {
+    "x12": [
+     3.1,
+     3.8,
+     2.14
+    ],
+    "fair": [
+     0.3071,
+     0.2475,
+     0.4454
+    ],
+    "n": 23
+   },
+   "ou": {
+    "2.5": [
+     1.52,
+     2.48,
+     7,
+     0.62
+    ]
+   }
   },
   {
-   "id": "hvQSrQMF",
-   "name": "Watford - Blackburn",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-26 03:45"
+   "id": "14007bc0605bce3bd164b132254ba24c",
+   "name": "Paris Saint Germain - AS Roma",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-26 04:00",
+   "x12": {
+    "x12": [
+     1.42,
+     5.2,
+     6.71
+    ],
+    "fair": [
+     0.674,
+     0.183,
+     0.143
+    ],
+    "n": 23
+   },
+   "ah": {
+    "-1.5": [
+     2.07,
+     1.78,
+     7,
+     0.4623
+    ]
+   },
+   "ou": {
+    "3.5": [
+     1.85,
+     1.94,
+     14,
+     0.5112
+    ]
+   }
   },
   {
-   "id": "hvQs781c",
-   "name": "Bristol City - Wrexham",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-25 03:45"
+   "id": "b1af6789fe6db7aab18a2945ce56f035",
+   "name": "Atlético Madrid - Viking FK",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-26 04:00",
+   "x12": {
+    "x12": [
+     1.1,
+     11.0,
+     23.0
+    ],
+    "fair": [
+     0.8662,
+     0.0905,
+     0.0433
+    ],
+    "n": 23
+   },
+   "ah": {
+    "-2.5": [
+     1.83,
+     2.0,
+     8,
+     0.5222
+    ]
+   },
+   "ou": {
+    "3.5": [
+     1.68,
+     2.14,
+     9,
+     0.5602
+    ]
+   }
   },
   {
-   "id": "04Tk5nW9",
-   "name": "Cardiff - Preston",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-25 03:45"
+   "id": "0ee2cfddf20153779cd2cc3e1f1f879f",
+   "name": "Lille - Bayern Munich",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-26 04:00",
+   "x12": {
+    "x12": [
+     5.06,
+     4.3,
+     1.61
+    ],
+    "fair": [
+     0.1877,
+     0.2206,
+     0.5917
+    ],
+    "n": 23
+   },
+   "ah": {
+    "1.0": [
+     1.85,
+     2.0,
+     6,
+     0.5195
+    ]
+   },
+   "ou": {
+    "3.5": [
+     2.33,
+     1.6,
+     8,
+     0.4069
+    ]
+   }
   },
   {
-   "id": "61Wc3Q0M",
-   "name": "Middlesbrough - Swansea",
-   "lg": "英冠",
-   "slug": "football/england/championship",
-   "utc_cst": "2026-11-25 03:45"
+   "id": "99459b90f3e732106e09585bf94b36b4",
+   "name": "Club Brugge - Liverpool",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-26 04:00",
+   "x12": {
+    "x12": [
+     4.43,
+     4.6,
+     1.65
+    ],
+    "fair": [
+     0.2148,
+     0.2077,
+     0.5775
+    ],
+    "n": 23
+   },
+   "ou": {
+    "3.5": [
+     1.78,
+     2.04,
+     13,
+     0.534
+    ]
+   }
   },
   {
-   "id": "f9JjXryn",
-   "name": "Bradford City - Barnsley",
-   "lg": "英甲",
-   "slug": "football/england/league-one",
-   "utc_cst": "2026-11-25 03:45"
+   "id": "49c66d76bc4085e63a181179cc47ef4d",
+   "name": "Shakhtar Donetsk - Fenerbahce",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-26 04:00",
+   "x12": {
+    "x12": [
+     2.63,
+     3.5,
+     2.62
+    ],
+    "fair": [
+     0.3616,
+     0.2722,
+     0.3662
+    ],
+    "n": 23
+   },
+   "ah": {
+    "-0.0": [
+     1.95,
+     1.92,
+     6,
+     0.4955
+    ]
+   },
+   "ou": {
+    "2.5": [
+     1.7,
+     2.13,
+     15,
+     0.5561
+    ]
+   }
   },
   {
-   "id": "OQrRL9Y1",
-   "name": "Stevenage - Sheffield Wed",
-   "lg": "英甲",
-   "slug": "football/england/league-one",
-   "utc_cst": "2026-11-25 03:45"
+   "id": "e7e64568f6af00d395a3fdfc27de8ae3",
+   "name": "Inter Milan - VfB Stuttgart",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-26 04:00",
+   "x12": {
+    "x12": [
+     1.42,
+     5.575,
+     6.225
+    ],
+    "fair": [
+     0.6721,
+     0.1732,
+     0.1547
+    ],
+    "n": 22
+   },
+   "ah": {
+    "-1.5": [
+     2.0,
+     1.86,
+     6,
+     0.4819
+    ]
+   },
+   "ou": {
+    "3.5": [
+     1.61,
+     2.31,
+     9,
+     0.5893
+    ]
+   }
   },
   {
-   "id": "YwR6YnI7",
-   "name": "Blackpool - Leicester",
-   "lg": "英甲",
-   "slug": "football/england/league-one",
-   "utc_cst": "2026-11-25 03:45"
+   "id": "01a61442fe04f8751b62eb251f234079",
+   "name": "Sporting Lisbon - Manchester United",
+   "lg": "欧冠",
+   "utc_cst": "2026-11-26 04:00",
+   "x12": {
+    "x12": [
+     2.45,
+     3.65,
+     2.69
+    ],
+    "fair": [
+     0.3889,
+     0.2577,
+     0.3534
+    ],
+    "n": 23
+   },
+   "ah": {
+    "-0.0": [
+     1.84,
+     2.04,
+     6,
+     0.5264
+    ]
+   },
+   "ou": {
+    "2.5": [
+     1.54,
+     2.38,
+     7,
+     0.6071
+    ]
+   }
   },
   {
-   "id": "0pJhdjAE",
-   "name": "Bromley - Wycombe",
-   "lg": "英甲",
-   "slug": "football/england/league-one",
-   "utc_cst": "2026-11-25 03:45"
-  },
-  {
-   "id": "bVspYr1U",
-   "name": "Pisa - Modena",
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "utc_cst": "2026-11-26 03:00"
-  },
-  {
-   "id": "EsIghnnn",
-   "name": "Cesena - Ascoli",
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "utc_cst": "2026-11-25 03:00"
-  },
-  {
-   "id": "M7L1jQGb",
-   "name": "L.R. Vicenza - Carrarese",
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "utc_cst": "2026-11-25 03:00"
-  },
-  {
-   "id": "EFw9l4oB",
-   "name": "Juve Stabia - Catanzaro",
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "utc_cst": "2026-11-25 02:00"
-  },
-  {
-   "id": "nTyHnrGN",
-   "name": "Padova - Sampdoria",
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "utc_cst": "2026-11-26 03:00"
-  },
-  {
-   "id": "IBSnsMwo",
-   "name": "Mantova - Arezzo",
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "utc_cst": "2026-11-26 03:00"
-  },
-  {
-   "id": "pIKY4PVi",
-   "name": "Cremonese - Avellino",
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "utc_cst": "2026-11-26 02:00"
-  },
-  {
-   "id": "IVIt3304",
-   "name": "Palermo - Sudtirol",
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "utc_cst": "2026-11-25 03:00"
-  },
-  {
-   "id": "4nHl1sVG",
-   "name": "Entella - Verona",
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "utc_cst": "2026-11-25 03:00"
-  },
-  {
-   "id": "CCKdaLaT",
-   "name": "Benevento - Empoli",
-   "lg": "意乙",
-   "slug": "football/italy/serie-b",
-   "utc_cst": "2026-11-25 03:00"
-  },
-  {
-   "id": "jo2Ibzdm",
-   "name": "Hibernian - Dundee FC",
-   "lg": "苏超",
-   "slug": "football/scotland/premiership",
-   "utc_cst": "2026-11-25 03:45"
-  },
-  {
-   "id": "xOV5xpuo",
-   "name": "Rangers - Aberdeen",
-   "lg": "苏超",
-   "slug": "football/scotland/premiership",
-   "utc_cst": "2026-11-25 04:00"
-  },
-  {
-   "id": "86sbQjad",
-   "name": "Botafogo RJ - Sao Paulo",
+   "id": "d0352a1171c0a09774d5854eef621421",
+   "name": "Botafogo - Sao Paulo",
    "lg": "巴甲",
-   "slug": "football/brazil/serie-a",
-   "utc_cst": "2026-11-24 07:00"
+   "utc_cst": "2026-11-24 07:00",
+   "x12": {
+    "x12": [
+     9.71,
+     1.115,
+     11.5
+    ],
+    "fair": [
+     0.1022,
+     0.7851,
+     0.1126
+    ],
+    "n": 18
+   },
+   "ou": {
+    "2.5": [
+     5.4,
+     1.13,
+     7,
+     0.173
+    ]
+   }
   },
   {
-   "id": "YqZqlfi3",
-   "name": "Santos - Gremio",
+   "id": "c70e8cc8f8aedeee2ed518993aaced38",
+   "name": "Santos - Grêmio",
    "lg": "巴甲",
-   "slug": "football/brazil/serie-a",
-   "utc_cst": "2026-11-24 08:00"
+   "utc_cst": "2026-11-24 08:04",
+   "x12": {
+    "x12": [
+     3.3,
+     2.92,
+     2.15
+    ],
+    "fair": [
+     0.2737,
+     0.3065,
+     0.4198
+    ],
+    "n": 17
+   },
+   "ou": {
+    "2.5": [
+     1.75,
+     1.96,
+     10,
+     0.5277
+    ]
+   }
   },
   {
-   "id": "M97XvjEk",
-   "name": "Atletico-MG - Corinthians",
+   "id": "0c21d6b1fcc860152966888ac7ac9d9a",
+   "name": "Chapecoense - Palmeiras",
    "lg": "巴甲",
-   "slug": "football/brazil/serie-a",
-   "utc_cst": "2026-11-26 07:00"
+   "utc_cst": "2026-11-25 05:00",
+   "x12": {
+    "x12": [
+     2.975,
+     3.345,
+     2.29
+    ],
+    "fair": [
+     0.3116,
+     0.2779,
+     0.4105
+    ],
+    "n": 24
+   },
+   "ou": {
+    "2.5": [
+     1.7,
+     2.08,
+     17,
+     0.5503
+    ]
+   }
   },
   {
-   "id": "OzJP5JI5",
-   "name": "Chapecoense-SC - Palmeiras",
+   "id": "786625491d1c7b42ec2eb6bb5f903f4f",
+   "name": "Atletico Mineiro - Corinthians",
    "lg": "巴甲",
-   "slug": "football/brazil/serie-a",
-   "utc_cst": "2026-11-25 05:00"
-  },
-  {
-   "id": "hlwD4f2B",
-   "name": "St. Louis City - Los Angeles FC",
-   "lg": "美职",
-   "slug": "football/usa/mls",
-   "utc_cst": "2026-11-24 09:00"
-  },
-  {
-   "id": "AmSjcCfo",
-   "name": "San Jose Earthquakes - Houston Dynamo",
-   "lg": "美职",
-   "slug": "football/usa/mls",
-   "utc_cst": "2026-11-25 11:00"
-  },
-  {
-   "id": "IqtuYjgm",
-   "name": "Mito - Verdy",
-   "lg": "日职",
-   "slug": "football/japan/j1-league",
-   "utc_cst": "2026-11-25 18:00"
-  },
-  {
-   "id": "jcvmWUNa",
-   "name": "Urawa Reds - Cerezo Osaka",
-   "lg": "日职",
-   "slug": "football/japan/j1-league",
-   "utc_cst": "2026-11-25 18:30"
-  },
-  {
-   "id": "xExeU8hC",
-   "name": "Chiba - Nagoya Grampus",
-   "lg": "日职",
-   "slug": "football/japan/j1-league",
-   "utc_cst": "2026-11-25 18:00"
-  },
-  {
-   "id": "pvt3SnNO",
-   "name": "FC Tokyo - Sanfrecce Hiroshima",
-   "lg": "日职",
-   "slug": "football/japan/j1-league",
-   "utc_cst": "2026-11-25 18:00"
-  },
-  {
-   "id": "0jGCnj8t",
-   "name": "Okayama - Shimizu S-Pulse",
-   "lg": "日职",
-   "slug": "football/japan/j1-league",
-   "utc_cst": "2026-11-25 18:00"
-  },
-  {
-   "id": "8GJKpUxg",
-   "name": "Avispa Fukuoka - Yokohama F. Marinos",
-   "lg": "日职",
-   "slug": "football/japan/j1-league",
-   "utc_cst": "2026-11-25 18:00"
-  },
-  {
-   "id": "EDMSr875",
-   "name": "V-Varen Nagasaki - Kawasaki Frontale",
-   "lg": "日职",
-   "slug": "football/japan/j1-league",
-   "utc_cst": "2026-11-25 18:00"
+   "utc_cst": "2026-11-26 07:00",
+   "x12": {
+    "x12": [
+     2.32,
+     3.3,
+     2.9
+    ],
+    "fair": [
+     0.4011,
+     0.2812,
+     0.3177
+    ],
+    "n": 23
+   },
+   "ou": {
+    "2.5": [
+     1.98,
+     1.77,
+     17,
+     0.472
+    ]
+   }
   }
  ],
- "diag": [
-  {
-   "code": "429",
-   "url": "/football/europe/europa-league/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/europe/europa-league/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/europe/europa-league/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/europe/conference-league/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/england/premier-league/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/england/premier-league/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/england/premier-league/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/england/league-one/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/netherlands/eredivisie/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/usa/mls/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/usa/mls/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/belgium/jupiler-league/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/belgium/jupiler-league/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/austria/bundesliga/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/austria/bundesliga/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/football/austria/bundesliga/",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/match-odds/6PURSlmI/1/1x2/odds/?lang=en",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/match-odds/QqI3ne15/1/ah/odds/?lang=en",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/match-odds/xn4kY4te/1/ah/odds/?lang=en",
-   "body": ""
-  },
-  {
-   "code": "429",
-   "url": "/match-odds/OxXVS94F/1/ou/odds/?lang=en",
-   "body": ""
-  }
- ]
+ "diag": {
+  "status": "ok",
+  "credits": 15,
+  "remaining": 403
+ }
 }
