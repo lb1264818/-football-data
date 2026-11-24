@@ -1,0 +1,37 @@
+anchor_only @ 2026-11-24 08:15 CST
+窗口: 现在-6h ~ 现在+48h
+赛程 football/europe/champions-league           全  18 / 窗内 18
+赛程 football/europe/europa-league              全  18 / 窗内  0
+赛程 football/europe/conference-league          全  18 / 窗内  0
+赛程 football/england/premier-league            全  30 / 窗内  0
+赛程 football/england/championship              全  36 / 窗内 12
+赛程 football/england/league-one                全  29 / 窗内  4
+赛程 football/italy/serie-a                     全  20 / 窗内  0
+赛程 football/italy/serie-b                     全  30 / 窗内 10
+赛程 football/spain/laliga                      全  22 / 窗内  0
+赛程 football/spain/laliga2                     全  22 / 窗内  0
+赛程 football/germany/bundesliga                全  18 / 窗内  0
+赛程 football/germany/2-bundesliga              全  18 / 窗内  0
+赛程 football/france/ligue-1                    全  18 / 窗内  0
+赛程 football/france/ligue-2                    全   9 / 窗内  0
+赛程 football/netherlands/eredivisie            全  18 / 窗内  0
+  !! 赛程失败 football/portugal/primeira-liga: <HTTPError 429: 'Too Many Requests'>
+赛程 football/scotland/premiership              全  20 / 窗内  2
+赛程 football/brazil/serie-a                    全  24 / 窗内  5
+赛程 football/argentina/torneo-betano           全   0 / 窗内  0
+赛程 football/usa/mls                           全  10 / 窗内  2
+  !! 赛程失败 football/japan/j1-league: <HTTPError 429: 'Too Many Requests'>
+赛程 football/south-korea/k-league-1            全  12 / 窗内  0
+赛程 football/australia/a-league                全   5 / 窗内  0
+赛程 football/norway/eliteserien                全  16 / 窗内  0
+赛程 football/sweden/allsvenskan                全   9 / 窗内  0
+赛程 football/denmark/superliga                 全  12 / 窗内  0
+赛程 football/belgium/jupiler-league            全   0 / 窗内  0
+赛程 football/turkey/super-lig                  全  18 / 窗内  0
+赛程 football/switzerland/super-league          全  12 / 窗内  0
+赛程 football/austria/bundesliga                全  12 / 窗内  0
+赛程 football/russia/premier-league             全  16 / 窗内  0
+赛程 football/mexico/liga-mx                    全   8 / 窗内  0
+赛程 football/saudi-arabia/saudi-professional-league 全  19 / 窗内  0
+待抓赔率 53 场 (1x2 + ah + ou)
+赔率: 1X2 0 / 亚盘 0 / 大小球 0 (共 53 场)
