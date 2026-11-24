@@ -23,7 +23,7 @@
 
 输出: data/ext_odds.json + data/ext_odds_log.txt, 并打印到 CI 日志
 """
-import json, math, pathlib, re, sys, time, traceback, urllib.request
+import http.cookiejar, json, os, math, pathlib, random, re, sys, time, traceback, urllib.request
 import concurrent.futures as cf
 from datetime import datetime, timedelta, timezone
 
@@ -46,12 +46,49 @@ def headers(url):
         return {"User-Agent": UA_IPHONE, "Referer": "https://m.sporttery.cn/",
                 "Accept": "application/json, text/plain, */*"}
     return {"User-Agent": UA_MAC, "Accept": "*/*",
-            "Accept-Language": "en-US,en;q=0.9", "X-Requested-With": "XMLHttpRequest"}
+            "Accept-Language": "en-US,en;q=0.9", "X-Requested-With": "XMLHttpRequest",
+            "Referer": BE + "/", "Origin": BE}
 OUT = pathlib.Path("data/ext_odds.json")
 LOG = pathlib.Path("data/ext_odds_log.txt")
 ANCHOR_OUT = pathlib.Path("data/anchor_pool.json")
 ANCHOR_LOG = pathlib.Path("data/anchor_log.txt")
 WINDOW_H = 48            # 锚库只收未来 48 小时内的场次
+
+# ---- The Odds API (已有 ODDS_KEY; 境外可达, market=h2h/spreads/totals 与 betexplorer 一一对应)
+OA = "https://api.the-odds-api.com/v4"
+OA_CREDITS = 1           # 每 1 市场 × 1 地区 = 1 credit
+OA_CREDIT_CAP = 15       # 单次跑批最多烧 15 credit (≈450/月, 500 的免费额度留余量)
+OA_KEEP = 50             # 剩余额度低于此值就不再请求
+# 竞彩常见联赛按出现频次排序; 命中 active 才请求
+OA_LEAGUES = {
+    "欧冠": "soccer_uefa_champs_league",
+    "欧联": "soccer_uefa_europa_league",
+    "欧协": "soccer_uefa_europa_conference_league",
+    "巴甲": "soccer_brazil_campeonato",
+    "巴乙": "soccer_brazil_serie_b",
+    "美职": "soccer_usa_mls",
+    "英冠": "soccer_efl_champ",
+    "英甲": "soccer_efl_league_one",
+    "英超": "soccer_epl",
+    "意甲": "soccer_italy_serie_a",
+    "意乙": "soccer_italy_serie_b",
+    "西甲": "soccer_spain_la_liga",
+    "西乙": "soccer_spain_segunda_division",
+    "德甲": "soccer_germany_bundesliga",
+    "德乙": "soccer_germany_bundesliga2",
+    "法甲": "soccer_france_ligue_one",
+    "法乙": "soccer_france_ligue_two",
+    "荷甲": "soccer_netherlands_eredivisie",
+    "葡超": "soccer_portugal_primeira_liga",
+    "苏超": "soccer_spl",
+    "土超": "soccer_turkey_super_league",
+    "瑞士超": "soccer_switzerland_superleague",
+    "奥甲": "soccer_austria_bundesliga",
+    "瑞典超": "soccer_sweden_allsvenskan",
+    "丹超": "soccer_denmark_superliga",
+    "俄超": "soccer_russia_premier_league",
+    "墨超": "soccer_mexico_ligamx",
+}
 
 COMP = {
     "欧冠": "football/europe/champions-league",
@@ -95,15 +132,38 @@ N = 11
 
 
 # ----------------------------------------------------------------- HTTP
-def fetch(url, timeout=25, tries=3):
+COOKIE_JAR = http.cookiejar.CookieJar()
+OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(COOKIE_JAR))
+DIAG = []                 # [(code, url, 响应片段)] 供 CI 日志诊断用
+DIAG_MAX = 40
+
+
+def _diag(code, url, body=""):
+    if len(DIAG) < DIAG_MAX:
+        DIAG.append((code, url, (body or "").replace("\n", " ")[:160]))
+
+
+def fetch(url, timeout=25, tries=3, referer=None):
     last = None
+    hdr = headers(url)
+    if referer:
+        hdr["Referer"] = referer
     for k in range(tries):
         try:
-            req = urllib.request.Request(url, headers=headers(url))
-            return urllib.request.urlopen(req, timeout=timeout).read().decode("utf-8", "ignore")
+            req = urllib.request.Request(url, headers=hdr)
+            return OPENER.open(req, timeout=timeout).read().decode("utf-8", "ignore")
         except Exception as e:                    # noqa: BLE001
             last = e
-            time.sleep(1.2 * (k + 1))
+            code = getattr(e, "code", type(e).__name__)
+            body = ""
+            try:
+                body = e.read().decode("utf-8", "ignore")   # type: ignore[attr-defined]
+            except Exception:                     # noqa: BLE001
+                body = str(e)
+            _diag(code, url, body)
+            if isinstance(code, int) and code in (401, 403, 404):   # 挡死, 重试无意义
+                break
+            time.sleep((2.0 if code == 429 else 1.2) * (k + 1))
     raise last
 
 
@@ -171,10 +231,12 @@ def ld_events(comp):
 
 
 # ----------------------------------------------------------------- 赔率
-def odds_rows(event_id, bt):
+def odds_rows(event_id, bt, strict=False):
     try:
         h = jget(f"{BE}/match-odds/{event_id}/1/{bt}/odds/?lang=en")["odds"]
     except Exception:
+        if strict:
+            raise
         return []
     rows = []
     for tr in re.findall(r"<tr .+?</tr>", h, re.S):
@@ -320,6 +382,122 @@ def assign(subs, events, log):
 
 
 # ----------------------------------------------------------------- 主流程
+# ------------------------------------------ 模式 B-2: 只抓锚(Odds API, 境外可达)
+def oa_get(url, timeout=30):
+    req = urllib.request.Request(url, headers={"User-Agent": UA_MAC, "Accept": "application/json"})
+    r = OPENER.open(req, timeout=timeout)
+    body = json.loads(r.read().decode("utf-8"))
+    rem = r.headers.get("x-requests-remaining")
+    return body, (int(rem) if rem and rem.isdigit() else None)
+
+
+def oa_parse(g):
+    """把一场 Odds API 的 bookmakers 摊成 med1x2 / med_line 能吃的 (bookie, line, [odds]) 行"""
+    rows_h2h, rows_ah, rows_ou = [], [], []
+    home, away = g.get("home_team"), g.get("away_team")
+    for bk in g.get("bookmakers") or []:
+        name = bk.get("key") or "?"
+        for mk in bk.get("markets") or []:
+            outs = mk.get("outcomes") or []
+            if mk.get("key") == "h2h":
+                px = {}
+                for o in outs:
+                    nm = o.get("name")
+                    if nm == home:
+                        px["h"] = o.get("price")
+                    elif nm == away:
+                        px["a"] = o.get("price")
+                    elif nm and nm.lower() == "draw":
+                        px["d"] = o.get("price")
+                if all(px.get(k) for k in ("h", "d", "a")):
+                    rows_h2h.append((name, None, [px["h"], px["d"], px["a"]]))   # 顺序必须是 主/平/客
+            elif mk.get("key") == "spreads":
+                pt = {}
+                for o in outs:
+                    nm, p, pr = o.get("name"), o.get("point"), o.get("price")
+                    if nm == home and p is not None:
+                        pt.setdefault(float(p), {})["h"] = pr
+                    elif nm == away and p is not None:
+                        pt.setdefault(-float(p), {})["a"] = pr   # 客让值镜像回主队线
+                for line, d in pt.items():
+                    if d.get("h") and d.get("a"):
+                        rows_ah.append((name, line, [d["h"], d["a"]]))
+            elif mk.get("key") == "totals":
+                pt = {}
+                for o in outs:
+                    nm, p, pr = o.get("name"), o.get("point"), o.get("price")
+                    if p is None:
+                        continue
+                    if nm and nm.lower() == "over":
+                        pt.setdefault(float(p), {})["o"] = pr
+                    elif nm and nm.lower() == "under":
+                        pt.setdefault(float(p), {})["u"] = pr
+                for line, d in pt.items():
+                    if d.get("o") and d.get("u"):
+                        rows_ou.append((name, line, [d["o"], d["u"]]))       # 顺序必须是 大/小
+    x12 = med1x2(rows_h2h)
+    ah = med_line(rows_ah)
+    ou = med_line(rows_ou)
+    if not (x12 or ah or ou):
+        return None
+    return {"id": g.get("id"), "name": (home or "?") + " - " + (away or "?"),
+            "lg": g.get("__lg"), "utc_cst": g.get("__cst"),
+            **({"x12": x12} if x12 else {}), **({"ah": ah} if ah else {}), **({"ou": ou} if ou else {})}
+
+
+def oa_anchor(log, flush):
+    key = os.environ.get("ODDS_KEY", "").strip()
+    if not key:
+        log.append("  !! ODDS_KEY 未设置, 无法用 Odds API")
+        return None, {"status": "skip-no-key"}
+    try:
+        sports, rem0 = oa_get("%s/sports/?apiKey=%s" % (OA, key))
+        active = {x.get("key") for x in sports if x.get("active")}
+        log.append("Odds API /sports: %d 个在售盘口组, 剩余额度 %s" % (len(active), rem0))
+    except Exception as e:                         # noqa: BLE001
+        log.append("  !! /sports 失败: %r" % (e,))
+        return None, {"status": "sports-fail", "error": repr(e)}
+    flush()
+
+    now = datetime.now(CST)
+    t_from, t_to = now - timedelta(hours=6), now + timedelta(hours=WINDOW_H)
+    evs, spent, rem = [], 0, rem0
+    for lg, sk in OA_LEAGUES.items():
+        if sk not in active:
+            continue
+        if spent + 3 * OA_CREDITS > OA_CREDIT_CAP or (rem is not None and rem < OA_KEEP):
+            log.append("额度守卫: 已花 %d, 剩 %s —— 停止请求" % (spent, rem))
+            break
+        try:
+            data, r = oa_get("%s/sports/%s/odds/?apiKey=%s&regions=eu"
+                             "&markets=h2h,spreads,totals&oddsFormat=decimal&dateFormat=iso"
+                             % (OA, sk, key))
+            spent += 3 * OA_CREDITS
+            if r is not None:
+                rem = r
+        except Exception as e:                     # noqa: BLE001
+            log.append("  !! %-6s %s: %r" % (lg, sk, e))
+            continue
+        n = 0
+        for g in data if isinstance(data, list) else []:
+            try:
+                st = datetime.fromisoformat(g["commence_time"].replace("Z", "+00:00"))
+            except Exception:                      # noqa: BLE001
+                continue
+            if not (t_from <= st.astimezone(CST) <= t_to):
+                continue
+            g["__lg"] = lg
+            g["__cst"] = st.astimezone(CST).strftime("%F %H:%M")
+            o = oa_parse(g)
+            if o:
+                evs.append(o)
+                n += 1
+        log.append("  %-6s %-38s 窗内 %2d 场  已花 %d credit" % (lg, sk, n, spent))
+        flush()
+    return evs, {"status": "ok", "credits": spent, "remaining": rem}
+
+
+
 # ------------------------------------------------------- 模式 B: 只抓锚(CI 用)
 def anchor_only():
     """GitHub Actions 只能跑这个模式: 竞彩接口只认大陆 IP(境外一律 567),
@@ -337,6 +515,31 @@ def anchor_only():
         except Exception:                          # noqa: BLE001
             pass
     flush()
+
+    use_oa = "--provider=oddsapi" in sys.argv
+    if use_oa:
+        evs_oa, st_oa = oa_anchor(log, flush)
+        if evs_oa is not None:
+            n_x12 = sum(1 for o in evs_oa if o.get("x12"))
+            n_ah = sum(1 for o in evs_oa if o.get("ah"))
+            n_ou = sum(1 for o in evs_oa if o.get("ou"))
+            log.append("Odds API 结果: 场次 %d / 1X2 %d / 亚盘 %d / 大小球 %d / 额度 %s"
+                       % (len(evs_oa), n_x12, n_ah, n_ou, st_oa.get("remaining")))
+            payload = {"summary": {"date": now.strftime("%F"), "fetched": now.strftime("%F %H:%M CST"),
+                                   "provider": "oddsapi", "window_h": WINDOW_H,
+                                   "n_events": len(evs_oa), "n_x12": n_x12, "n_ah": n_ah, "n_ou": n_ou,
+                                   "credits": st_oa.get("credits"), "remaining": st_oa.get("remaining")},
+                       "comps": [], "events": evs_oa, "diag": st_oa}
+            ANCHOR_OUT.parent.mkdir(parents=True, exist_ok=True)
+            ANCHOR_OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1, default=str),
+                                  encoding="utf-8")
+            ANCHOR_LOG.write_text("\n".join(log), encoding="utf-8")
+            s0 = payload["summary"]
+            print("\nANCHOR[oddsapi] %s | 场次 %d | 1X2 %d | 亚盘 %d | 大小球 %d | 剩额度 %s"
+                  % (s0["date"], s0["n_events"], s0["n_x12"], s0["n_ah"], s0["n_ou"], s0["remaining"]))
+            print("ANCHOR-SUMMARY date=%s provider=oddsapi events=%d x12=%d ah=%d ou=%d credits=%s"
+                  % (s0["date"], s0["n_events"], s0["n_x12"], s0["n_ah"], s0["n_ou"], s0["credits"]))
+            return
 
     t_from = now - timedelta(hours=6)
     t_to = now + timedelta(hours=WINDOW_H)
@@ -361,24 +564,25 @@ def anchor_only():
         slug, e = t
         o = {"id": e["id"], "name": e["name"], "lg": by_slug[slug]["lg"], "slug": slug,
              "utc_cst": e["utc"].astimezone(CST).strftime("%F %H:%M")}
+        time.sleep(random.uniform(0.05, 0.35))     # 抖动, 避免同秒撞限流
         try:
-            m = med1x2(odds_rows(e["id"], "1x2"))
+            m = med1x2(odds_rows(e["id"], "1x2", strict=True))
             if m:
                 o["x12"] = m
         except Exception as ex:                    # noqa: BLE001
-            o["err_1x2"] = repr(ex)
+            o["err_1x2"] = repr(ex)[:180]
         for bt in ("ah", "ou"):
             try:
-                mm = med_line(odds_rows(e["id"], bt))
+                mm = med_line(odds_rows(e["id"], bt, strict=True))
                 if mm:
                     o[bt] = mm
             except Exception as ex:                # noqa: BLE001
-                o["err_" + bt] = repr(ex)
+                o["err_" + bt] = repr(ex)[:180]
         return o
 
     evs_out = []
     if todo:
-        with cf.ThreadPoolExecutor(max_workers=8) as ex:
+        with cf.ThreadPoolExecutor(max_workers=4) as ex:
             for o in ex.map(one, todo):
                 evs_out.append(o)
 
@@ -386,11 +590,21 @@ def anchor_only():
     n_ah = sum(1 for o in evs_out if o.get("ah"))
     n_ou = sum(1 for o in evs_out if o.get("ou"))
     log.append("赔率: 1X2 %d / 亚盘 %d / 大小球 %d (共 %d 场)" % (n_x12, n_ah, n_ou, len(evs_out)))
+    if DIAG:
+        from collections import Counter
+        cnt = Counter(d[0] for d in DIAG)
+        log.append("失败统计(请求级, 含重试): " + ", ".join("%s×%d" % (k, v) for k, v in cnt.items()))
+        for code, url, body in DIAG[:6]:
+            log.append("  样例 %-14s %s" % (code, url.replace(BE, "")))
+            log.append("        响应: %s" % body[:140])
+    else:
+        log.append("失败统计: 无 (全部请求 2xx)")
 
     payload = {"summary": {"date": now.strftime("%F"), "fetched": now.strftime("%F %H:%M CST"),
                            "window_h": WINDOW_H, "n_comp": len([c for c in comps if "error" not in c]),
                            "n_events": len(evs_out), "n_x12": n_x12, "n_ah": n_ah, "n_ou": n_ou},
-               "comps": comps, "events": evs_out}
+               "comps": comps, "events": evs_out,
+               "diag": [{"code": str(d[0]), "url": d[1].replace(BE, ""), "body": d[2]} for d in DIAG[:20]]}
     ANCHOR_OUT.parent.mkdir(parents=True, exist_ok=True)
     ANCHOR_OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=1, default=str),
                           encoding="utf-8")
