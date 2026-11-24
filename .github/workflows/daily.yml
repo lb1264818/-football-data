@@ -34,15 +34,20 @@ jobs:
       - name: install deps for ext_odds
         run: pip install --quiet numpy scipy
 
-      # 外部欧赔锚: betexplorer 服务端 JSON 接口(1x2 / ah / ou), 无需浏览器、无需 key
-      # 注意: 竞彩接口只认大陆 IP, 境外 runner 一律 567 —— 所以 CI 只跑 --anchor-only(产锚库),
-      #       竞彩抓取 + 对齐 + EV 在境内机器跑 python ext_odds.py(默认 full 模式)
-      # 产出 data/anchor_pool.json + data/anchor_log.txt; 失败不阻塞后面的步骤
+      # 外部欧赔锚: 走 The Odds API(已有 ODDS_KEY, 境外可达, h2h/spreads/totals 三市场)
+      # 为什么不再退回 betexplorer: 机房 IP 实测 40 次全 429; 且退回会覆盖 anchor_log,
+      #   把 Odds API 的真实失败原因冲掉 —— 宁可红一次看日志, 不要假绿。
+      # 竞彩接口只认大陆 IP(境外一律 567), 所以 CI 只产锚库,
+      #   竞彩抓取 + 对齐 + EV 在境内机器跑 python ext_odds.py(默认 full 模式)
       - name: external odds anchor (欧赔/亚盘/大小球) [CI 仅产锚库]
-        run: python ext_odds.py --anchor-only || true
+        run: python ext_odds.py --anchor-only --provider=oddsapi || true
+        env:
+          ODDS_KEY: ${{ secrets.ODDS_KEY }}
 
       - name: league id check
         run: python verify_leagues.py || true
+        env:
+          SPORTSDB_KEY: ${{ secrets.SPORTSDB_KEY }}
 
       - name: commit data
         run: |
