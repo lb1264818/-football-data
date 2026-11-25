@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-24 02:05 UTC",
+ "fetched": "2026-11-25 02:11 UTC",
  "ts": {
   "日职": {
    "found": true,
@@ -175,22 +175,22 @@
    "kind": "new",
    "ou": false,
    "x12": true,
-   "rows": 4663,
-   "last": "08/11/2026"
+   "rows": 4673,
+   "last": "21/11/2026"
   },
   "NOR": {
    "kind": "new",
    "ou": false,
    "x12": true,
-   "rows": 3590,
-   "last": "09/11/2026"
+   "rows": 3598,
+   "last": "22/11/2026"
   },
   "KOR": {
    "kind": "new",
    "ou": false,
    "x12": true,
-   "rows": 3590,
-   "last": "09/11/2026"
+   "rows": 3598,
+   "last": "22/11/2026"
   },
   "D2": {
    "kind": "main",
