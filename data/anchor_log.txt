@@ -1,10 +1,10 @@
-anchor_only @ 2026-11-25 10:11 CST
+anchor_only @ 2026-11-26 10:10 CST
 窗口: 现在-6h ~ 现在+48h
-Odds API /sports: 78 个在售盘口组, 剩余额度 343
-  欧冠     soccer_uefa_champs_league              窗内  9 场  已花 3 credit
+Odds API /sports: 75 个在售盘口组, 剩余额度 318
+  欧冠     soccer_uefa_champs_league              窗内  0 场  已花 3 credit
   欧联     soccer_uefa_europa_league              窗内 18 场  已花 6 credit
   欧协     soccer_uefa_europa_conference_league   窗内 18 场  已花 9 credit
   巴甲     soccer_brazil_campeonato               窗内  2 场  已花 12 credit
-  巴乙     soccer_brazil_serie_b                  窗内  0 场  已花 15 credit
-额度守卫: 已花 15, 剩 328 —— 停止请求
-Odds API 结果: 场次 47 / 1X2 47 / 亚盘 7 / 大小球 40 / 额度 328
+  巴乙     soccer_brazil_serie_b                  窗内  1 场  已花 15 credit
+额度守卫: 已花 15, 剩 303 —— 停止请求
+Odds API 结果: 场次 39 / 1X2 39 / 亚盘 3 / 大小球 32 / 额度 303

@@ -1,7 +1,7 @@
 {
  "league": "美职",
  "season": "2026",
- "ft": 519,
+ "ft": 520,
  "teams": {
   "St. Louis City SC": {
    "home_n": 18,
@@ -1505,26 +1505,17 @@
    "home_n": 17,
    "home_gf": 1.12,
    "home_ga": 0.88,
-   "away_n": 17,
-   "away_gf": 1.41,
-   "away_ga": 1.65,
+   "away_n": 18,
+   "away_gf": 1.39,
+   "away_ga": 1.67,
    "home_gf_x": 1.12,
    "home_ga_x": 0.88,
    "away_gf_x": 1.07,
-   "away_ga_x": 1.21,
-   "total_n": 34,
-   "form6": "DDDWLL",
-   "form6_pts": 6,
+   "away_ga_x": 1.27,
+   "total_n": 35,
+   "form6": "DDWLLL",
+   "form6_pts": 5,
    "recent": [
-    {
-     "d": "2026-09-13",
-     "r": "25",
-     "side": "A",
-     "opp": "San Jose Earthquakes",
-     "gf": 0,
-     "ga": 1,
-     "res": "L"
-    },
     {
      "d": "2026-09-20",
      "r": "26",
@@ -1604,6 +1595,15 @@
      "opp": "St. Louis City SC",
      "gf": 0,
      "ga": 1,
+     "res": "L"
+    },
+    {
+     "d": "2026-11-25",
+     "r": "16",
+     "side": "A",
+     "opp": "San Jose Earthquakes",
+     "gf": 1,
+     "ga": 2,
      "res": "L"
     }
    ]
@@ -2572,29 +2572,20 @@
    ]
   },
   "San Jose Earthquakes": {
-   "home_n": 17,
-   "home_gf": 1.76,
-   "home_ga": 1.53,
+   "home_n": 18,
+   "home_gf": 1.78,
+   "home_ga": 1.5,
    "away_n": 17,
    "away_gf": 1.59,
    "away_ga": 1.47,
-   "home_gf_x": 1.71,
-   "home_ga_x": 1.14,
+   "home_gf_x": 1.73,
+   "home_ga_x": 1.13,
    "away_gf_x": 1.4,
    "away_ga_x": 1.33,
-   "total_n": 34,
-   "form6": "DDLDWL",
-   "form6_pts": 6,
+   "total_n": 35,
+   "form6": "DLDWLW",
+   "form6_pts": 8,
    "recent": [
-    {
-     "d": "2026-09-13",
-     "r": "25",
-     "side": "H",
-     "opp": "Houston Dynamo",
-     "gf": 1,
-     "ga": 0,
-     "res": "W"
-    },
     {
      "d": "2026-09-19",
      "r": "26",
@@ -2675,6 +2666,15 @@
      "gf": 1,
      "ga": 3,
      "res": "L"
+    },
+    {
+     "d": "2026-11-25",
+     "r": "16",
+     "side": "H",
+     "opp": "Houston Dynamo",
+     "gf": 2,
+     "ga": 1,
+     "res": "W"
     }
    ]
   },

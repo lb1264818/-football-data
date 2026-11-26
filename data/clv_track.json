@@ -1,7 +1,7 @@
 {
- "fetched": "2026-11-25 02:11 UTC",
+ "fetched": "2026-11-26 02:10 UTC",
  "since": "2026-11-23",
- "today": "2026-11-25",
+ "today": "2026-11-26",
  "data_last_date": "2026-11-23",
  "rule": {
   "market": "ou2.5",
@@ -214,10 +214,10 @@
  "live_odds": {
   "status": "ok",
   "requests": 11,
-  "remaining": "343",
+  "remaining": "318",
   "n_sig": 0,
   "signals": [],
-  "snap_n": 151,
+  "snap_n": 154,
   "note": "first run only builds snapshot, dT available from second run"
  },
  "note": "hist = backfill validation, live = forward tracking after go-live; never mixed"
