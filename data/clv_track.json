@@ -1,32 +1,32 @@
 {
- "fetched": "2026-11-26 02:10 UTC",
+ "fetched": "2026-11-27 02:13 UTC",
  "since": "2026-11-23",
- "today": "2026-11-26",
- "data_last_date": "2026-11-23",
+ "today": "2026-11-27",
+ "data_last_date": "2026-11-25",
  "rule": {
   "market": "ou2.5",
   "sig": 0.06,
   "desc": "bet only when total-goals T moves >=0.06 toward one side, follow the move"
  },
  "all": {
-  "n": 842,
-  "hit": 0.5653,
-  "units": 43.52,
-  "roi": 0.0517,
-  "z_roi": 1.52,
-  "clv_mean": 1.98,
-  "clv_pos": 0.5653,
-  "z_clv": 12.01
+  "n": 853,
+  "hit": 0.5662,
+  "units": 45.41,
+  "roi": 0.0532,
+  "z_roi": 1.58,
+  "clv_mean": 1.96,
+  "clv_pos": 0.5627,
+  "z_clv": 11.99
  },
  "live": {
-  "n": 3,
-  "hit": 0.3333,
-  "units": -1.05,
-  "roi": -0.35,
-  "z_roi": -0.54,
-  "clv_mean": 1.44,
-  "clv_pos": 0.6667,
-  "z_clv": 0.8
+  "n": 14,
+  "hit": 0.5714,
+  "units": 0.84,
+  "roi": 0.06,
+  "z_roi": 0.23,
+  "clv_mean": 0.35,
+  "clv_pos": 0.4286,
+  "z_clv": 0.6
  },
  "hist": {
   "n": 839,
@@ -39,24 +39,24 @@
   "z_clv": 11.99
  },
  "trade": {
-  "n": 399,
-  "hit": 0.614,
-  "units": 46.43,
-  "roi": 0.1164,
-  "z_roi": 2.47,
-  "clv_mean": 5.03,
-  "clv_pos": 0.8997,
-  "z_clv": 19.05
+  "n": 401,
+  "hit": 0.616,
+  "units": 47.97,
+  "roi": 0.1196,
+  "z_roi": 2.55,
+  "clv_mean": 5.02,
+  "clv_pos": 0.9002,
+  "z_clv": 19.09
  },
  "watch": {
-  "n": 443,
-  "hit": 0.5214,
-  "units": -2.91,
-  "roi": -0.0066,
-  "z_roi": -0.14,
+  "n": 452,
+  "hit": 0.5221,
+  "units": -2.56,
+  "roi": -0.0057,
+  "z_roi": -0.12,
   "clv_mean": -0.77,
-  "clv_pos": 0.2641,
-  "z_clv": -10.27
+  "clv_pos": 0.2633,
+  "z_clv": -10.4
  },
  "thresholds": {
   "watch_min": 0.06,
@@ -65,36 +65,36 @@
  "by_band": [
   {
    "band": "0.06~0.10",
-   "n": 280,
-   "hit": 0.5071,
-   "units": -9.61,
-   "roi": -0.0343,
-   "z_roi": -0.57,
-   "clv_mean": -1.43,
-   "clv_pos": 0.05,
-   "z_clv": -23.58
+   "n": 286,
+   "hit": 0.5035,
+   "units": -11.84,
+   "roi": -0.0414,
+   "z_roi": -0.69,
+   "clv_mean": -1.42,
+   "clv_pos": 0.049,
+   "z_clv": -23.87
   },
   {
    "band": "0.10~0.15",
-   "n": 163,
-   "hit": 0.546,
-   "units": 6.7,
-   "roi": 0.0411,
-   "z_roi": 0.51,
+   "n": 166,
+   "hit": 0.5542,
+   "units": 9.28,
+   "roi": 0.0559,
+   "z_roi": 0.7,
    "clv_mean": 0.36,
-   "clv_pos": 0.6319,
-   "z_clv": 2.65
+   "clv_pos": 0.6325,
+   "z_clv": 2.7
   },
   {
    "band": "0.15~9.99",
-   "n": 399,
-   "hit": 0.614,
-   "units": 46.43,
-   "roi": 0.1164,
-   "z_roi": 2.47,
-   "clv_mean": 5.03,
-   "clv_pos": 0.8997,
-   "z_clv": 19.05
+   "n": 401,
+   "hit": 0.616,
+   "units": 47.97,
+   "roi": 0.1196,
+   "z_roi": 2.55,
+   "clv_mean": 5.02,
+   "clv_pos": 0.9002,
+   "z_clv": 19.09
   }
  ],
  "by_league": {
@@ -179,14 +179,14 @@
    "z_clv": 3.23
   },
   "ENG2": {
-   "n": 127,
-   "hit": 0.5591,
-   "units": 8.8,
-   "roi": 0.0693,
-   "z_roi": 0.8,
-   "clv_mean": 1.56,
-   "clv_pos": 0.5276,
-   "z_clv": 5.21
+   "n": 136,
+   "hit": 0.5588,
+   "units": 9.58,
+   "roi": 0.0704,
+   "z_roi": 0.84,
+   "clv_mean": 1.47,
+   "clv_pos": 0.5147,
+   "z_clv": 5.17
   },
   "POR": {
    "n": 65,
@@ -199,14 +199,14 @@
    "z_clv": 4.14
   },
   "SCO": {
-   "n": 51,
-   "hit": 0.549,
-   "units": 2.05,
-   "roi": 0.0402,
-   "z_roi": 0.29,
-   "clv_mean": 1.6,
-   "clv_pos": 0.4902,
-   "z_clv": 3.08
+   "n": 53,
+   "hit": 0.566,
+   "units": 3.16,
+   "roi": 0.0596,
+   "z_roi": 0.44,
+   "clv_mean": 1.52,
+   "clv_pos": 0.4906,
+   "z_clv": 3.02
   }
  },
  "today_signals": [],
@@ -214,10 +214,35 @@
  "live_odds": {
   "status": "ok",
   "requests": 11,
-  "remaining": "318",
-  "n_sig": 0,
-  "signals": [],
-  "snap_n": 154,
+  "remaining": "292",
+  "n_sig": 2,
+  "signals": [
+   {
+    "lg": "ESP",
+    "h": "Levante",
+    "a": "Real Racing Club de Santander",
+    "start": "2026-11-27T20:00:00Z",
+    "dT": 0.1657,
+    "pick": "OVER",
+    "line": 3.5,
+    "odds": 2.08,
+    "book": "onexbet",
+    "hours_to_ko": 17.8
+   },
+   {
+    "lg": "ENG2",
+    "h": "Southampton",
+    "a": "Middlesbrough",
+    "start": "2026-11-27T20:00:00Z",
+    "dT": -0.1632,
+    "pick": "UNDER",
+    "line": 2.5,
+    "odds": 2.24,
+    "book": "onexbet",
+    "hours_to_ko": 17.8
+   }
+  ],
+  "snap_n": 163,
   "note": "first run only builds snapshot, dT available from second run"
  },
  "note": "hist = backfill validation, live = forward tracking after go-live; never mixed"

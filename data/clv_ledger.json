@@ -1,6 +1,6 @@
 {
  "since": "2026-11-23",
- "updated": "2026-11-26 02:10 UTC",
+ "updated": "2026-11-27 02:13 UTC",
  "entries": {
   "EPL|2026-08-22|Hull|Man United": {
    "lg": "EPL",
@@ -18525,6 +18525,248 @@
    "won": true,
    "units": 0.95,
    "clv_pct": 0.07
+  },
+  "ENG2|2026-11-24|Bristol City|Wrexham": {
+   "lg": "ENG2",
+   "d": "2026-11-24",
+   "h": "Bristol City",
+   "a": "Wrexham",
+   "dT": -0.1292,
+   "pick": "UNDER",
+   "odds": 1.67,
+   "fair_close": 0.39746835443037976,
+   "closing_line": 2.276,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    1,
+    1
+   ],
+   "tot": 2,
+   "won": true,
+   "units": 0.67,
+   "clv_pct": 0.62
+  },
+  "ENG2|2026-11-24|Charlton|Lincoln": {
+   "lg": "ENG2",
+   "d": "2026-11-24",
+   "h": "Charlton",
+   "a": "Lincoln",
+   "dT": -0.0778,
+   "pick": "UNDER",
+   "odds": 1.73,
+   "fair_close": 0.43152454780361754,
+   "closing_line": 2.405,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    4,
+    0
+   ],
+   "tot": 4,
+   "won": false,
+   "units": -1.0,
+   "clv_pct": -1.65
+  },
+  "ENG2|2026-11-24|Portsmouth|West Ham": {
+   "lg": "ENG2",
+   "d": "2026-11-24",
+   "h": "Portsmouth",
+   "a": "West Ham",
+   "dT": -0.1082,
+   "pick": "UNDER",
+   "odds": 2.0,
+   "fair_close": 0.5,
+   "closing_line": 2.674,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    1,
+    0
+   ],
+   "tot": 1,
+   "won": true,
+   "units": 1.0,
+   "clv_pct": 0.0
+  },
+  "ENG2|2026-11-24|Sheffield United|Southampton": {
+   "lg": "ENG2",
+   "d": "2026-11-24",
+   "h": "Sheffield United",
+   "a": "Southampton",
+   "dT": -0.2013,
+   "pick": "UNDER",
+   "odds": 2.1,
+   "fair_close": 0.5,
+   "closing_line": 2.674,
+   "tier": "trade",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    1,
+    1
+   ],
+   "tot": 2,
+   "won": true,
+   "units": 1.1,
+   "clv_pct": 5.0
+  },
+  "ENG2|2026-11-24|Wolves|Derby": {
+   "lg": "ENG2",
+   "d": "2026-11-24",
+   "h": "Wolves",
+   "a": "Derby",
+   "dT": -0.0877,
+   "pick": "UNDER",
+   "odds": 2.2,
+   "fair_close": 0.5483028720626633,
+   "closing_line": 2.875,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    3,
+    0
+   ],
+   "tot": 3,
+   "won": false,
+   "units": -1.0,
+   "clv_pct": -0.63
+  },
+  "ENG2|2026-11-25|Bolton|West Brom": {
+   "lg": "ENG2",
+   "d": "2026-11-25",
+   "h": "Bolton",
+   "a": "West Brom",
+   "dT": -0.093,
+   "pick": "UNDER",
+   "odds": 2.1,
+   "fair_close": 0.5263157894736842,
+   "closing_line": 2.782,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    1,
+    3
+   ],
+   "tot": 4,
+   "won": false,
+   "units": -1.0,
+   "clv_pct": -0.53
+  },
+  "ENG2|2026-11-25|Burnley|Birmingham": {
+   "lg": "ENG2",
+   "d": "2026-11-25",
+   "h": "Burnley",
+   "a": "Birmingham",
+   "dT": -0.093,
+   "pick": "UNDER",
+   "odds": 2.1,
+   "fair_close": 0.5263157894736842,
+   "closing_line": 2.782,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    0,
+    2
+   ],
+   "tot": 2,
+   "won": true,
+   "units": 1.1,
+   "clv_pct": -0.53
+  },
+  "ENG2|2026-11-25|Watford|Blackburn": {
+   "lg": "ENG2",
+   "d": "2026-11-25",
+   "h": "Watford",
+   "a": "Blackburn",
+   "dT": -0.1054,
+   "pick": "UNDER",
+   "odds": 1.91,
+   "fair_close": 0.47368421052631576,
+   "closing_line": 2.569,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    0,
+    1
+   ],
+   "tot": 1,
+   "won": true,
+   "units": 0.91,
+   "clv_pct": 0.53
+  },
+  "ENG2|2026-11-25|Stoke|Millwall": {
+   "lg": "ENG2",
+   "d": "2026-11-25",
+   "h": "Stoke",
+   "a": "Millwall",
+   "dT": -0.0862,
+   "pick": "UNDER",
+   "odds": 1.8,
+   "fair_close": 0.4516971279373368,
+   "closing_line": 2.483,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    2,
+    1
+   ],
+   "tot": 3,
+   "won": false,
+   "units": -1.0,
+   "clv_pct": -1.31
+  },
+  "SCO|2026-11-24|Hibernian|Dundee": {
+   "lg": "SCO",
+   "d": "2026-11-24",
+   "h": "Hibernian",
+   "a": "Dundee",
+   "dT": 0.0816,
+   "pick": "OVER",
+   "odds": 1.67,
+   "fair_close": 0.586734693877551,
+   "closing_line": 3.045,
+   "tier": "watch",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    2,
+    1
+   ],
+   "tot": 3,
+   "won": true,
+   "units": 0.67,
+   "clv_pct": -2.02
+  },
+  "SCO|2026-11-24|Rangers|Aberdeen": {
+   "lg": "SCO",
+   "d": "2026-11-24",
+   "h": "Rangers",
+   "a": "Aberdeen",
+   "dT": 0.2459,
+   "pick": "OVER",
+   "odds": 1.44,
+   "fair_close": 0.7017543859649122,
+   "closing_line": 3.626,
+   "tier": "trade",
+   "phase": "live",
+   "logged": "2026-11-27",
+   "ft": [
+    3,
+    2
+   ],
+   "tot": 5,
+   "won": true,
+   "units": 0.44,
+   "clv_pct": 1.05
   }
  }
 }

@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-26 02:10 UTC",
+ "fetched": "2026-11-27 02:13 UTC",
  "ts": {
   "日职": {
    "found": true,
@@ -217,8 +217,8 @@
    "kind": "main",
    "ou": true,
    "x12": true,
-   "rows": 192,
-   "last": "Burnley"
+   "rows": 204,
+   "last": "Stoke"
   },
   "P1": {
    "kind": "main",
@@ -231,8 +231,8 @@
    "kind": "main",
    "ou": true,
    "x12": true,
-   "rows": 81,
-   "last": "Motherwell"
+   "rows": 83,
+   "last": "Rangers"
   },
   "F1": {
    "kind": "main",
