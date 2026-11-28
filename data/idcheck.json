@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-27 02:13 UTC",
+ "fetched": "2026-11-28 02:08 UTC",
  "ts": {
   "日职": {
    "found": true,
@@ -175,8 +175,8 @@
    "kind": "new",
    "ou": false,
    "x12": true,
-   "rows": 4673,
-   "last": "21/11/2026"
+   "rows": 4680,
+   "last": "25/11/2026"
   },
   "NOR": {
    "kind": "new",

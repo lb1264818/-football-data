@@ -1,7 +1,7 @@
 {
  "league": "巴甲",
  "season": "2026",
- "ft": 362,
+ "ft": 363,
  "teams": {
   "Atlético Mineiro": {
    "home_n": 18,
@@ -860,29 +860,20 @@
    ]
   },
   "Fluminense": {
-   "home_n": 18,
-   "home_gf": 1.78,
-   "home_ga": 0.94,
+   "home_n": 19,
+   "home_gf": 1.68,
+   "home_ga": 0.95,
    "away_n": 18,
    "away_gf": 1.39,
    "away_ga": 1.39,
-   "home_gf_x": 1.65,
+   "home_gf_x": 1.56,
    "home_ga_x": 1.0,
    "away_gf_x": 1.39,
    "away_ga_x": 1.39,
-   "total_n": 36,
-   "form6": "LLWWWW",
+   "total_n": 37,
+   "form6": "LWWWWL",
    "form6_pts": 12,
    "recent": [
-    {
-     "d": "2026-09-12",
-     "r": "27",
-     "side": "A",
-     "opp": "Atlético Mineiro",
-     "gf": 1,
-     "ga": 3,
-     "res": "L"
-    },
     {
      "d": "2026-09-20",
      "r": "28",
@@ -963,6 +954,15 @@
      "gf": 1,
      "ga": 0,
      "res": "W"
+    },
+    {
+     "d": "2026-11-27",
+     "r": "37",
+     "side": "H",
+     "opp": "Cruzeiro",
+     "gf": 0,
+     "ga": 1,
+     "res": "L"
     }
    ]
   },
@@ -2040,26 +2040,17 @@
    "home_n": 18,
    "home_gf": 1.78,
    "home_ga": 1.06,
-   "away_n": 18,
-   "away_gf": 1.5,
-   "away_ga": 1.72,
+   "away_n": 19,
+   "away_gf": 1.47,
+   "away_ga": 1.63,
    "home_gf_x": 1.78,
    "home_ga_x": 1.06,
-   "away_gf_x": 1.43,
-   "away_ga_x": 1.21,
-   "total_n": 36,
+   "away_gf_x": 1.4,
+   "away_ga_x": 1.13,
+   "total_n": 37,
    "form6": "WWWWWW",
    "form6_pts": 18,
    "recent": [
-    {
-     "d": "2026-09-13",
-     "r": "27",
-     "side": "A",
-     "opp": "Santos",
-     "gf": 1,
-     "ga": 2,
-     "res": "L"
-    },
     {
      "d": "2026-09-20",
      "r": "28",
@@ -2139,6 +2130,15 @@
      "opp": "Chapecoense",
      "gf": 2,
      "ga": 1,
+     "res": "W"
+    },
+    {
+     "d": "2026-11-27",
+     "r": "37",
+     "side": "A",
+     "opp": "Fluminense",
+     "gf": 1,
+     "ga": 0,
      "res": "W"
     }
    ]

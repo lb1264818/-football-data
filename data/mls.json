@@ -1,7 +1,7 @@
 {
  "league": "美职",
  "season": "2026",
- "ft": 520,
+ "ft": 521,
  "teams": {
   "St. Louis City SC": {
    "home_n": 18,
@@ -2040,26 +2040,17 @@
    "home_n": 18,
    "home_gf": 2.56,
    "home_ga": 1.89,
-   "away_n": 17,
-   "away_gf": 2.0,
-   "away_ga": 1.65,
+   "away_n": 18,
+   "away_gf": 1.89,
+   "away_ga": 1.56,
    "home_gf_x": 1.86,
    "home_ga_x": 1.79,
-   "away_gf_x": 1.54,
-   "away_ga_x": 1.31,
-   "total_n": 35,
-   "form6": "WLDWDL",
-   "form6_pts": 8,
+   "away_gf_x": 1.43,
+   "away_ga_x": 1.21,
+   "total_n": 36,
+   "form6": "LDWDLD",
+   "form6_pts": 6,
    "recent": [
-    {
-     "d": "2026-09-20",
-     "r": "26",
-     "side": "H",
-     "opp": "San Diego FC",
-     "gf": 2,
-     "ga": 2,
-     "res": "D"
-    },
     {
      "d": "2026-09-27",
      "r": "27",
@@ -2140,6 +2131,15 @@
      "gf": 0,
      "ga": 3,
      "res": "L"
+    },
+    {
+     "d": "2026-11-28",
+     "r": "16",
+     "side": "A",
+     "opp": "Columbus Crew",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
     }
    ]
   },
@@ -2251,29 +2251,20 @@
    ]
   },
   "Columbus Crew": {
-   "home_n": 17,
-   "home_gf": 1.71,
-   "home_ga": 1.12,
+   "home_n": 18,
+   "home_gf": 1.61,
+   "home_ga": 1.06,
    "away_n": 18,
    "away_gf": 1.83,
    "away_ga": 1.83,
-   "home_gf_x": 1.56,
-   "home_ga_x": 1.06,
+   "home_gf_x": 1.47,
+   "home_ga_x": 1.0,
    "away_gf_x": 1.71,
    "away_ga_x": 1.76,
-   "total_n": 35,
-   "form6": "WWWWWW",
-   "form6_pts": 18,
+   "total_n": 36,
+   "form6": "WWWWWD",
+   "form6_pts": 16,
    "recent": [
-    {
-     "d": "2026-09-19",
-     "r": "26",
-     "side": "A",
-     "opp": "CF Montréal",
-     "gf": 2,
-     "ga": 0,
-     "res": "W"
-    },
     {
      "d": "2026-09-27",
      "r": "27",
@@ -2354,6 +2345,15 @@
      "gf": 3,
      "ga": 0,
      "res": "W"
+    },
+    {
+     "d": "2026-11-28",
+     "r": "16",
+     "side": "H",
+     "opp": "Inter Miami",
+     "gf": 0,
+     "ga": 0,
+     "res": "D"
     }
    ]
   },

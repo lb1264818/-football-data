@@ -1,7 +1,7 @@
 {
- "fetched": "2026-11-27 02:13 UTC",
+ "fetched": "2026-11-28 02:08 UTC",
  "since": "2026-11-23",
- "today": "2026-11-27",
+ "today": "2026-11-28",
  "data_last_date": "2026-11-25",
  "rule": {
   "market": "ou2.5",
@@ -214,35 +214,35 @@
  "live_odds": {
   "status": "ok",
   "requests": 11,
-  "remaining": "292",
+  "remaining": "266",
   "n_sig": 2,
   "signals": [
    {
-    "lg": "ESP",
-    "h": "Levante",
-    "a": "Real Racing Club de Santander",
-    "start": "2026-11-27T20:00:00Z",
-    "dT": 0.1657,
-    "pick": "OVER",
-    "line": 3.5,
-    "odds": 2.08,
+    "lg": "GER1",
+    "h": "1. FC Köln",
+    "a": "Elversberg",
+    "start": "2026-11-28T14:30:00Z",
+    "dT": -0.164,
+    "pick": "UNDER",
+    "line": 2.5,
+    "odds": 2.4,
     "book": "onexbet",
-    "hours_to_ko": 17.8
+    "hours_to_ko": 12.4
    },
    {
     "lg": "ENG2",
-    "h": "Southampton",
-    "a": "Middlesbrough",
-    "start": "2026-11-27T20:00:00Z",
-    "dT": -0.1632,
+    "h": "Preston North End",
+    "a": "Norwich City",
+    "start": "2026-11-28T12:30:00Z",
+    "dT": -0.1696,
     "pick": "UNDER",
     "line": 2.5,
-    "odds": 2.24,
+    "odds": 2.19,
     "book": "onexbet",
-    "hours_to_ko": 17.8
+    "hours_to_ko": 10.4
    }
   ],
-  "snap_n": 163,
+  "snap_n": 165,
   "note": "first run only builds snapshot, dT available from second run"
  },
  "note": "hist = backfill validation, live = forward tracking after go-live; never mixed"
